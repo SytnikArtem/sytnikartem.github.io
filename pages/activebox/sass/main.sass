@@ -1,0 +1,373 @@
+@import "reset"
+@import "vars"
+
+//general
+body
+  font-family: $main_font
+  overflow-x: hidden
+
+%btn
+  width: 200px
+  height: 45px
+  line-height: 45px
+  text-align: center
+  color: $text_color
+  background-color: $accent_color
+  font-size: 13px
+  display: inline-block
+  text-transform: uppercase
+  font-weight: 700
+  border-radius: 2px
+%btn:hover
+  background-color: darken($accent_color, 20%)
+  border: 1px solid $accent_color
+%container
+  width: 1170px
+  margin: 0 auto
+  @media (max-width: 1200px)
+    width: 940px
+  @media (max-width: 960px)
+    width: 620px
+  @media (max-width: 640px)
+    width: 460px
+  @media (max-width: 480px)
+    width: 310px
+%section
+  padding: 90px 0
+
+
+//header
+.header
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100px
+  line-height: 100px
+  z-index: 100
+  &__container
+    @extend %container
+    border-bottom: 1px solid transparentize(#fff, .5)
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    @media (max-width: 480px)
+      display: block
+  &__logo
+    vertical-align: middle
+
+.nav
+  @media (max-width: 640px)
+    width: 100%
+    height: 20px
+    text-align: center
+  &__link
+    font-weight: 700
+    text-transform: uppercase
+    font-size: 13px
+    color: $text_color
+    margin-left: 55px
+    @media (max-width: 480px)
+      font-size: 8px
+    &:hover
+      color: $accent_color
+    @media (max-width: 960px)
+      margin-left: 10px
+
+
+
+
+//start
+.start
+  min-height: 750px
+  background-image: url('../img/banner.jpg')
+  background-size: cover
+  position: relative
+  z-index: 1
+  color: $text_color
+  display: flex
+  justify-content: center
+  align-items: stretch
+  @media (max-width: 480px)
+    min-height: 400px
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: $banner_color
+    opacity: .1
+    z-index: -1
+  &__block
+    width: 50%
+    text-align: center
+    margin-top: 245px
+    @media (max-width: 1200px)
+      margin-top: 200px
+    @media (max-width: 480px)
+      width: 100%
+  &__title
+    font-size: 65px
+    font-family: $intro_title
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 71px
+    @media (max-width: 1200px)
+      font-size: 40px
+      line-height: 50px
+    @media (max-width: 960px)
+      font-size: 30px
+    @media (max-width: 640px)
+      font-size: 20px
+    @media (max-width: 480px)
+      font-size: 12px
+      line-height: 30px
+  &__subtitle
+    font-size: 22px
+    margin: 20px 0 75px 0
+    font-weight: 400
+    line-height: 33px
+    @media (max-width: 960px)
+      font-size: 16px
+    @media (max-width: 640px)
+      font-size: 12px
+    @media (max-width: 480px)
+      font-size: 10px
+      line-height: 20px
+      margin-bottom: 20px
+  &__btn
+    @extend %btn
+
+//services
+.services
+  padding: 120px 0
+  @media (max-width: 1200px)
+    padding: 50px 0
+  &__container
+    @extend %container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__item
+    width: 33%
+    text-align: center
+    height: 200px
+    margin-top: 30px
+    @media (max-width: 1200px)
+      margin-top: 50px
+    @media (max-width: 960px)
+      margin-bottom: 80px
+    @media (max-width: 640px)
+      width: 50%
+    @media (max-width: 480px)
+      margin-bottom: 100px
+  &__name
+    margin-top: 30px
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+  &__description
+    margin-top: 25px
+    line-height: 21px
+    font-weight: 400
+    padding: 0 10px
+
+//works
+.works
+  display: flex
+  flex-wrap: wrap
+
+.work
+  width: 25%
+  position: relative
+  overflow: hidden
+  font-size: 0
+  @media (max-width: 640px)
+    width: 50%
+
+  &__overlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: transparentize($accent_color, .2)
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    color: $text_color
+    transition: all .4s
+    transform: translateY(-100%)
+    font-size: 16px
+    text-align: center
+    @media (max-width: 640px)
+      font-size: 10px
+    @media (max-width: 480px)
+      font-size: 8px
+  &__title
+    font-size: 18px
+    text-transform: uppercase
+    font-weight: 700
+    margin-bottom: 10px
+    @media (max-width: 640px)
+      font-size: 12px
+    @media (max-width: 480px)
+      font-size: 10px
+  &__img
+    width: 100%
+  &:hover
+    .work__overlay
+      transform: none
+
+//team
+.team
+  padding-top: 100px
+  &__container
+    @extend %container
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    @media (max-width: 1200px)
+      justify-content: space-around
+  &__item
+    width: 270px
+    @media (max-width: 1200px)
+      width: 320px
+    @media (max-width: 960px)
+      width: 270px
+    @media (max-width: 640px)
+      text-align: center
+  &__name
+    font-size: 22px
+    font-weight: 400
+    margin-top: 25px
+  &__profession
+    font-size: 13px
+    color: $accent_color
+    text-transform: uppercase
+    margin-top: 10px
+  &__text
+    margin-top: 30px
+    font-size: 14px
+    line-height: 21px
+
+.icon
+  margin-top: 30px
+  &__social
+    &--fb
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAASCAYAAABmQp92AAAAh0lEQVQoU2NkgILz588LfP/9p/4/A2MCIwODAEycEcY4dur0AQYGRnsYH0XB8fPnFf7//nsfXRLEB5tw/PRph///GffDFTAyFlqZGk/AqYCR8b+jpanpAbACqG59BgYGsA4oKGBgYLoAVnDs1Jn/2OyGOxK/gv8HCZjw/yBWX6A4Eps3R6ACAPJpfFLgbXIdAAAAAElFTkSuQmCC) no-repeat 50% 50%
+      width: 40px
+      height: 40px
+      display: inline-block
+      border: 1px solid $social_icon
+      &:hover
+        background-color: $social_icon
+    &--tw
+      background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAABaElEQVQ4T5WT3VHCUBCFzyaYUV6gAymBO/IzgQexAulA6EA7SAdqBZIKhArMC2FIYC52EDvgzRkF11mYaBIM4D7e3P1y7tmzhH/WeBo6IFyDMWo36062nZIH/nTWbTVrw7x/+MFsAOCGgaVB9HBaMB6VUsvk/SwwAsBk0CB7eRKGHWZ6STYLGDCv2g21iM9TwHGgq4S1B6CUVeEHoQfQ5Y56RnRmmSpWmgJOgnmPwU+pJoaovgPhOc8KAvXtxoXYgRRQa11+/1wN/1SyZ3jyGgIWBHJTQOmRwQC4B6FybAA2QIZYtQsUH8FrhyQax5dLJ6ZjKxXtKIwZ/nQWgXB+DJNhqnjS+cBwfgtmCW7pANRtNWq9n9hIvr64sExmaaJ1hT/W4qP4mVvMeC1aZicZ7o1C/1eNZnCZQNVDT2XGqGiZvdxN2W4CnIORYbwRkRPnbu8uy8ftlFddInRSa8bwDAOeXa9LPHLrGxiplHgKgZwQAAAAAElFTkSuQmCC) no-repeat 50% 50%
+      width: 40px
+      height: 40px
+      display: inline-block
+      border: 1px solid $social_icon
+      &:hover
+        background-color: $social_icon
+    &--in
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+0lEQVQ4T82TzU3DQBSEZ0IB0AEpwatojYIvoYKkA6AEKsBUACWYDpIKMAcncmxp3QEugXsUD1qhRBY/kuNc8qS9PO18mhnpMcvLOYkp+oww53Jdqo92p/kB0DvAAMB5V+geQPB+HI6SlXNDbbYfBwNAPlzb0Uu2dgGxdYcDAAiq+B2h87Q7eCWVCIMA0rN3RDSVxBnBqhUvBnD7q0RJT9GVjVdFMZH4RupmbG3qnLswxny2LS3zsgZx6Xd7B/8BfKnNxneiOgqt8aIsL2KSj50A7c/CmYlCU/UG7GKdKABASjJtpCGBOwHJgKwlTQD4h792xx/TMecsYfEFz9T2Hz5hbwkAAAAASUVORK5CYII=) no-repeat 50% 50%
+      width: 40px
+      height: 40px
+      display: inline-block
+      border: 1px solid $social_icon
+      &:hover
+        background-color: $social_icon
+
+//download
+.download
+  @extend %section
+  &__block
+    width: 35%
+    text-align: center
+    margin: 0 auto
+    @media (max-width: 960px)
+      width: 100%
+  &__title
+    font-size: 28px
+  &__subtitle
+    text-transform: uppercase
+    font-size: 14px
+    margin: 15px 0 40px 0
+  &__btn
+    @extend %btn
+    width: 280px
+    border: 1px solid $accent_color
+
+//footer
+.footer
+  background-color: $bg_footer_color
+  min-height: 250px
+  &__container
+    @extend %container
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &__item
+    width: 33%
+    font-size: 14px
+    text-align: center
+    @media (max-width: 480px)
+      width: 100%
+  &__name
+    color: $text_color
+    text-transform: uppercase
+    font-weight: 700
+    padding: 70px 0 20px
+  &__text
+    color: $text_color
+    opacity: .5
+    font-weight: 400
+    padding: 0 20px
+    line-height: 22px
+  &__social--fb
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAASCAYAAABmQp92AAAAdElEQVQoU+2RUQ2FQAwEZx0gAQdIAJwgARRg4TkCHOAAKUvucvCAkFPAfrXptNumIsl2AYxAB4Q4ShdgBuojvwG2S2B7Fs8JthtgugCDpF8OaCUFS5S6KyB2JPXAegB+8z6XtJ0DlmCRB8Kolyv+S35AfNYOZBpVub/7J+QAAAAASUVORK5CYII=) no-repeat 50% 50%
+    width: 40px
+    height: 40px
+    display: inline-block
+    border: 2px solid $text_color
+    margin-right: 5px
+    &:hover
+      background-color: darken($bg_footer_color, 5%)
+      border: 2px solid darken($bg_footer_color, 5%)
+  &__social--tw
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAABFElEQVQ4T5WTYVXDQBzDf1EADkACKGAoAAcMB+AAB4ACqAKYAuYAcDAczEF46evx2qPttnzp9V7/uVySigNh+wG4AlaSsh5A/Tfb15Lep86w/QrcAFvgCXiWlPUfasINYCCDg49tL4CP6rCQXUr6Kvs14RmwBo5qFbazfzGiPiLOi9KacAm8VEMZuAfeZuy+lZRbURMeA/FwTMlcfLl6rt0MCDORYIBH4PSAAoQwlowSxsdSjX05m8xI2vxTWBhsx7uTPRkTSpv0HOFdpzSJz6GRlDBbqOvXtt8l2/EvPsbPOXwDi365W4W2i5pPIEnHx11YAcvJP6VTmjB2VeanC6DtXY2x2kRdrppfrY/UYi0pz0n8AuyMa7liN1IkAAAAAElFTkSuQmCC) no-repeat 50% 50%
+    width: 40px
+    height: 40px
+    display: inline-block
+    border: 2px solid $text_color
+    margin-right: 5px
+    &:hover
+      background-color: darken($bg_footer_color, 5%)
+      border: 2px solid darken($bg_footer_color, 5%)
+  &__social--in
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyElEQVQ4T7WTgQ0BQRBF36+ADtABHVABHaCEqwAVUAIdUIFTgeuAEq6DLxNHjkRyWUwy2WSz/+3Mn4xs74ExabGXbadp76p3wAnoA62m0DpgLmlruwtcUgCZpI3tqOCcAghNUbXQVP/iwQ7YVoA1kFXASZy19pbA9PFD3YOVpKXtIXAERpJy221JZb0k21eg8z6FT4AwNTwpJfVCZDuqWDQFPB8DA0nFN4BHW8kV/BeQA5Fh2qwaabgdU4mMiDG/3P1kmb5Z58MNWVW1MomSd5IAAAAASUVORK5CYII=) no-repeat 50% 50%
+    width: 40px
+    height: 40px
+    display: inline-block
+    border: 2px solid $text_color
+    &:hover
+      background-color: darken($bg_footer_color, 5%)
+      border: 2px solid darken($bg_footer_color, 5%)
+  &__container--bottom
+    min-height: 100px
+    width: 100%
+    background-color: $bg2_footer_color
+    margin-top: 90px
+  &__copyright
+    text-align: center
+    padding: 30px 0
+    line-height: 23px
+    color: #808080
+    &--heart
+      color: #ff0000
+    &--text
+      color: $text_color
