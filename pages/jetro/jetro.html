@@ -11,9 +11,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="icon" href="№" type="image/x-icon">
+	<link rel="icon" href="#" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
-	
+	<link rel="stylesheet" href="css/ever.css">
+	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
@@ -39,7 +40,7 @@
 		<div class="fluid-container-order">
 			<div class="container">
 				<section class="block-order">
-					<h1 class="block-order-h1">Не хочется платить 50 000 $ за новую почку?</h1>
+					<h2 class="block-order-h1">Не хочется платить 50 000 $ за новую почку?</h2>
 					<h2 class="block-order-text">Натуральные капсулы Ренон Дуо избавляют от почечных болезней в хронической и острой форме за 1 курс</h2>
 					<div class="block-order-form order">
 						<div class="order-block clearfix">
@@ -51,13 +52,13 @@
 								<li class="order-list-item odd">Убирает отеки в конечностях</li>
 								<li class="order-list-item even">Восстанавливает работу почек</li>
 							</ul>
-							<form method="post" action="/submit" class="order-form x_order_form">
+							<form method="post" action="/submit" class="x_order_form">
 								<p class="order-form-title">Забудьте о боли и сезонных кризах!</p>
 								<p class="order-form-text">Новая почка – 50 000$</p>
-								<p class="order-form-text order-form-text_bold">Ренон Дуо – <span>990 руб.</span></p>
-								<input type="text" name="username" placeholder="Ваше имя" class="input name">
-								<input type="text" name="phone" placeholder="Ваш телефон" class="input phone">
-								<input type="button" value="Заказать" class="order-form-btn">
+								<p class="order-form-text order-form-text_bold">Ренон Дуо – <span class="x_price_total">990</span> <span>руб.</span></p>
+								<input type="text" name="name" placeholder="Ваше имя" class="input name" required>
+								<input type="text" name="phone" placeholder="Ваш телефон" class="input phone" required>
+								<input type="submit" value="Заказать" class="order-form-btn">
 							</form>
 						</div>
 					</div>
@@ -66,47 +67,51 @@
 		</div>
 		<div class="fluid-container-symptoms">
 			<section class="symptoms">
-				<div class="container clearfix">
-					<h1 class="symptoms-title">5 признаков <span class="symptoms-title_red">больных</span> почек</h1>
-					<div class="symptoms-block symptoms-block_first">
-						<h2 class="symptoms-h2">Боли в области поясницы</h2>
-						<p class="symptoms-text">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра – это признаки почесной колики</p>
-					</div>
-					<div class="symptoms-block symptoms-block_second">
-						<h2 class="symptoms-h2">Кровь в моче</h2>
-						<p class="symptoms-text">Указывает на воспаления в мочевой системе, травмы почек и мочевого пузыря</p>
-					</div>
-					<div class="symptoms-block symptoms-block_third">
-						<h2 class="symptoms-h2">Отечность</h2>
-						<p class="symptoms-text symptoms-text_right">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра – это признаки почесной колики</p>
-					</div>
-					<div class="symptoms-block symptoms-block_fourth">
-						<h2 class="symptoms-h2">Повышение температуры или давления</h2>
-						<p class="symptoms-text">Вместе с другими симптомами указывает на болезнь почек</p>
-					</div>
-					<div class="symptoms-block symptoms-block_fifth">
-						<h2 class="symptoms-h2">Нарушение мочеиспускания</h2>
-						<p class="symptoms-text">При мочекаменной болезни, инфекциях в почках возможны частые болезненные мочаиспускания</p>
-					</div>
+				<div class="container">
+					<h2 class="symptoms-title">5 признаков <span class="symptoms-title_red">больных</span> почек</h2>
+					<ul>
+						<li class="symptoms-block symptoms-block_first">
+							<h2 class="symptoms-h2">Боли в области поясницы</h2>
+							<p class="symptoms-text">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра – это признаки почесной колики</p>
+						</li>
+						<li class="symptoms-block symptoms-block_second">
+							<h2 class="symptoms-h2">Кровь в моче</h2>
+							<p class="symptoms-text">Указывает на воспаления в мочевой системе, травмы почек и мочевого пузыря</p>
+						</li>
+						<li class="symptoms-block symptoms-block_third">
+							<h2 class="symptoms-h2">Отечность</h2>
+							<p class="symptoms-text symptoms-text_right">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра – это признаки почесной колики</p>
+						</li>
+						<li class="symptoms-block symptoms-block_fourth">
+							<h2 class="symptoms-h2">Повышение температуры или давления</h2>
+							<p class="symptoms-text">Вместе с другими симптомами указывает на болезнь почек</p>
+						</li>
+						<li class="symptoms-block symptoms-block_fifth">
+							<h2 class="symptoms-h2">Нарушение мочеиспускания</h2>
+							<p class="symptoms-text">При мочекаменной болезни, инфекциях в почках возможны частые болезненные мочаиспускания</p>
+						</li>
+					</ul>
 				</div>
 				<div class="fluid-container-complication">
 					<div class="container complication clearfix">
-						<h1 class="complication-title">Узнали себя? Начните немедленное лечение, иначе вас ждут такие осложнения:</h1>
-						<div class="complication-block">
-							<p class="complication-text complication-text_first">Развитие почечной недостаточности - в организм выбрасывается мочевина и креатин, из-за этого страдает ЖКТ, появляется запах ацетона, желтеет лицо</p>
-						</div>
-						<div class="complication-block">
-							<p class="complication-text complication-text_second">Сердечно-сосудистые заболевания – возникает слабость, одышка, учащенное сердцебиение, развивается кислородное голодание органов и тканей</p>
-						</div>
-						<div class="complication-block complication-block_right">
-							<p class="complication-text complication-text_third">Нарушения водного обменаиз-за отеков конечностей органы и ткани получают недостаточное количество питательных веществ, возникают боли и неприятные ощущения</p>
-						</div>
+						<h2 class="complication-title">Узнали себя? Начните немедленное лечение, иначе вас ждут такие осложнения:</h2>
+						<ul>
+							<li class="complication-block">
+								<p class="complication-text complication-text_first">Развитие почечной недостаточности - в организм выбрасывается мочевина и креатин, из-за этого страдает ЖКТ, появляется запах ацетона, желтеет лицо</p>
+							</li>
+							<li class="complication-block">
+								<p class="complication-text complication-text_second">Сердечно-сосудистые заболевания – возникает слабость, одышка, учащенное сердцебиение, развивается кислородное голодание органов и тканей</p>
+							</li>
+							<li class="complication-block complication-block_right">
+								<p class="complication-text complication-text_third">Нарушения водного обменаиз-за отеков конечностей органы и ткани получают недостаточное количество питательных веществ, возникают боли и неприятные ощущения</p>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="symptoms-banner">
 					<div class="container">
 						<div class="symptoms-banner-block">
-							<h1 class="symptoms-banner-h1"><span class="symptoms-banner-h1_blue">Ренон Дуо</span> - всего 2 капсулы для лечения почек и мочекаменной болезни</h1>
+							<h2 class="symptoms-banner-h1"><span class="symptoms-banner-h1_blue">Ренон Дуо</span> - всего 2 капсулы для лечения почек и мочекаменной болезни</h2>
 							<p class="symptoms-banner-text">Сивупрет - инновационная разработка российски ученых, которая прошла клинические испытания и доказала свою эффективность.</p>
 							<p class="symptoms-banner-text">Прием капсул устраняет боли в пояснице, убивает бактерии и патогенную флору, помогает при отеках.</p>
 						</div>
@@ -117,65 +122,65 @@
 		<div class="fluid-container-work">
 			<section class="work">
 				<div class="container">
-					<h1 class="work-title">Почему Ренон Дуо работает?</h1>
-					<div class="work-content clearfix">
-						<div class="work-block work-block_first">
+					<h2 class="work-title">Почему Ренон Дуо работает?</h2>
+					<ul class="work-content">
+						<li class="work-block work-block_first">
 							<h3 class="work-block-subtitle">Уникальный состав</h3>
 							<p class="work-block-text">Формула препарата содержит 22 растительных и природных компонента: аир, лапчатка, хвощ, лиственница и т.д</p>
-						</div>
-						<div class="work-block work-block_second">
+						</li>
+						<li class="work-block work-block_second">
 							<h3 class="work-block-subtitle work-block-subtitle_s">Продуманные компоненты</h3>
 							<p class="work-block-text work-block-text_s">Каждое вещество Названия сочетается друг с другом, что позволяет добиться большей эффективности</p>
-						</div>
-						<div class="work-block work-block_third">
+						</li>
+						<li class="work-block work-block_third">
 							<h3 class="work-block-subtitle  work-block-subtitle_s">Природные антибиотики</h3>
 							<p class="work-block-text work-block-text_s">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра – это признаки почесной колики</p>
-						</div>
-						<div class="work-block work-block_fourth">
+						</li>
+						<li class="work-block work-block_fourth">
 							<h3 class="work-block-subtitle">Убивает бактерии</h3>
 							<p class="work-block-text">Формула препарата содержит 22 растительных и природных компонента: аир, лапчатка, хвощ, лиственница и т.д</p>
-						</div>
-						<div class="work-block work-block_fifth">
+						</li>
+						<li class="work-block work-block_fifth">
 							<h3 class="work-block-subtitle work-block-subtitle_s">Нормализует все системы</h3>
 							<p class="work-block-text work-block-text_s">Каждое вещество Ренон Дуо сочетается друг с другом, что позволяет добиться большей эффективности</p>
-						</div>
-						<div class="work-block work-block_sixth">
+						</li>
+						<li class="work-block work-block_sixth">
 							<h3 class="work-block-subtitle work-block-subtitle_s">SMART-капсулы </h3>
 							<p class="work-block-text work-block-text_s">Если боль справа или слева живота отдает в низ, в лобок или верхнюю часть бедра - это признаки почесной колики</p>
-						</div>
-					</div>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</div>
 		<div class="fluid-container-mechanism">
 			<section class="mechanism">
 				<div class="container">
-					<h1 class="mechanism-title">Механизм работы SMART-системы Ренон Дуо</h1>
+					<h2 class="mechanism-title">Механизм работы SMART-системы Ренон Дуо</h2>
 					<p class="mechanism-subtitle">Препарат разработан с учетом биоритмов организма и действует по-разному</p>
-					<div class="mechanism-block clearfix">
-						<div class="block-morning block-mec">
+					<ul class="mechanism-block">
+						<li class="block-morning">
 							<h2 class="block-morning-h2">утро</h2>
 							<p class="block-morning-text">Во время сна в почках и мочевыделительной системе накапливаются бактерии и вирусы, вызывающие гломерулонефрит, пиелонефрит, абсцесс почек, пранефрит, пионефроз.</p>
 							<p class="block-morning-text">Утренний прием капсул устраняет 90% инфекции и патогенной флоры, скопившейся в мочевыделительной и половой системе во время сна.</p>
-						</div>
-						<div class="block-day block-mec">
+						</li>
+						<li class="block-day">
 							<h2 class="block-day-h2">День</h2>
 							<p class="block-day-text">Днем наблюдается застой мочи, почки не могут поддерживать биохимическое равновесие, в это время высокая вероятность опухолевой патологии почек из-за активности биохимических процессов.</p>
 							<p class="block-day-text">Прием дневного комплекса убирает симптомы хронической почечной недост аточности, устраняет слабость, нормализует АД, избавляет от головной боли.</p>
-						</div>
-						<div class="block-evening block-mec">
+						</li>
+						<li class="block-evening">
 							<h2 class="block-evening-h2">Вечер</h2>
 							<p class="block-evening-text">В вечернее время развивается мочекаменная болезнь, происходят сопутствующие нарушения почек и мочевого пузыря.</p>
 							<p class="block-evening-text">Ночной комплекс нормализует обменные процессы и функции внутренних желез,устраняет застой мочи, разрушает и выводит камни.</p>
-						</div>
-					</div>
+						</li>
+					</ul>
 				</div>
 			</section>
 		</div>
 		<div class="fluid-container-compare-study">
 			<section class="compare">
 				<div class="container">
-					<h1 class="compare-title">Сравнение со средствами-аналогами</h1>
+					<h2 class="compare-title">Сравнение со средствами-аналогами</h2>
 					<div class="compare-banner clearfix">
 						<div class="compare-banner-left">
 							<h3 class="compare-banner-title">Средства-аналоги</h3>
@@ -203,7 +208,7 @@
 			</section>
 			<section class="study">
 				<div class="container">
-					<h1 class="study-title">Клинические исследования</h1>
+					<h2 class="study-title">Клинические исследования</h2>
 					<p class="study-text">Клинические исследования Название проходили на базе независимого института нефрологии РФ. Принимали участие люди с заболеваниями почек и мочевыделительной системы. Были сформированы две группы: первая принимала капсулы Название, вторая - фармакологические препараты и средства-аналоги. В результате после  прохождения полного курса первая группа в 89% случаев отметила положительный эффект, пропали боли и дискомфортные ощущения. Во второй группе похожий результат получило 19% испытуемых, в остальном - лишь устранились симптомы.</p>
 					<div class="study-block clearfix">
 						<div class="study-block-left clearfix">
@@ -220,7 +225,7 @@
 			<section class="expert">
 				<div class="container">
 					<div class="expert-content">
-						<h1 class="expert-title">Мнение эксперта</h1>
+						<h2 class="expert-title">Мнение эксперта</h2>
 						<p class="expert-text">Я хоть и традиционный врач, но всегда назначаю пациентам те препараты, которые не будут вредить организму. Ведь как бывает – одно лечим, а другое калечим. Точно так же и в лечении болезней почек. Лекарства дают много побочек, в первую очередь, страдает желудочно-кишечный тракт и печень. Могу с уверенностью сказать, что Ренон Дуо – прорыв в медицине. Он эффективно лечит гломерулонефрит, пиелонефрит, нефропотоз, мочекаменную болезнь, хроническю почечную недостаточность и другие заболевания почек. Еще ни один пациент, которому я назначил Название не жаловался на побочные эффекты. В общем, друзья, лечитесь современными и доступными препаратами.</p>
 						<span class="expert-doctor">Забелин Борис Владимирович, врач-нефролог, к.м.н.</span>
 					</div>
@@ -235,14 +240,14 @@
 						<p class="stock-text">70% скидка</p>
 					</div>
 					<div class="sale-banner-price price">
-						<p class="price-old">Старая цена <span>1 239 р.</span></p>
+						<p class="price-old">Старая цена <span class="x_price_previous">1239</span><span class="x_currency"> р.</span></p>
 						<p class="price-new">Цена со скидкой</p>
-						<p class="price-new-number">739 р.</p>
+						<p class="price-new-number"><span class="x_price_current">739</span><span class="x_currency"> р.</span></p>
 					</div>
 					<input type="button" class="sale-banner-btn" value="Заказать">
 				</section>
 				<section class="review-slider">
-					<h1 class="review-title">Отзывы</h1>
+					<h2 class="review-title">Отзывы</h2>
 					<div class="owl-carousel carousel">
 						<div class="carousel-item">
 							<div class="content clearfix">
@@ -272,7 +277,7 @@
 		<div class="fluid-container-apply">
 			<section class="apply">
 				<div class="container clearfix">
-					<h1 class="apply-h1">Способ приминения</h1>
+					<h2 class="apply-h1">Способ приминения</h2>
 					<div class="apply-img">
 						<img src="img/video.jpg" alt="video-preview">
 					</div>
@@ -289,8 +294,9 @@
 							<h3 class="apply-banner-subtitle">Опасайтесь подделок!</h3>
 							<p class="apply-banner-text">С ростом популярности на российском рынке, участились случаи подделок по бросовой цене. Продукт продается в оригинальной упаковке с уникальным регистрационным кодом!<br> Найдите код на упаковке и проверьте его подлинность.</p>
 							<div class="apply-banner-input">
-								<input type="text" placeholder="Введите код с упаковки">
-								<input type="button" value="Проверить код" class="apply-banner-btn">
+								<input maxlength="15" type="text" placeholder="Введите код с упаковки" class="check-code-input">
+								<input type="button" value="Проверить код" class="apply-banner-btn check-code-btn">
+								<p class="check-code-result"></p>
 							</div>
 						</div>
 						<div class="apply-banner-right">
@@ -304,7 +310,7 @@
 		<div class="fluid-container-wework">
 			<section class="wework">
 				<div class="container clearfix">
-					<h1 class="wework-title">Как мы работаем</h1>
+					<h2 class="wework-title">Как мы работаем</h2>
 					<figure class="wework-block">
 						<img src="img/wework1.jpg" alt="Lev_Aliev">
 						<figcaption>
@@ -333,21 +339,21 @@
 	<footer class="footer">
 		<div class="fluid-container-footer">
 			<div class="container">
-				<div class="footer-banner clearfix">
+				<div class="footer-banner clearfix clone-this">
 					<div class="footer-banner-left">
-						<h1 class="footer-banner-title"><span>Ренон Дуо</span> - эффективное средство для борьбы с заболеваниями почек</h1>
+						<h2 class="footer-banner-title"><span>Ренон Дуо</span> - эффективное средство для борьбы с заболеваниями почек</h2>
 						<p class="footer-banner-text">Количество товара со скидкой ограничено!</p>
-						<p class="footer-banner-text">Осталось: <span>80 шт.</span></p>
-						<p class="old-price">Старая цена <span>1 239 р.</span></p>
-						<p class="new-price">Цена со скидкой <span>739 р.</span></p>
+						<p class="footer-banner-text">Осталось: <span class="lastpack">80</span> <span>шт.</span></p>
+						<p class="old-price">Старая цена <span class="x_price_previous">1 239</span><span class="x_currency"> р.</span></p>
+						<p class="new-price">Цена со скидкой <span class="x_price_current">739</span><span class="x_currency"> р.</span></p>
 					</div>
-					<form method="post" action="/submit" class="order-form order-form_footer x_order_form">
+					<form method="post" action="/submit" class="x_order_form">
 						<p class="order-form-title">Забудьте о боли и сезонных кризах!</p>
 						<p class="order-form-text">Новая почка – 50 000$</p>
-						<p class="order-form-text order-form-text_bold">Ренон Дуо – <span>990 руб.</span></p>
-						<input type="text" name="name" placeholder="Ваше имя" class="input name">
-						<input type="text" name="phone" placeholder="Ваш телефон" class="input phone">
-						<input type="button" value="Заказать со скидкой" class="order-form-btn">
+						<p class="order-form-text order-form-text_bold">Ренон Дуо – <span class="x_price_total">990 </span> <span class="x_currency">руб.</span></p>
+						<input type="text" name="name" placeholder="Ваше имя" class="input name" required>
+						<input type="text" name="phone" placeholder="Ваш телефон" class="input phone" required>
+						<input type="submit" value="Заказать со скидкой" class="order-form-btn">
 					</form>
 				</div>
 				<div class="footer-bottom clearfix">
@@ -362,8 +368,13 @@
 			</div>
 		</div>
 	</footer>
-	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js"></script>
+	<div id="toTop">
+		<img src="img/up2.png" alt="Up">
+	</div>
 
+	<script src="js/scripts.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/localization.js"></script>
+	<script src="js/ever.js"></script>
 </body>
 </html>
