@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   function res() {
     var blockWidth = $('.container').width();
     var blockHeight = $('.container').height();
@@ -7,28 +8,32 @@ $(document).ready(function() {
     var val;
     if (blockWidth < blockHeight && blockWidth <= windowWidth)   {
       val = blockWidth;
-      console.log(val)
     }
     else if (blockWidth >= blockHeight && blockWidth < windowWidth && windowWidth < windowHeight) {
       val = windowWidth;
-      console.log(val)
     }
     else if (blockWidth > blockHeight && blockHeight <= windowHeight) {
       val = blockHeight;
-      console.log(val)
     }
     else if (blockWidth >= blockHeight && blockHeight < windowHeight && windowWidth > windowHeight) {
       val = windowHeight;
-      console.log(val)
     }
+    val = val - 30;
     $('.container').height(val).width(val);
   }
+
   res();
 
   $(window).resize(function(){
     res();
   })
+
+  $('.container').hover(function(){
+    $('.block-icon').toggleClass('active');
+  });
+
   $('.block').hover(function(){
-    $('.container').addClass('active');
-  })
+    var indexItem = $(this).index();
+    $('.item-icon').eq(indexItem).toggleClass('active');
+  });
 });
