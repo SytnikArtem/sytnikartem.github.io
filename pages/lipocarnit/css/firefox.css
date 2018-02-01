@@ -1,0 +1,10 @@
+.button{
+	padding-left: 15px;
+}
+.button span{
+	margin-left: 15px;
+	top: -4px;
+}
+div.button span{
+	top: -2px;
+}

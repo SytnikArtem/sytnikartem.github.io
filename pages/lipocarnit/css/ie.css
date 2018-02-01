@@ -1,0 +1,13 @@
+.button span{
+	margin-left: 20px;
+	top: -2px;
+}
+div.button span{
+	margin-left: 18px;
+}
+.effects:after{
+	bottom: -1px;
+}
+.form-wrap{
+	border: 1px solid #b174c2;
+}
