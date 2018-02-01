@@ -1,0 +1,23 @@
+#seven img{
+    width: 500px;
+}
+
+.opis{
+    height: 5px;
+}
+
+
+.pokaz{
+    width: 800px;
+}
+
+
+@media only screen and(max-width: 992px){
+    .pokaz{
+    width: 610px;
+}
+
+#four .imgg{
+    width: 500px!important;
+}
+}
