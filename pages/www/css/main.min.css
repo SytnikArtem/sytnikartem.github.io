@@ -995,7 +995,9 @@ body {
     transition: all 1s ease;
     background-color: #a8a8a8
 }
-
+.menu-item.datacup:hover .drop-menu {
+  height: 285px
+}
 .drop-menu li {
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -1963,7 +1965,8 @@ body {
 .news .w40,
 .news-main .w40,
 .penalty .w40,
-.table .w40 {
+.table .w40,
+.net .w40 {
     width: 40%;
     text-align: left
 }
@@ -1994,7 +1997,8 @@ body {
 .news .w20,
 .news-main .w20,
 .penalty .w20,
-.table .w20 {
+.table .w20,
+.net .w20 {
     width: 20%
 }
 
@@ -2884,4 +2888,153 @@ p.spec{
 }
 .mainlink a:hover{
   background: #58afff;
+}
+.net {
+  width: 1200px;
+  /* border: 1px solid red; */
+  margin: 0 auto
+}
+.cup-net-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 190px
+  /* justify-content: center; */
+  /* margin-bottom: 100px */
+}
+.cup-net-item {
+  width: 12.5%;
+  border: 4px solid #fff;
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cup-net-item_full {
+  position: absolute;
+  width: 220%;
+  height: 0px;
+  left: calc(-60% + 1px);
+  background: #58afff;
+  opacity: 0;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition:  all .5s ease;
+  -o-transition:  all .5s ease;
+  transition:  all .5s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  z-index: 12;
+  cursor: pointer;
+}
+.cup-net-item_opacity {
+  opacity: 1;
+  background: #47ff54;
+  padding: 5px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.cup-net-item_opacity:hover {
+  opacity: .5
+}
+.cup-net-item_opacity:hover~ .cup-net-item_full, .cup-net-item_full:hover{
+  opacity: 1;
+  height: 195px;
+}
+.cup-net-item_full P {
+  font-size: 0
+}
+.cup-net-item p {
+  margin: 0;
+  text-indent: 0;
+}
+.net span {
+  display: inline-block;
+  font-size: 12px;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-left {
+  text-align: left!important;
+}
+.cup-net-info p {
+  font-size: 12px
+}
+.left_25 {
+  margin-left: 25%
+}
+.cup-net-item_lines:before {
+  position: absolute;
+  width: 2px;
+  content: '';
+  height: 100px;
+  background: #47ff54;
+  top: -100px;
+  left: calc(50% - 1px);
+  z-index: 11
+}
+.cup-net-item_lines:after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #47ff54;
+  border-top: 0;
+  top: -200px;
+  z-index: 11
+}
+.cup-net-item_lines.no-left:after {
+  border-left: none;
+  width: 50%;
+  left: calc(50% - 1px)
+}
+.cup-net-item_lines.big-lines:after {
+  width: 225px;
+  left: -40px
+}
+.cup-net-item_lines.big-lines2:after {
+  width: 210%;
+  left: -55%
+}
+.cup-net-item_lines.big-lines3:after {
+  width: 490px;
+  left: -190px
+}
+.left_625 {
+  margin-left: 6.25%
+}
+.left_125{
+  margin-left: 12.5%
+}
+.left_2185 {
+  margin-left: 21.85%
+}
+.down-line {
+  height: 260px;
+  width: 2px;
+  background: #47ff54;
+  position: absolute;
+  left: calc(50% - 1px);
+  z-index: 11;
+  bottom: -260px
+}
+.left_2825 {
+  margin-left: 28.25%
+}
+.left_4375 {
+  margin-left: 43.75%
+}
+.line-img {
+  background: url(../img/kubok.png), url(../img/logo_fed.jpg);
+  background-repeat: no-repeat;
+  background-position: left 20% top, right 20% top;
+  background-size: 200px, 160px
 }
