@@ -2933,7 +2933,6 @@ p.spec{
 .cup-net-item_opacity {
   opacity: 1;
   background: #47ff54;
-  padding: 5px;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
@@ -2952,6 +2951,11 @@ p.spec{
 .cup-net-item p {
   margin: 0;
   text-indent: 0;
+  padding: 3px 5px;
+  position: relative;
+}
+.cup-net-item .red {
+  background: red
 }
 .net span {
   display: inline-block;
@@ -3037,4 +3041,7 @@ p.spec{
   background-repeat: no-repeat;
   background-position: left 20% top, right 20% top;
   background-size: 200px, 160px
+}
+.cup-net-item_opacity span {
+  float: right;
 }
