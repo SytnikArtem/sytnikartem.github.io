@@ -51,9 +51,9 @@ table {
   width: 100%;
   margin:0 auto;
   height: 500px;
-  /* height: 100px; */
-  /* background: blue; */
-  display: none
+  display: none;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .country-block svg {
   width: 100%;
