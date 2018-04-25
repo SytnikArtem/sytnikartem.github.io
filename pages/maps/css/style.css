@@ -63,7 +63,7 @@ table {
 .g {
 	cursor: pointer;
 }
-.land.active {
+/* .land.active {
 	fill: #fff!important;
 	stroke: #fff!important
-}
+} */

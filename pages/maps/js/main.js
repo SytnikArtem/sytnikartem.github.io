@@ -1,6 +1,7 @@
 $(document).ready(function(){
   var colorMaps = prompt('Цвет карты', 'red');
   var countryCode = prompt('Код страны', 'UA');
+  var colorLocation = prompt('Цвет города', 'yellow')
   var countryBlock = (".block_" + countryCode).toLowerCase();
   $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorMaps});
   $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
@@ -17,5 +18,7 @@ $(document).ready(function(){
         }
       }
     }
-  })
+    $('.land').css({"fill": colorMaps, "stroke": colorMaps})
+    $('.land.active').css({"fill": colorLocation, "stroke": colorLocation})
+  });
 });
