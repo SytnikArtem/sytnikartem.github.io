@@ -2690,6 +2690,9 @@ body {
         width: 100%;
         padding: 50px 20px
     }
+    .container-fluid {
+      width: 1280px
+    }
     .section::before {
         display: none
     }
@@ -2945,6 +2948,10 @@ p.spec{
   opacity: 1;
   height: 195px;
 }
+.cup-net-item_opacity:hover~ .cup-net-item_full.big-height, .cup-net-item_full.big-height:hover {
+  height: 315px
+}
+
 .cup-net-item_full P {
   font-size: 0
 }
