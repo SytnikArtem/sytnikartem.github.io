@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1CallCenter</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:300,300i,400,500,700,900|Rubik:400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="icon" href='../images/favicon.ico'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/pages.css" rel="stylesheet" type="text/css">
+    <link href="../css/media-pages.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/jquery.formstyler.css">
+    <link rel="stylesheet" href="../css/jquery.formstyler.theme.css">
+</head>
+
+<body data-page="contacts">
+    <script>
+  var russia = "RU";
+
+  if (window.country_code !== russia) {
+    window.location.href = "http://1call.center";
+  }
+  </script>
+<div class="contacts-wrapper">
+    <header>
+        <!--<div class="backr-1"></div>-->
+        <div class="wrapper-1100">
+            <div class="circle-wrapper">
+                <div class="small-circle biggest"></div>
+                <div class="small-circle big"></div>
+                <div class="small-circle normal"></div>
+                <div class="small-circle small"></div>
+                <div class="border-1">
+                </div>
+                <div class="border-2">
+                </div>
+                <div class="icon"></div>
+            </div>
+            <div class="menu-wrapper">
+            <div class="logo"><a href="../index.html"><img src="../images/logo.svg" alt="logo"></a></div>
+            <div class="menu hike">
+                <ul>
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="clients.html">Клиенты</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="career.html">Карьера</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-mob-menu dndd">
+                <span class="top-line"></span>
+                <span class="mid-line"></span>
+                <span class="bot-line"></span>
+            </div>
+
+            <select class="languages-mob styler">
+              <option value="">Ру</option>
+              <option value="">En</option>
+            </select>
+
+            <div class="menu menu-mob drop">
+                <ul>
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="clients.html">Клиенты</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="career.html">Карьера</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <ul>
+                    <li><span class="active-lang">Ру</span></li>
+                    <li><span>En</span></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="about-reviews page">
+            <h1>Контакты</h1>
+            <div class="contacts-block">
+                <!--<div class="backgr-5"></div>-->
+                <div class="wrapper-1100">
+                    <!--<div class="icon"></div>-->
+                    <div class="contacts-content">
+                        <!-- <div class="map">
+                            <img src="../images/map-pages.png" alt="map">
+                        </div> -->
+                        <div class="phones flex">
+
+                        
+                            <div class="contacts-block">
+                              <div class="phone-block">
+                                  <span class="city">Бангкок</span>
+                                  <span class="phone">+66890061000</span>
+                                  <!-- <span class="phone">+38 (068) 253-21-50</span> -->
+                              </div>
+                                <div class="phone-block">
+                                    <span class="city">Москва</span>
+                                    <span class="phone">+79168720035</span>
+                                    <!-- <span class="phone">+38 (068) 253-21-50</span> -->
+                                </div>
+
+                            </div>
+
+
+
+
+
+                    </div>
+                    <!-- <a href="career.html#officeAnchor" class="link">Галерея наших офисов</a> -->
+                </div>
+            </div>
+
+
+        </div>
+      </div>
+    </main>
+    <footer>
+        <!--<div class="backgr-6"></div>-->
+        <!--<div class="backgr"></div>-->
+        <div class="wrapper-1100">
+            <!--<div class="form">-->
+                <!--<span>Обратная связь</span>-->
+                <!--<form action="" method="POST" class="">-->
+                    <!--<input type="text" name="name" placeholder="Имя">-->
+                    <!--<input type="email" name="email" placeholder="E-mail">-->
+                    <!--<textarea name="message" cols="30" rows="1" placeholder="Сообщение"></textarea>-->
+                    <!--<input type="submit" class="button" value="Отправить письмо">-->
+                <!--</form>-->
+            <!--</div>-->
+            <div class="form clearfix">
+                <span class="callback">Обратная связь</span>
+                <form method="POST" action="/submit" class="x_order_form">
+                    <div class="clearfix">
+                        <div class="group name-group">
+                            <input type="text" name="name" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Имя</label>
+                        </div>
+                        <div class="group email-group">
+                            <input type="email" name="email" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>E-mail</label>
+                        </div>
+                    </div>
+                    <div class="group message-group">
+                        <input type="text" name="message" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Сообщение</label>
+                    </div>
+
+
+                    <!--<textarea name="message" cols="30" rows="1" placeholder="Сообщение"></textarea>-->
+                    <input type="submit" class="button" value="Отправить письмо">
+                </form>
+            </div>
+            <div class="menu-wrapper flex">
+                <div class="copyright">
+                    &copy; 2017 1Call.center
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="about-us.html">О нас</a></li>
+                        <li><a href="clients.html">Клиенты</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="career.html">Карьера</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="socials">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="../js/jquery-2.2.3.min.js"></script>
+<script src="../js/active_menu.js"></script>
+    <script src="https://use.fontawesome.com/af9b964016.js"></script>
+    <script src="../js/macoslineheight.js"></script>
+    <script src="../js/select.js"></script>
+    <script src="../js/jquery.formstyler.min.js"></script>
+</body>
+
+</html>

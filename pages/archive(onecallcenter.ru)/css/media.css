@@ -1,0 +1,1146 @@
+.reviews .wrapper-1100,
+.services .flex,
+.career {
+    overflow: hidden;
+}
+
+@media screen and (min-width: 770px) {
+    .menu-mob {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    /* .contacts-block {
+        padding-top: 270px;
+        margin-top: -471px;
+    } */
+    footer {
+        padding-top: 331px;
+    }
+    .reviews-index .slick-next {
+        right: -5px;
+    }
+    .reviews-index .slick-prev {
+        left: -1px;
+    }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1920px) {
+    header {
+        background: url(../images/backgr-1-2560.png) center top no-repeat;
+        height: 708px;
+    }
+    .about-company {
+        margin-top: -157px;
+        /*background: url(../images/backgr-2-2560.png) 0 190px no-repeat;*/
+        background: url(../images/backgr-2-2560.png) center bottom no-repeat;
+
+        padding-bottom: 350px;
+    }
+    .clients {
+        /*margin-top: -133px;*/
+        margin-top: -164px;
+    }
+    .services {
+        background: url(../images/backgr-3-2560.png) center no-repeat;
+        min-height: 1350px;
+        padding-top: 320px;
+        background-size: auto;
+        margin-top: -127px;
+    }
+    .career {
+        margin-top: -166px;
+        margin-bottom: 25px;
+    }
+    /* .reviews {
+        background: url(../images/backgr-4-2560.png) center center no-repeat;
+        padding-bottom: 300px;
+        padding-top: 360px;
+        margin-top: -256px;
+    } */
+    .reviews-index .right-shadow,
+    .offices .right-shadow {
+        right: -3px;
+    }
+    /* .contacts-block {
+        background: url(../images/backgr-5-2560.png) center center no-repeat;
+        padding-bottom: 363px;
+        padding-top: 535px;
+        margin-top: -540px;
+    } */
+    footer {
+        padding-top: 390px;
+        margin-top: -485px;
+        background: url(../images/footer-2560.png) center center no-repeat;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .about-company {
+        background: url(../images/backgr-2.png) center bottom no-repeat;
+    }
+
+    footer .menu-wrapper {
+        /*padding-top: 10px;*/
+        /*padding-bottom: 0;*/
+        margin: 0;
+    }
+    .about-company {
+        /*margin-top: 80px;*/
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .menu-wrapper .menu ul {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .circle-wrapper {
+        right: 10px;
+    }
+    img {
+        max-width: 100%;
+    }
+
+    .header-info {
+        padding-left: 20px;
+    }
+    .menu-wrapper {
+        padding: 20px 20px 0;
+    }
+    .about-company {
+        background: url(../images/backgr-2.png) center bottom no-repeat;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .about-company {
+        margin-top: -70px;
+        background: url(../images/backgr-2.png) center bottom no-repeat;
+    }
+    .slick-slider {
+      margin-top: -20px
+    }
+    .contacts-content {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    footer .menu-wrapper {
+        margin: 0;
+        /*padding-top:0;*/
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .menu-wrapper .menu ul {
+        margin: 0;
+    }
+    .menu-wrapper .socials,
+    .menu-wrapper .languages {
+        margin-right: 0;
+    }
+
+    .contacts-block .form {
+        margin-top: 60px;
+    }
+    .bangkok {
+        position: absolute;
+        bottom: 16px;
+        left: 90%;
+    }
+    .header-info h1 {
+        max-width: 600px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .circle-wrapper {
+        top: 220px;
+        right: 50px;
+        width: 320px;
+        height: 320px;
+    }
+    .border-1 {
+        border: 20px solid rgba(255, 255, 255, 0.22);
+    }
+    .border-2 {
+        border: 25px solid rgba(255, 255, 255, 0.74);
+        width: 77%;
+        height: 77%;
+    }
+    .pic {
+        width: 180px;
+        height: 180px;
+    }
+    .pic:after {
+        top: 54%;
+        left: 70%;
+        width: 90%;
+        height: 90%;
+        background: url(../images/logo-min.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .small-circle.big {
+        right: 10px;
+    }
+    .small-circle.normal {
+        left: 15px;
+    }
+    .small-circle.small {
+        right: 33px;
+    }
+    .header-info .contacts .info,
+    .header-info .contacts .phone {
+        margin: 20px 0;
+        display: block;
+    }
+
+    .menu-wrapper .menu ul li a {
+        font-size: 16px;
+        padding: 6px 10px 4px;
+    }
+    .about-company .advantages {
+        padding: 20px;
+    }
+    .vacancies .flex .flex-block {
+        width: 310px;
+    }
+    .vacancies .flex .flex-block h3 {
+        font-size: 18px;
+        margin: 30px 0 20px;
+        text-align: center;
+    }
+    .vacancies .vacancy:before {
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .advantages-of-our-work ul li {
+        margin: 20px 15px;
+    }
+    .advantages-of-our-work ul li h4 {
+        padding-left: 30px;
+    }
+    .advantages-of-our-work ul li:before {
+        left: 10px;
+    }
+    .services .flex:after {
+        background-size: contain;
+        width: 70%;
+        top: 27%;
+        left: 14%;
+    }
+    .slider-reviews .review .author {
+        padding: 30px 10px;
+    }
+    /* .contacts-block {
+        margin-top: -485px;
+    } */
+    .contacts-content .phones .phone-block .phone {
+        padding: 0 10px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    /*header .menu-wrapper {*/
+    /*padding: 20px;*/
+    /*}*/
+    /*footer {*/
+    /*padding-top: 245px;*/
+    /*margin-top: -350px;*/
+    /*}*/
+    /*footer .menu-wrapper {*/
+    /*margin: 0;*/
+    /*padding: 0 10px;*/
+    /*!* margin-top: -20px; *!*/
+    /*}*/
+    .index-footer {
+        margin-top: -40px;
+        /*padding-top: 248px;*/
+        /*margin-top: -366px;*/
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .wrapper-1100 {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    footer .menu-wrapper .socials { float: none; }
+    .header-info .contacts .info,
+    .header-info .contacts .phone {
+        margin: 10px 0;
+    }
+    .header-info h1 {
+        margin-top: 70px;
+    }
+    .bangkok {
+        position: static;
+    }
+    .contacts-content .phones {
+        justify-content: center;
+    }
+    .about-company .about-company-img {
+        margin: 55px 10px 80px;
+    }
+
+    /*.reviews .slick-slide {*/
+    /*min-height: 450px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 985px) {
+    .advantages-of-our-work ul li {
+        margin: 20px 30px;
+        width: 50%;
+        max-width: 275px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    footer .menu-wrapper {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    footer .menu-wrapper .menu ul,
+    footer .menu-wrapper .socials ul {
+        justify-content: center;
+    }
+    .index-footer .socials,
+    .index-footer .languages {
+        padding: 20px 0 20px;
+    }
+    .index-footer {
+        margin-top: -100px;
+        padding-bottom: 20px
+    }
+    .footer-overlay {
+      display: none
+    }
+}
+
+@media screen and (max-width: 920px) {
+    /*.about-company {*/
+    /*background: url(../images/backgr-2.png) 0 150px no-repeat;*/
+    /*}*/
+    .services {
+        padding-top: 236px;
+    }
+    /*.advantages-of-our-work ul li {*/
+    /*margin: 20px 8px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 850px) {
+    .menu-wrapper .menu ul li a {
+        font-size: 14px;
+    }
+    .slick-slider {
+      margin-top: 0
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 30px;
+    }
+    .header-info h1 {
+        margin-top: 25px;
+    }
+    .about-company .about-company-img, .about-company .about-company-img img { height: 200px; }
+    .about-company .about-company-img { border-radius: 10px; }
+ .about-company .about-company-img img { border-radius: 0px; }
+
+
+    /*.about-company {*/
+    /*background: url(../images/backgr-2.png) 0 60px no-repeat;*/
+    /*padding-bottom: 265px;*/
+    /*}*/
+    .about-company .advantages .advantage h3 {
+        font-size: 16px;
+    }
+    .about-company .advantages .advantage p {
+        line-height: 20px;
+    }
+    .about-company .advantages .advantage.advantage-1 ul li {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+    }
+    /* .reviews {
+        margin-top: -206px;
+        padding-top: 315px;
+    } */
+
+
+    .contacts-block .form {
+        margin-top: 40px;
+    }
+
+    .services {
+        min-height: 2200px;
+        padding-top: 404px;
+        margin-top: -225px;
+    }
+
+    .services .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services .flex:after {
+        display: none;
+    }
+    .services .service {
+        /*margin: 10px;*/
+        width: 300px;
+        padding-top: 50px;
+    }
+    .services .service .border-img {
+        width: 175px;
+        height: 175px;
+    }
+    .services .service .img {
+        width: 120px;
+        height: 120px;
+    }
+    .services .service .img img {
+        height: 50px;
+        width: 70px;
+    }
+    .services .service .descr-service p { margin-top: 5px;   }
+    .services p:first-of-type {
+        max-width: 440px;
+    }
+    .clients .flex {
+        padding-left: 20px;
+    }
+    .advantages-of-our-work ul li {
+        margin: 20px 10px;
+    }
+    .review .comment p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .reviews-index .slick-slide {
+        min-height: 400px;
+    }
+
+    /* .contacts-block {
+        padding-bottom: 0;
+        padding-top: 474px;
+        margin-top: -660px;
+        background-size: auto 110%;
+        background-position: left;
+        min-height: 1945px;
+    } */
+    .contacts-content .phones,
+    .contacts-content .map {
+        width: 100%;
+    }
+    .contacts-content .map { margin-top: 20px; }
+    .contacts-content {
+        display: block;
+    }
+    .contacts-content .phones .phone-block span {
+        text-align: center;
+    }
+    .form {
+        width: 500px;
+    }
+    .form:before {
+        border-left: 240px solid transparent;
+        border-right: 240px solid transparent;
+        border-top: 210px solid #b7424d;
+        left: 11px;
+    }
+    .form span {
+        padding: 10px 0 30px;
+    }
+    footer {
+        margin-top: -155px;
+        padding-top: 141px;
+        /*margin-top: -172px;*/
+        /*padding-top: 121px;*/
+    }
+    /* .index-footer {
+        margin-top: -196px;
+    } */
+
+    .flex .flex-block {
+        margin: 0 15px;
+    }
+    /* .index-footer {
+        padding-top: 153px;
+    } */
+
+    .about-company {
+        margin-top: -119px;
+    }
+    .clients {
+        margin-top: -120px;
+    }
+    .career {
+        margin-top: -285px;
+    }
+    /* .reviews {
+        margin-top: -142px;
+        padding-top: 257px;
+        padding-bottom: 313px;
+    } */
+    .reviews-index .slick-prev {
+      top: 150px
+    }
+    .reviews-index .slick-next {
+      top: 150px
+    }
+    .contacts-block {
+    /* background-size: auto 100%;
+    margin-top: -620px; */
+    min-height: 930px;
+    /* padding-top: 480px; */
+}
+    /*     .menu-wrapper .menu ul li a {
+        font-size: 12px;
+    } */
+}
+
+@media screen and (max-width: 769px) {
+    .about-company {
+        padding-bottom: 150px;
+        background: url(../images/about-us-769-main.png) center bottom no-repeat;
+    }
+    footer .copyright { float: left; }
+    .clients {
+        margin-top: 0px;
+    }
+
+    .menu-wrapper .menu-mob.menu.drop ul {
+        position: relative;
+        top: -15px;
+        z-index: 10;
+    }
+    /* .contacts-block { background-size: auto 100%; margin-top: -620px; min-height: 1450px; padding-top: 480px; } */
+    .index-footer { padding-top: 185px; }
+    .menu-wrapper .menu::before {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .menu-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .languages {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .languages-mob {
+        display: none;
+        float: right;
+    }
+    header .circle-wrapper {
+        display: none;
+    }
+    .menu-wrapper .menu ul {
+        display: block;
+    }
+    .menu-wrapper .menu ul li {
+        display: block;
+    }
+    .menu-wrapper .menu {
+        display: none;
+        position: relative;
+        text-align: left;
+        margin-top: 15px;
+        left: -20px;
+    }
+    .menu-wrapper .menu-mob {
+        display: none;
+        position: static;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .language-mob { display: block; }
+    .menu-wrapper .menu-mob ul li {
+        display: inline-block;
+    }
+    header {
+        min-height: 1px;
+        height: auto;
+        padding-bottom: 240px;
+        transition: all 0.2s ease;
+        background-size: cover;
+    }
+    .nav-mob-menu {
+        display: block;
+    }
+
+    header .menu-wrapper::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
+@media screen and (max-width: 715px) {
+
+    .about-company p,
+    .clients p,
+    .career .main-p,
+    .reviews p,
+    .advantages-of-our-work>p,
+    .vacancies {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-company a.link { margin-top: 30px; }
+    .about-company .advantages .advantage p,
+    .flex .flex-block p,
+    .slider-reviews .review .comment p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .menu-wrapper {
+        display: block;
+    }
+
+
+    .about-company .advantages .advantage p {
+        padding: 0;
+    }
+    /* .reviews {
+        margin-top: -93px;
+        padding-top: 231px;
+    } */
+    .reviews-index .slick-slide {
+        min-height: 335px;
+    }
+    /* .reviews {
+        padding-bottom: 266px;
+    } */
+
+    .vacancies .flex .flex-block {
+        margin: 15px 0;
+    }
+    .vacancies .flex .flex-block h3 {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 630px) {
+    h2 {
+        font-size: 28px;
+    }
+    .about-company .about-company-img img { margin-left: -200px; }
+    .menu-wrapper .menu ul {
+        margin: 0px auto;
+    }
+    .rev-wrap { width: 100%; }
+    .review .comment p { max-width: none; }
+    .slider-reviews .review .author { margin-left: 0px; justify-content: center; }
+    .clients .flex { padding-left: 0; }
+    header .menu-wrapper {
+        display: block;
+    }
+
+    .advantages .advantage.advantage-1 ul { display: inline-block; }
+
+    header { background-size: auto; }
+
+    header .menu-wrapper ul {
+        justify-content: center;
+    }
+    .reviews-index .slick-next { top: 145px; }
+    .header-info h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 30px auto;
+    }
+    .header-info .select {
+        max-width: 230px;
+        margin: auto;
+        text-align: center;
+    }
+    .slct.active {
+        text-align: left;
+    }
+    .circle-wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 352px;
+        width: 250px;
+        height: 250px;
+        box-sizing: border-box;
+    }
+    .border-1 {
+        border: 20px solid rgba(255, 255, 255, 0.22);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 91%;
+        height: 91%;
+    }
+    .border-2 {
+        border: 19px solid rgba(255, 255, 255, 0.74);
+        width: 70%;
+        height: 70%;
+    }
+    .pic {
+        width: 50%;
+        height: 50%;
+    }
+    .circle-wrapper .icon {
+        top: 53px;
+        left: 62px;
+    }
+
+    .circle-wrapper .icon:after {
+        top: 40px;
+        bottom: 0;
+        left: 31px;
+        right: 0;
+        margin: auto;
+    }
+    .small-circle.big {
+        width: 20px;
+        height: 20px;
+        top: 32px;
+        left: 45px;
+    }
+    .small-circle.normal {
+        width: 12px;
+        height: 12px;
+        top: 90px;
+        left: 231px;
+    }
+    .small-circle.small {
+        width: 5px;
+        height: 5px;
+        top: 110px;
+        left: 7px;
+        ;
+    }
+    .header-info {
+        text-align: center;
+        padding-left: 0;
+        padding: 0 30px;
+    }
+    /*.circle-wrapper {*/
+    /*top: 235px;*/
+    /*right: 60px;*/
+    /*width: 160px;*/
+    /*height: 160px;*/
+    /*}*/
+    /*.small-circle.big {*/
+    /*right: -20px;*/
+    /*top: 20px;*/
+    /*}*/
+    /*.small-circle.normal {*/
+    /*left: -6px;*/
+    /*top: 100px;*/
+    /*}*/
+    /*.small-circle.small {*/
+    /*right: 3px;*/
+    /*top:90px;*/
+    /*}*/
+    /*.border-1 {*/
+    /*border: 20px solid rgba(255, 255, 255, 0.22);*/
+    /*box-sizing: content-box;*/
+    /*}*/
+    /*.border-2 {*/
+    /*top: 33px;*/
+    /*left: 23px;*/
+    /*border: 10px solid rgba(255, 255, 255, 0.74);*/
+    /*width: 80%;*/
+    /*height: 80%;*/
+    /*box-sizing: content-box;*/
+    /*}*/
+    /*.pic {*/
+    /*top: 34px;*/
+    /*left: 33px;*/
+    /*width: 73%;*/
+    /*height: 73%;*/
+    /*box-sizing: content-box;*/
+    /*}*/
+    /*.small-circle.biggest {*/
+    /*display: none;*/
+    /*}*/
+    /*.pic:after {*/
+    /*top: 50%;*/
+    /*left: 55%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*}*/
+    /*.border-1 {*/
+    /*border: 17px solid rgba(255, 255, 255, 0.22);*/
+    /*}*/
+    /*.pic {*/
+    /*background-position: 50% 53%;*/
+    /*width:70%;*/
+    /*height: 70%;*/
+    /*}*/
+    /*.pic:after {*/
+    /*width: 60%;*/
+    /*height: 95%;*/
+    /*top: 51%;*/
+    /*background: url(../images/circle-number.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*}*/
+    .header-info .contacts .phone {
+        font-size: 16px;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .about-company {
+        margin-top: 0px;
+    }
+    .about-company .advantages {
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-company .advantages .advantage {
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-company .advantages .advantage p {
+        text-align: left;
+
+    }
+    .about-company .about-company-img {
+        margin: 45px auto 20px;
+        height: 160px;
+    }
+    .about-company .wrapper-1100 {
+        padding: 0 20px;
+    }
+    .about-company .advantages .advantage h3 {
+        margin: 70px 0 20px;
+    }
+    .about-company .advantages .advantage:before {
+        left: 50%;
+        top: 40px;
+        transform: translate(-50%, -50%);
+        width: 50px;
+    }
+    .about-company {
+        padding-bottom: 160px;
+        background: url(../images/about-us-640-main.png) center bottom no-repeat;
+    }
+    .advantages-of-our-work ul li {
+        width: auto;
+        max-width: 200px;
+        margin: 20px 15px 20px 5px;
+    }
+    .advantages-of-our-work ul li p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .vacancies .flex .flex-block {
+        width: 300px;
+    }
+    .clients .flex,
+    .vacancies .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients {
+        margin-top: -10px;
+    }
+    .clients .flex .client {
+        margin: 20px;
+    }
+    .vacancies .flex .flex-block h3 {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .vacancies .flex .flex-block p { padding: 0 10px; }
+    .vacancies p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .form {
+        width: 300px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .form form input,
+    .form form textarea,
+    .form .group {
+        width: 100%;
+    }
+    .form form input.button {
+        float: none;
+    }
+    .form:before {
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-top: 120px solid #b7424d;
+    }
+    .reviews a.link {}
+    .reviews-index .slick-list {
+        padding: 0;
+    }
+    .slider-reviews .review .comment {
+        margin: 20px;
+    }
+    .career .offices .slick-list {
+        padding: 10px 100px;
+    }
+    .career {
+        margin-top: -286px;
+    }
+    /* .reviews {
+        margin-top: -47px;
+        padding-top: 165px;
+        padding-bottom: 278px;
+    } */
+    .about-company p,
+    .clients p,
+    .career .main-p,
+    .reviews p,
+    .advantages-of-our-work>p,
+    .services p:first-of-type {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .vacancies>h2,
+    .offices>h2,
+    .advantages-of-our-work>h2 {
+        font-size: 20px;
+    }
+    footer {
+        background: #f1f4f6;
+        margin-top: -100px;
+        padding-top: 100px;
+        z-index: 1;
+    }
+    .contacts-block {
+        z-index: 2;
+    }
+    footer .menu-wrapper .menu ul,
+    footer .menu-wrapper .socials ul {
+        margin: 0;
+        padding: 10px;
+    }
+
+    /*.menu-wrapper .menu ul li a, footer .menu-wrapper .menu ul li a {*/
+    /*margin-right: 0;*/
+    /*margin-left: 0;*/
+    /*font-size: 12px;*/
+    /*}*/
+    .menu-wrapper .menu ul li a,
+    footer .menu-wrapper .menu ul li a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    /*footer .menu-wrapper .menu ul li a {*/
+    /*padding: 6px 10px;*/
+    /*}*/
+    /* .index-footer {
+        margin-top: -137px;
+        padding-top: 127px;
+    } */
+
+    .services {
+        padding-top: 416px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about-company {
+        margin-top: -30px;
+        padding-bottom: 200px;
+        background: url(../images/about-us-540-main.png) center bottom no-repeat;
+    }
+    .map {
+        display: none;
+    }
+    .about-company {
+        padding-bottom: 175px;
+    }
+    .services { min-height: 2150px; }
+    /* .contacts-block {
+        padding-top: 385px;
+        margin-top: -620px;
+        min-height: 1380px;
+    } */
+    .circle-wrapper {
+        top: 380px;
+        width: 180px;
+        height: 180px;
+    }
+    .small-circle.normal {
+        left: 157px;
+    }
+    .small-circle.small {
+        top: 159px;
+        left: 28px;
+    }
+    .border-1 {
+        border: 19px solid rgba(255, 255, 255, 0.22);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.11);
+    }
+    .border-2 {
+        border: 11px solid rgba(255, 255, 255, 0.74);
+        box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.20);
+        width: 70%;
+        height: 70%;
+        left: 0;
+        top: 0;
+    }
+    .circle-wrapper .icon {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+    }
+    .circle-wrapper .icon:after {
+        height: 70%;
+    }
+    .small-circle.big {
+        top: 0;
+    }
+    .menu-wrapper .menu ul li a,
+    footer .menu-wrapper .menu ul li a {
+        padding: 5px 7px;
+    }
+    .menu-wrapper .menu ul li a:hover,
+    footer .menu-wrapper .menu ul li a:hover {
+        padding: 7px 10px 4px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .advantages-of-our-work ul li {
+        width: auto;
+        max-width: 250px;
+        margin: 20px 15px;
+    }
+    .about-company .about-company-img img { height: 160px; margin-left: -120px; }
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        background: url(../images/backgr-1.png) left center no-repeat;
+        background-size: cover;
+    }
+    .menu-wrapper .menu-mob ul li {
+        display: block;
+        text-align: left;
+    }
+    .contacts-content .phones .phone-block {
+      padding-left: 0
+    }
+    .menu-wrapper .menu-mob.menu.drop ul {
+        top: 15px;
+    }
+
+    /* .reviews { margin-top: -110px; } */
+
+    .menu-wrapper .languages li span.active-lang {
+        color: #bb2328;
+    }
+    .circle-wrapper {
+        top: 100px;
+        left: 88%;
+        transform: translateX(-90%);
+    }
+    .backr-1 {
+        height: 820px;
+        background: url(../images/backgr-1.png) -200px 0px no-repeat;
+    }
+    .menu-wrapper {
+        padding: 20px 0 10px;
+        box-sizing: border-box;
+    }
+    .header-info h1 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .menu-wrapper .menu ul {
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-wrapper .menu ul li a {
+        text-align: center;
+    }
+    .about-company {
+        margin-top: 40px;
+    }
+
+    .contacts-content .phones .phone-block .phone {
+        font-size: 11px;
+    }
+
+    header { padding-bottom: 100px; }
+
+    footer .menu-wrapper .menu ul,
+    footer .menu-wrapper .socials ul {
+        align-items: center;
+    }
+    .index-footer {
+        /* margin-top: -116px; */
+        padding-top: 160px
+    }
+    .about-company .advantages .advantage.advantage-1 ul li {
+        /* text-align: center; */
+        max-width: 180px;
+        margin: auto;
+    }
+    .reviews-index .slick-slide {
+        min-height: 430px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .career .offices .slick-list {
+        padding: 10px 55px;
+    }
+
+
+    .slider-reviews .review .author { margin-left: 10px; }
+}
+
+@media screen and (max-width: 350px) {
+    .about-company {
+        padding-bottom: 169px;
+    }
+    /* .reviews { margin-top: -150px; } */
+}

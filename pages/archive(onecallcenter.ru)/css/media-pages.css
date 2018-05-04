@@ -1,0 +1,1386 @@
+.career-slider-wrapper .img img:last-of-type {
+    display: none;
+}
+.languages-right { display: none; }
+@media screen and (max-width: 769px) {
+    .nav-mob-menu {
+        display: block;
+    }
+    .menu-wrapper .menu-mob.menu li {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+    .menu-wrapper .menu.menu-mob ul li a {
+        font-size: 14px;
+    }
+
+    .menu-wrapper .menu-mob.menu.drop ul {
+        top: 0 !important;
+    }
+}
+@media screen and (max-width: 2560px) and (min-width: 1920px){
+    .backr-1 {
+        position: absolute;
+        width: 100%;
+        height: 431px;
+        background: url(../images/pages-header-2560.png) left center no-repeat;
+    }
+    header {
+        height: auto;
+    }
+    footer {
+        /*padding-top: 352px;*/
+        /*margin-top: -490px;*/
+        /*margin-top: -487px;*/
+        padding-top: 384px;
+        background: url(../images/footer-2560.png) center center no-repeat;
+    }
+    .about-us-wrapper .advantages .advantage-2 {
+        margin-top: -120px;
+        padding: 279px 0 250px;
+        min-height: 1200px;
+        width: 100%;
+        background: url(../images/about-us-2560-main.png) center center no-repeat;
+    }
+    .about-us-wrapper .advantages .advantage h3 {
+        margin-top: 60px;
+    }
+    .about-us-wrapper .advantages .advantage.advantage-2:before {
+        top: 350px;
+    }
+    .about-us-wrapper .advantages .advantage-3 {
+        margin-top: -130px;
+    }
+    .clients-block.background {
+        padding: 410px 0 410px;
+        margin-top: -70px;
+        background: url(../images/clients-2560-1.png) center center no-repeat;
+    }
+    .client-form-wrapper {
+        padding: 341px 0 362px;
+        margin-top: -115px;
+        background: url(../images/clients-2560-2.png) center center no-repeat;
+    }
+    .clients-wrapper footer {
+        margin-top: -487px;
+    }
+    .services-wrapper .background {
+        width: 100%;
+        margin-top: -100px;
+        background: url(../images/services-2560-1.png) center center no-repeat;
+    }
+    .services-wrapper footer {
+        margin-top: -422px;
+    }
+    .career-wrapper .slider-wrapper {
+        margin-top: -112px;
+        padding: 310px 0 355px;
+        background: url(../images/career-2560-1.png) center center no-repeat;
+        width: 100%;
+    }
+    .career-wrapper .advantages-of-our-work h2 {
+        padding-top: 60px;
+    }
+    .career-wrapper footer {
+        margin-top: -412px;
+
+    }
+    .reviews-wrapper .reviews-employee-content {
+        padding-top: 340px;
+        margin-top: -200px;
+    }
+    .reviews-employee-wrapper {
+        margin-top: -80px;
+        background: url(../images/rewiev-2560-1.png) center top no-repeat;
+        background-size: auto 100%;
+    }
+    .contacts-wrapper footer {
+        background: url(../images/contacts-2560-1.png) center center no-repeat;
+        padding: 180px 0 25px;
+        margin-top: -136px;
+    }
+
+
+}
+
+@media screen and (max-width: 1585px) {
+
+}
+@media screen and (max-width: 1450px) {
+    .menu-wrapper .menu ul {
+        margin-left:0;
+    }
+    .about-us-wrapper .advantages .advantage .wrapper-1100{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .clients-wrapper .background {
+        padding: 340px 0 360px;
+    }
+    /*reviews*/
+    /*reviews*/
+
+    /*contacts*/
+    .contacts-wrapper .backgr {
+        top: -660px;
+    }
+    /*contacts*/
+}
+@media screen and (max-width: 1150px) {
+    .menu {
+        margin-left: 0;
+    }
+    .circle-wrapper {
+        left:10px;
+    }
+    main .flex {
+        box-sizing: border-box;
+    }
+    .flex .text.left {
+        padding-left:10px;
+    }
+    .flex .text.right {
+        padding-right:10px;
+    }
+
+    .BeautyArt {
+        padding-top: 70px;
+    }
+
+    /*clients*/
+    .client-form-wrapper {
+        padding: 210px 0 210px;
+        margin-top: 58px;
+    }
+    .clients-wrapper footer {
+        margin-top: -276px;
+        padding-top: 240px;
+    }
+    /*clients*/
+
+    /*services*/
+    /*services*/
+
+    /*career*/
+    .advantages-of-our-work ul li {
+        margin: 20px 10px;
+    }
+    .advantages-of-our-work ul li:before {
+        left: 0px;
+    }
+    .block-images .img {
+        padding-right: 180px;
+        box-sizing: border-box;
+    }
+    .block-images .img img{
+        max-width: 100%;
+    }
+    .career-wrapper .slick-slide img {
+        padding: 20px;
+    }
+    /*career*/
+}
+
+@media screen and (max-width: 1050px) {
+    .tab-form .group {
+        width: 49%;
+    }
+    .tab-form input, .tab-form .attachment {
+        width: 90%;
+    }
+    h1 {
+        margin-top: -20px;
+    }
+    /* .menu-wrapper .menu ul { display: inline-block; } */
+    .menu-wrapper .menu ul li a { font-size: 12px; }
+    header {
+        background-position: 35% bottom;
+    }
+
+    .contacts-block .form { margin-top: 60px; }
+
+    .menu-wrapper .menu ul {
+        margin-left:0;
+    }
+    .about-us-wrapper .img { margin-bottom: 20px; }
+    .about-us div, .our-advantages div, .new-technologies div {
+        width:90%;
+        max-width: 600px;
+    }
+    /* .menu-wrapper {
+        display: block;
+        text-align: left;
+    } */
+    .logo { display: inline-block; margin-left: 25px; }
+    /* .languages { display: none; } */
+    /* .languages-right { display: block; } */
+    /* .languages-mob { display: block; float: right; } */
+    .menu-wrapper .menu ul {
+        justify-content: center;
+    }
+    .menu-mmobb { margin-top: 15px; }
+    .menu-wrapper li {
+        width:auto;
+    }
+    .menu-wrapper .socials ul {
+        justify-content: center;
+    }
+    header .menu-wrapper .socials ul {
+        /*padding-top: 10px;*/
+        display: none;
+    }
+
+    .circle-wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        top:122px;
+        /*top: 200px;*/
+        width: 250px;
+        height: 250px;
+        box-sizing: border-box;
+    }
+    .border-1 {
+        border: 20px solid rgba(255, 255, 255, 0.22);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 91%;
+        height: 91%;
+    }
+    .border-2 {
+        border: 19px solid rgba(255, 255, 255, 0.74);
+        width: 70%;
+        height: 70%;
+    }
+    .circle-wrapper .icon {
+        top: 53px;
+        left: 62px;
+    }
+    .small-circle.normal {
+        left: 231px;
+    }
+    .circle-wrapper .icon:after {
+        top: 40px;
+        bottom: 0;
+        left: 31px;
+        right: 0;
+        margin: auto;
+    }
+    /*.about-us-wrapper .about-callcenter h1 {*/
+        /*margin-top: 0;*/
+    /*}*/
+    .clients-wrapper .circle-wrapper .icon:after {
+        top: 52px;
+        left: 25px;
+    }
+    .ZdravDar {
+        margin: 0 0 0 20px;
+    }
+    .BeautyArt {
+        margin: 0 20px 0 0;
+    }
+    .flex .text.right, .flex .text.left {
+        padding: 0 20px;
+    }
+    .clients-block h4 {
+        margin: 0 0 30px;
+    }
+    .clients-wrapper .main-p {
+        padding: 50px 0;
+    }
+    .services-wrapper .circle-wrapper .icon:after {
+        top: 45px;
+        left: 24px;
+    }
+    .career-wrapper .circle-wrapper .icon:after {
+        top: 54px;
+        left: 22px;
+    }
+    .reviews-wrapper .circle-wrapper .icon:after {
+        top: 54px;
+        left: 23px;
+    }
+    .contacts-wrapper .circle-wrapper .icon:after {
+        top: 48px;
+        left: 20px;
+    }
+
+
+    .page {
+        /*margin-top:170px;*/
+        /*margin-top: 84px;*/
+    }
+    /*about-us*/
+    .about-us-wrapper .advantages>li {
+        padding:50px 0;
+    }
+    .advantages .advantage:before {
+        top: 50px;
+    }
+    .about-us, .our-advantages, .new-technologies {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-us .text, .new-technologies .text,.our-advantages .text {
+        padding:0;
+    }
+    .about-us-wrapper .advantages .advantage-2 {
+        margin-top: -224px;
+        padding: 360px 0 250px;
+        height: 1600px;
+        background-size: cover;
+    }
+    .about-us-wrapper .advantages .advantage.advantage-2:before {
+        top:420px;
+    }
+    .about-us-wrapper .advantages .advantage-3 {
+        margin-top: -220px;
+    }
+    .about-us-wrapper .advantages .advantage.advantage-3:before {
+        top:72px;
+    }
+    .about-us-wrapper .about-us-wrapper .img {
+        margin:10px auto;
+    }
+    .about-us-wrapper footer {
+        margin-top: -200px;
+    }
+    /*about-us*/
+
+    .reviews-wrapper .reviews-employee-content {
+        margin-top: -119px;
+    }
+    .services-wrapper footer {
+        margin-top: -372px;
+    }
+    footer {
+        margin-top: 0;
+    }
+    footer .menu-wrapper {
+        padding-top:0;
+    }
+    footer .menu-wrapper .socials ul {
+        margin-bottom: 0;
+    }
+    footer .copyright {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+    footer .menu-wrapper .socials {
+        margin-right: 0;
+        margin-top: 0px;
+        float: none;
+    }
+    .menu-wrapper .socials ul a {
+        display: block;
+        padding: 0 12px;
+    }
+    /*footer .menu-wrapper .socials {*/
+        /*padding-top: 20px;*/
+    /*}*/
+
+    .clients-wrapper footer .backgr-6 {
+        position: absolute;
+        top: -395px;
+        width: 100%;
+        height: 521px;
+        background: url(../images/backgr-6.png);
+        background-size: cover;
+    }
+
+    .reviews-wrapper footer {
+        padding: 0;
+        margin: 25px 0;
+    }
+
+    .review .author .about-author span.name { font-size: 13px; }
+    .review .author .about-author span.post { font-size: 13px; }
+
+    .contacts-wrapper .backgr {
+        top: -645px;
+        height: 833px;
+    }
+    .contacts-wrapper footer .menu-wrapper {
+        padding-top: 30px;
+        padding: 30px 5px 0;
+    }
+    .contacts-wrapper footer {
+        padding: 120px 0 40px;
+        margin-top: -167px;
+        background-size: cover;
+    }
+    .contacts-wrapper .socials {
+        margin-top: 20px;
+    }
+    /*career*/
+    .career-wrapper .advantages-of-our-work {
+        margin-bottom: 0;
+        margin-top: -60px;
+    }
+    .career-wrapper footer {
+        padding-top: 170px;
+        margin-top: -100px;
+    }
+    .tabs .info {
+        width: 100%;
+        padding: 40px;
+        /*margin: 0 20px;*/
+        box-sizing: border-box;
+    }
+    .tab-form .attachment:before {
+        left: 0px;
+    }
+    .tabs .info .attachment{
+        display: block;
+        width: 100%;
+    }
+    /*.tab-form input, .tab-form .attachment {*/
+        /*width: 45%;*/
+    /*}*/
+    .tab-form input[type=file] {
+        left: -13px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .advantages-of-our-work ul li {
+        margin: 20px 30px;
+        width: 50%;
+        max-width: 275px;
+    }
+}
+@media screen and (max-width: 950px) {
+    /*reviews*/
+    .about-reviews .flex {
+        flex-direction: row;
+    }
+    .about-reviews .review {
+        width: 48%;
+    }
+    .review .author .about-author {
+        width:70%;
+    }
+    .review .author .img {
+        width:30%;
+        text-align: right;
+    }
+    .popup-review .author .img, .popup-review .author .about-author { width: auto; }
+    .reviews-wrapper .reviews-employee-content {
+padding-top: 330px;
+    margin-top: -211px;
+    }
+    /*.reviews-employee-content .flex {*/
+        /*max-width: 800px;*/
+    /*}*/
+    /*reviews*/
+}
+
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 30px;
+    }
+    .about-company p, .clients p, .career .main-p, .reviews p, .advantages-of-our-work>p, .services p:first-of-type {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .contacts-wrapper main .flex>div {
+      width: 100%
+    }
+
+    .menu-wrapper {
+        padding: 20px 0 0;
+    }
+    .sm-show {
+        display: block;
+    }
+    .sm-hidden {
+        display: none;
+    }
+    main .flex {
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    main .flex .img, main .flex .text {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+    .reviews-clients-wrapper .flex, .reviews-employee-content .flex {
+        max-width: 100%;
+        align-items: flex-start;
+    }
+    .flex .text.right, .flex .text.left {
+        /*padding-left: 20px;*/
+        /*padding-right: 20px;*/
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*.about-reviews .flex {*/
+        /*max-width: 100%;*/
+    /*}*/
+    /*clients*/
+    .clients-wrapper h4 {
+        margin: 20px auto;
+    }
+    .clients-wrapper .main-p {
+        padding: 40px 15px;
+    }
+    .client-form-wrapper h5 {
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+    }
+
+    .about-clients .wrapper-1100 {
+        padding: 0 20px;
+    }
+
+    .client-form-wrapper {
+        margin-top: -70px;
+    }
+    .clients-wrapper .background {
+        padding: 190px 0 160px;
+        margin-top: -20px;
+    }
+    .clients-block .text p {
+        margin-bottom: 30px;
+    }
+    .BeautyArt {
+        padding-top: 0;
+    }
+    /*about us*/
+    /*about us*/
+    /*clients*/
+    .clients-wrapper main .flex {
+        max-width: 550px;
+    }
+    .clients-wrapper main .flex.direction {
+      flex-direction: column-reverse;
+    }
+    .clients-wrapper footer {
+        margin-top: -75px;
+        padding-top: 40px;
+        background: transparent;
+    }
+
+    .services-wrapper footer {
+        margin-top: 0px;
+    }
+    .about-services .wrapper-1100 {
+        padding: 0 20px;
+    }
+    footer .backgr-6 {
+        display: none;
+    }
+    footer {
+        background: #f1f4f6;
+        padding: 20px 0px;
+    }
+    .about-us-wrapper footer {
+        margin-top: 20px;
+    }
+    /*clients*/
+    /*services*/
+    .services-wrapper .backgr-2 {
+        /*margin-top: -386px;*/
+        height: 1150px;
+    }
+    .services-wrapper .background {
+        background-size: cover;
+        margin-top: -136px;
+    }
+    .services-wrapper .background .img { margin-bottom: 30px; }
+    .about-services h4 {
+        text-align: center;
+    }
+    .services-wrapper .services-block:last-of-type {
+        margin-bottom: 100px;
+    }
+    /*services*/
+    /*contacts*/
+    .form {
+        width: 500px;
+    }
+    .form:before {
+        border-left: 245px solid transparent;
+        border-right: 245px solid transparent;
+        border-top: 177px solid #b7424d;
+    }
+    .form span {
+        padding: 10px 0 30px;
+    }
+
+    .contacts-wrapper main .flex {
+        max-width: 550px;
+    }
+
+    .contacts-wrapper .phones.flex.sm-show {
+        display: flex;
+    }
+
+    .contacts-wrapper .phones.flex.sm-show .phone-block {
+        width: 50%;
+    }
+
+    .contacts-wrapper footer .menu-wrapper {
+        padding-top: 0px;
+    }
+    .contacts-wrapper .form {
+        margin-top: 232px;
+    }
+    .contacts-wrapper footer {
+        padding: 120px 0 40px;
+        margin-top: -146px;
+        background-size: cover;
+    }
+    .contacts-wrapper footer .menu-wrapper {
+        padding-top: 30px;
+    }
+    /*contacts*/
+    /*career*/
+    .career-wrapper footer {
+        padding-top: 10px;
+        margin-top: 0;
+    }
+    footer {
+        padding-bottom: 40px;
+    }
+    .about-career .vacancies .flex {
+        flex-direction: row;
+        max-width: 800px;
+    }
+
+.career-slider-wrapper { margin: 40px auto 70px; }
+    .block-images .img {
+        padding: 140px 20px 0;
+        box-sizing: border-box;
+    }
+    .block-images .img img {
+        max-width: 97%;
+    }
+
+    .career-wrapper .slick-dots {
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        text-align: center;
+    }
+
+    .career-slider-wrapper .block-images .about-city {
+        text-align: center;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
+
+    .career-wrapper .flex .flex-block, .advantages-of-our-work .flex {
+        margin: auto;
+    }
+    .career-wrapper .flex .flex-block {
+        margin: 0 auto;
+    }
+
+    .career-wrapper .advantages-of-our-work ul {
+        flex-direction: row;
+    }
+
+    .advantages-of-our-work ul li {
+        width: 50%;
+        max-width: 200px;
+        margin: 20px 30px;
+    }
+    .tabs .info .tab-form.show-form {
+        text-align: center;
+    }
+    .tabs .info .attachment{
+        display: block;
+        width: 100%;
+    }
+    .tab-form input, .tab-form .attachment {
+        width: 100%;
+        /*max-width: 500px;*/
+    }
+    .tabs .info .attachment {
+        margin: 20px 0 20px;
+        padding: 10px;
+        max-width: 290px;
+    }
+    .tabs .info {
+        /*margin:0px 10px;*/
+    }
+    .tab-form input[type=file] {
+        left: -10px;
+        top:-15px;
+    }
+    .tabs .info .left p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 10px;
+        box-sizing: border-box;
+
+    }
+    .tab-form .group {
+        width: 100%;
+    }
+    .career-wrapper .slider-wrapper {
+        margin-top: -168px;
+        /* margin-top: -112px; */
+        /*padding: 139px 0 193px;*/
+        /*background: url(../images/backgr-4.png) center center no-repeat;*/
+        /*width: 100%;*/
+        /* background-size: cover; */
+    }
+    /* .career-wrapper .advantages-of-our-work {
+        margin-top: -237px;
+    } */
+
+    .clients-wrapper .flex .img {
+        margin-bottom: 30px;
+        /*career*/
+    }
+
+    .services-wrapper .service {
+        width: 145px;
+        height: 145px;
+    }
+
+    .service .img-circle:after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .service .img-circle img {
+        height: 69px;
+    }
+    .popup-review h3 { margin-bottom: 10px; }
+    .popup__inner { margin-top: 40px; }
+    .popup__close { top: -10px; right: 15px; }
+}
+
+
+@media screen and (max-width: 999px) {
+  .review .comment p.active {
+    max-height: 1000px
+  }
+}
+@media screen and (max-width: 735px) {
+    .menu-wrapper .menu ul li a, footer .menu-wrapper .menu ul li a {
+        font-size: 14px;
+        padding:5px 10px;
+    }
+    .review .comment p {
+      transition: all .5s ease;
+      max-height: 210px
+    }
+
+    .vacancies .vacancy:before {
+        top: 25px;
+    }
+    .popup__inner { margin-top: 80px; }
+    .contacts-content .map img{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .career-wrapper .vacancy {
+        width: 254px;
+    }
+    .review .comment p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .name {
+        font-size: 14px;
+    }
+    .post {
+        font-size: 13px;
+        margin-top: 7px;
+        line-height: 15px;
+    }
+    .review .author .about-author {
+        width: 65%;
+        margin-left: 10px;
+    }
+    .vacancies .flex .flex-block h3 {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 720px) {
+    .review .author {
+        padding: 25px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+
+    footer .backgr-6 {
+        top: -527px;
+    }
+    .clients-wrapper footer {
+        margin-top: -146px;
+    }
+    /*services*/
+    .services-wrapper .backgr-2 {
+        margin-top: -450px;
+    }
+    /*services*/
+    /*reviews*/
+    /*.about-reviews .review {*/
+        /*width: 100%;*/
+    /*}*/
+    /*.review .author .about-author {*/
+        /*width:70%;*/
+    /*}*/
+    .review .author .img {
+        width: auto;
+        text-align: right;
+    }
+    /*.reviews-employee-wrapper {*/
+        /*min-height: 1950px;*/
+    /*}*/
+    .reviews-wrapper .reviews-employee-content {
+        padding-top: 355px;
+    margin-top: -230px;
+
+    }
+
+    .reviews-clients-wrapper .flex {
+        align-items: flex-start;
+    }
+    /*reviews*/
+    /*contacts*/
+
+    .form {
+        width: 300px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .form form input, .form form textarea, .form .group {
+        width:100%;
+    }
+    .form form input.button {
+        float: none;
+    }
+    .form:before {
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-top: 120px solid #b7424d;
+    }
+    .form:before {
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-top: 100px solid #b7424d;
+    }
+    .contacts-wrapper .backgr {
+        top: -721px;
+        left:0;
+    }
+    /*contacts*/
+    /*career*/
+    .career-wrapper .main-p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advantages-of-our-work ul li {
+        width: 100%;
+        max-width: 200px;
+        margin: 20px 30px;
+    }
+    /*.advantages-of-our-work ul li:before {*/
+        /*left:-17px;*/
+    /*}*/
+    .tabs .info .left, .tabs .info .right {
+        width: 100%;
+        padding: 0;
+    }
+    .tabs .info .left p {
+        max-width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 680px) {
+
+    .reviews-clients-wrapper, .reviews-employee-content {
+        padding: 0 10px;
+    }
+    .vacancies>h2, .offices>h2, .advantages-of-our-work>h2 {
+        font-size: 20px;
+    }
+    .career-wrapper .advantages-of-our-work ul li {
+        width: 100%;
+        max-width: 200px;
+        margin: 20px 5px 20px 15px;
+    }
+    .advantages-of-our-work ul li p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .vacancies .vacancy:before {
+        top: 20px;
+        left: 10px;
+    }
+
+    .close-tab {
+        top: 8px;
+        right: -6px;
+    }
+    /*.vacancies .vacancy:before {*/
+        /*top: 15px;*/
+    /*}*/
+    .career-wrapper .flex .vacancy h3 {
+        padding: 15px 30px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    h1 {
+        margin-top: -90px;
+    }
+    .popup__inner { margin-top: 20px; }
+    .reviews-wrapper footer .copyright {
+        margin-top: 5px;
+    }
+    .reviews-wrapper footer .menu-wrapper {
+        padding:10px 0;
+    }
+    .circle-wrapper {
+        top: 150px;
+        width: 180px;
+        height: 180px;
+    }
+    .small-circle.normal {
+        left: 157px;
+    }
+    .reviews-wrapper .reviews-employee-content {
+        padding-top: 610px;
+        margin-top: -510px;
+    }
+    .reviews-employee-wrapper .review .author .about-author, .reviews-clients-wrapper .review .author .about-author {
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 6px;
+    }
+    .reviews-employee-wrapper .review .author, .reviews-clients-wrapper .review .author {
+        display: block;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .review .author .img {
+        width: auto;
+        display: inline-block;
+    }
+    .small-circle.small {
+        top: 159px;
+        left: 28px;
+    }
+    .about-career .vacancies .flex {
+        flex-direction: column;
+    }
+    .border-1 {
+        border: 19px solid rgba(255, 255, 255, 0.22);
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.11);
+    }
+    .border-2 {
+        border: 11px solid rgba(255, 255, 255, 0.74);
+        box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.20);
+        width: 70%;
+        height: 70%;
+        left:0;
+        top:0;
+    }
+    .circle-wrapper .icon {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width:50%;
+        height: 50%;
+    }
+    .circle-wrapper .icon:after {
+        height:50%;
+    }
+    .small-circle.big {
+        top:0;
+    }
+    .about-us-wrapper .circle-wrapper .icon:after {
+        background: url(../images/icon-woman.svg) center center no-repeat;
+        /*top: 50%;*/
+        /*left: 50%;*/
+        left:0;
+        top:-5px;
+    }
+    .services-wrapper .circle-wrapper .icon:after {
+        background: url(../images/icon-services.svg) center center no-repeat;
+        top:0;
+        left: 0;
+    }
+    .reviews-wrapper .circle-wrapper .icon:after {
+        top:0;
+        left: 0;
+        background: url(../images/icon-comment.svg) center center no-repeat;
+    }
+    .career-wrapper .circle-wrapper .icon:after {
+        background: url(../images/icon-career.svg) center center no-repeat;
+        top:0;
+        left: 0;
+    }
+    .contacts-wrapper .circle-wrapper .icon:after {
+        background: url(../images/icon-contacts.svg) center center no-repeat;
+        top:-3px;
+        left: -1px;
+    }
+    .clients-wrapper .circle-wrapper .icon:after {
+        background: url(../images/icon-clients.svg) center center no-repeat;
+        top: 0px;
+        left: 0;
+    }
+    .clients-wrapper footer {
+        margin-top: -148px;
+    }
+
+    .services-wrapper .services-block .flex:first-of-type {
+        margin-top: 50px;
+    }
+    .page {
+        margin-top: 0px;
+    }
+    .about-us-wrapper .main-p {
+        font-size: 16px;
+    }
+    .advantages .advantage p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about-us, .our-advantages, .new-technologies {
+        margin: 20px 0;
+    }
+    .about-us-wrapper .advantages .advantage-2 {
+        margin-top: -182px;
+        padding: 270px 0 250px;
+        height: 1300px;
+    }
+    .about-us-wrapper .advantages .advantage.advantage-2:before {
+        top: 327px;
+    }
+    /*reviews*/
+    .about-reviews .review {
+        width: 100%;
+    }
+    /*reviews*/
+    /*career*/
+    .career-wrapper .circle-wrapper .icon:after, .contacts-wrapper .circle-wrapper .icon:after, .reviews-wrapper .circle-wrapper .icon:after,.services-wrapper .circle-wrapper .icon:after, .clients-wrapper .circle-wrapper .icon:after {
+        /*top: 50%;*/
+        /*left: 50%;*/
+    }
+    .career-slider-wrapper .img img:first-of-type {
+        display: none;
+    }
+    .career-slider-wrapper .img img:last-of-type {
+        display: block;
+        border-radius: 10px;
+    }
+    .block-images .img img {
+        max-width: 100%;
+    }
+
+
+    .career-wrapper .slick-slide img {
+        padding: 0;
+    }
+    .career-wrapper .main-p {
+        margin-top: 0;
+    }
+    .reviews-wrapper footer {
+        margin: 10px auto;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .about-us-wrapper .advantages .advantage-3 h3 {
+        line-height: 31px;
+        padding-top: 20px;
+    }
+    .contacts-wrapper .contacts-content .phones .phone-block {
+      padding-left: 10px
+    }
+    .menu-wrapper .languages li span.active { color: #bb2328; }
+    header {
+        background: url(../images/pages-header-2560.png) left top no-repeat;
+        min-height: 400px;
+        background-size: cover;
+    }
+    .career-slider-wrapper { margin-top: 20px; }
+    .page {
+        margin-top: 125px;
+    }
+    .backr-1 {
+        min-height: 840px;
+        background-size: cover;
+    }
+    .menu-wrapper .socials ul {
+        margin:50px 0;
+    }
+    .circle-wrapper {
+        top:100px;
+        left:88%;
+        transform: translateX(-90%);
+    }
+    .menu-wrapper .menu ul {
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-wrapper .menu ul li a {
+        font-size: 16px;
+        margin:5px 10px;
+        padding: 7px 10px 4px;
+        border-radius: 0;
+        background: none;
+    }
+    .about-us-wrapper h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-us-wrapper .advantage.advantage-1 ul li {
+        margin:10px 0;
+        text-align: left
+    }
+    .about-us-wrapper .advantages .advantage-2 {
+        margin-top: -171px;
+    }
+
+    .new-technologies ul li {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .advantages .advantage.advantage-1 ul li:before {
+        top: 18px;
+        left: -20px;
+    }
+    .backgr-6 {
+        display: none;
+    }
+    footer {
+        background: #f1f3f6;
+    }
+    footer .menu-wrapper .socials ul {
+        margin:0;
+        color:red;
+        z-index: 3;
+    }
+
+    .menu-wrapper::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .menu-wrapper { padding: 20px 10px 10px !important; }
+    .logo { margin-left: 0; }
+
+    /*clients*/
+
+    /*clients*/
+
+    /*services*/
+    .services-wrapper .service {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .service .img-circle img {
+        height: 50px;
+    }
+    .service .img-circle:after {
+        width: 70px;
+        height: 70px;
+    }
+    /*.small-circle {*/
+        /*display: none;*/
+    /*}*/
+    .services-wrapper .backgr-2 {
+        margin-top: -478px;
+    }
+    .about-services h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /*services*/
+
+    /*contacts*/
+    .contacts-wrapper .phones.flex.sm-show .phone-block {
+        width:100%;
+    }
+    .contacts-wrapper .phones.flex.sm-show .phone-block span{
+        text-align: center;
+    }
+    .reviews-wrapper footer .menu-wrapper {
+        padding: 20px 0;
+    }
+    /*career*/
+    .tabs .info {
+        padding: 20px 10px 10px;
+        width:100%;
+        margin:0;
+    }
+    .tabs .info .left p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .tabs .info .right p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .tabs .info .right li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tab-form .attachment {
+        padding-left: 40px;
+    }
+    .tabs .info .left p {
+        padding: 0 0 10px;
+    }
+    .career-wrapper .flex .flex-block h3 {
+        padding-left: 30px;
+    }
+    .career-wrapper .vacancies .vacancy:before {
+        left:10px;
+        top:40px;
+    }
+    .career-wrapper .vacancies {
+        padding:10px;
+        box-sizing: border-box;
+    }
+    /*.career-wrapper .flex .vacancy h3 {*/
+        /*font-size: 18px;*/
+        /*padding-left: 20px;*/
+        /*!*margin: 30px 20px 20px;*!*/
+    /*}*/
+    .close-tab {
+        right: 4px;
+    }
+    .career-wrapper .advantages-of-our-work {
+        margin-top: -100px;
+    }
+    .career-wrapper .slider-wrapper {
+        margin-top: -16px;
+    }
+    .vacancies .flex-block.active h3:before {
+        height: 20px;
+    }
+    .close-tab {
+        width: 30px;
+    }
+    .contacts-wrapper footer {
+        margin-top: -165px;
+    }
+    .reviews-wrapper footer .copyright {
+        margin-top: 0;
+    }
+    .career-wrapper .slider-wrapper {
+        padding: 190px 0 200px;
+        background-size: auto;
+    }
+    .career-wrapper .vacancies .vacancy:before {
+        left: 10px;
+        top: 22px;
+    }
+    .advantages-of-our-work {
+        padding-bottom: 0;
+    }
+    .career-wrapper .vacancy {
+        width: 290px;
+    }
+    .services-wrapper .background {
+        padding: 220px 0 250px;
+    }
+    .services-wrapper .services-block:last-of-type {
+        margin-bottom: 58px;
+        padding-top: 15px;
+    }
+    .client-form-wrapper {
+        padding: 210px 0 210px;
+        margin-top: -118px;
+    }
+    .clients-wrapper .background {
+        padding: 150px 0 130px;
+        margin-top: -17px;
+    }
+    .menu-wrapper .menu-mob.menu li {
+        display: block;
+        text-align: left;
+        padding: 0;
+    }
+    .menu-wrapper .menu.menu-mob ul li a {
+        text-align: left;
+    }
+
+    .menu-wrapper .menu-mob.menu.drop ul {
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 380px) {
+    .client-form-wrapper h5 {
+        line-height: 30px;
+    }
+    .client-form-wrapper {
+        padding: 220px 0 210px;
+    }
+}
+@media screen and (max-width: 350px) {
+    /*.reviews-wrapper .reviews-employee-content {*/
+        /*margin-top: -711px;*/
+    /*}*/
+    .services-wrapper .services-block:last-of-type {
+        margin-top: -180px;
+    }
+    .services-wrapper .background {
+        margin-top: -151px;
+    }
+    .services-wrapper .background img {
+        margin-bottom: 15px;
+    }
+}
+
+/* @media screen and (max-width: 769px) {
+    .menu-wrapper .menu ul { display: block; margin: 0 auto; }
+    .menu-wrapper .menu ul li a { font-size: inherit; padding-left: 0; padding-right: 0; border-radius: 0; background: none; }
+    .drop li:hover a { color: #fff; }
+    .choosen-header { color: inherit; }
+    .menu-wrapper .select ul li { box-sizing: border-box; }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+.menu-wrapper .menu ul li a {
+    font-size: 16px;
+    padding: 6px 10px 4px;
+}
+}
+
+@media screen and (max-width: 850px) {
+    .menu-wrapper .menu ul li a {
+        font-size: 14px;
+    }
+} */
