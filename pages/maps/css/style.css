@@ -44,7 +44,6 @@ table {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  background: aqua
 }
 .country-block {
   max-width: 800px;
@@ -62,6 +61,9 @@ table {
 
 .g {
 	cursor: pointer;
+}
+.block-location {
+	display: none!important;
 }
 /* .land.active {
 	fill: #fff!important;
