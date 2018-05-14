@@ -62,9 +62,9 @@ table {
 .g {
 	cursor: pointer;
 }
-.block-location {
+/* .block-location {
 	display: none!important;
-}
+} */
 /* .land.active {
 	fill: #fff!important;
 	stroke: #fff!important

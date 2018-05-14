@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var colorMaps = prompt('Цвет карты', 'red');
-  // var countryCode = window.country_code;
-  var countryCode = "UA";
+  var countryCode = window.country_code;
+  // var countryCode = "RU";
   var colorLocation = prompt('Цвет города', 'yellow')
   var countryBlock = (".block_" + countryCode).toLowerCase();
   $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorMaps});
