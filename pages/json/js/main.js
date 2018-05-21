@@ -47,7 +47,7 @@ $(document).ready(function(){
 
     $(function(){
         $.getJSON('ua.json', function(arrUA) {
-           console.log(arrUA);
+            // console.log(arrUA);
             let titleLocation;
             let currentCountry = arrUA.country[0];
             console.log(currentCountry);
