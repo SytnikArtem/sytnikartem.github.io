@@ -50,6 +50,7 @@ $(document).ready(function(){
            console.log(arrUA);
             let titleLocation;
             let currentCountry = arrUA.country[0];
+            console.log(currentCountry);
             $('.current-country').text(currentCountry);
             for (let key in arrUA) {
                 for (let i = 0; i < arrUA[key].length; i++){
