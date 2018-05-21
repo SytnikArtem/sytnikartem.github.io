@@ -6,7 +6,7 @@ $(document).ready(function(){
   let colorLocation = prompt('Цвет города', 'yellow');
   let region = prompt('Город', '');
   // let locationRegion = "Бровары";
-  // let locationRegion = $('.block-location').text();
+  let locationRegion = $('.block-location').text();
   if(region.length > 0) {
       locationRegion = region;
   }
@@ -78,8 +78,7 @@ $(document).ready(function(){
 
 
 
-
-
+    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
   function positionLocation(){
     let positionPath = $(".land.active").position();
     let positionBlock = $(".top-block").offset();
@@ -113,7 +112,7 @@ $(document).ready(function(){
     }
   }
   positionLocation();
-  $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+
 
   $(window).resize(function() {
     positionLocation();
