@@ -104,12 +104,12 @@ $(document).ready(function(){
             }
         }
         $('.active-location-text').text(titleLocation);
-
-    });
-    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-    positionLocation();
-
-    $(window).resize(function() {
+        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
         positionLocation();
+
+        $(window).resize(function() {
+            positionLocation();
+        });
     });
+
 });
