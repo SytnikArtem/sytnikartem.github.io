@@ -45,14 +45,23 @@ $(document).ready(function(){
         lugansk: ["Луганская область", "Луганск", "Александровск", "Алмазная", "Алчевск", "Антрацит", "Боково-Хрустальное", "Вахрушево", "Брянка", "Червонопартизанск", "Вознесеновка", "Кировск", "Голубовка", "Горское", "Свердловск", "Зимогорье", "Золотое", "Зоринск", "Ирмино", "Стаханов", "Кадиевка", "Артёмовск", "Кременная", "Лисичанск", "Лутугино", "Миусинск", "Молодогвардейск", "Новодружеск", "Первомайск", "Перевальск", "Петровское", "Петрово-Красноселье", "Попасная", "Приволье", "Ровеньки", "Рубежное", "Сватово", "Краснодон", "Сорокино", "Северодонецк", "Старобельск", "Суходольск", "Счастье", "Красный Луч", "Хрустальный"]
 };
 console.log(arrUK);
+    for (let rey in arrUK) {
+        for (let i = 0; i < arrUK[rey].length; i++){
+            if (locationRegion === arrUK[rey][i]) {
+                titleLocation = arrUK[rey][0];
+                console.log(titleLocation)
+            }
+        }
+    }
+
     $(function(){
-        $.getJSON('ua.json', function(arrUA) {
+        $.getJSON('ua.json', function(arr) {
             // console.log(arrUA);
             let titleLocation;
+            let arrUA = arr;
             let currentCountry = arrUA.country[0];
             console.log(currentCountry);
             console.log(arrUA);
-            console.log(arrUA.length);
             $('.current-country').text(currentCountry);
             for (let key in arrUA) {
                 for (let i = 0; i < arrUA[key].length; i++){
