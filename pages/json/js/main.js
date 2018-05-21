@@ -111,5 +111,5 @@ $(document).ready(function(){
             positionLocation();
         });
     });
-
+    console.log(arrUA);
 });
