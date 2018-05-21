@@ -79,10 +79,10 @@ $(document).ready(function(){
     }
 
     let titleLocation;
-
+    let arrUA;
     $.getJSON('ua.json', function(arr) {
         let titleLocation;
-        let arrUA = arr;
+        arrUA = arr;
         let currentCountry = arrUA.country[0];
         console.log(currentCountry);
         console.log(arrUA);
@@ -104,14 +104,12 @@ $(document).ready(function(){
             }
         }
         $('.active-location-text').text(titleLocation);
-        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-        positionLocation();
 
-
-        $(window).resize(function() {
-            positionLocation();
-        });
     });
+    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+    positionLocation();
 
-
+    $(window).resize(function() {
+        positionLocation();
+    });
 });
