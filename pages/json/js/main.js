@@ -47,7 +47,7 @@ $(document).ready(function(){
 
     $(function(){
         $.getJSON('ua.json', function(data) {
-           console.log('vdvd')
+           console.log(data)
         });
     });
   // let titleLocation;
