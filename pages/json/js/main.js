@@ -46,20 +46,21 @@ $(document).ready(function(){
 // };
 
     $(function(){
-        $.getJSON('ua.json', function(data) {
+        $.getJSON('ua.json', function(arrUA) {
            console.log(data)
+            let titleLocation;
+            let currentCountry = arrUA.country[0];
+            $('.current-country').text(currentCountry);
+            for (let key in arrUA) {
+                for (let i = 0; i < arrUA[key].length; i++){
+                    if (locationRegion === arrUA[key][i]) {
+                        titleLocation = arrUA[key][0];
+                    }
+                }
+            }
         });
     });
-  // let titleLocation;
-  // let currentCountry = arrUA.country[0];
-  // $('.current-country').text(currentCountry);
-  // for (let key in arrUA) {
-  //     for (let i = 0; i < arrUA[key].length; i++){
-  //         if (locationRegion === arrUA[key][i]) {
-  //             titleLocation = arrUA[key][0];
-  //         }
-  //     }
-  // }
+
 
   // for (let j = 0; j < land.length; j++) {
   //     let dataRegion = land[j].getAttribute("title");
