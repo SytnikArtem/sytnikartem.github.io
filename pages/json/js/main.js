@@ -47,7 +47,7 @@ $(document).ready(function(){
 
     $(function(){
         $.getJSON('ua.json', function(arrUA) {
-           console.log(data)
+           console.log(arrUA);
             let titleLocation;
             let currentCountry = arrUA.country[0];
             $('.current-country').text(currentCountry);
@@ -55,6 +55,7 @@ $(document).ready(function(){
                 for (let i = 0; i < arrUA[key].length; i++){
                     if (locationRegion === arrUA[key][i]) {
                         titleLocation = arrUA[key][0];
+                        console.log(titleLocation)
                     }
                 }
             }
