@@ -47,76 +47,76 @@ $(document).ready(function(){
 
 
     let titleLocation;
-    $(function(){
-        $.getJSON('ua.json', function(arr) {
-            let titleLocation;
-            let arrUA = arr;
-            let currentCountry = arrUA.country[0];
-            console.log(currentCountry);
-            console.log(arrUA);
-            $('.current-country').text(currentCountry);
-            for (let key in arrUA) {
-                for (let i = 0; i < arrUA[key].length; i++){
-                    if (locationRegion === arrUA[key][i]) {
-                        titleLocation = arrUA[key][0];
-                    }
-                }
 
-            }
-            for (let j = 0; j < land.length; j++) {
-                let dataRegion = land[j].getAttribute("title");
-                console.log(dataRegion);
-                if (dataRegion === titleLocation) {
-                    land.eq(j).addClass('active');
-                    console.log('re')
+    $.getJSON('ua.json', function(arr) {
+        let titleLocation;
+        let arrUA = arr;
+        let currentCountry = arrUA.country[0];
+        console.log(currentCountry);
+        console.log(arrUA);
+        $('.current-country').text(currentCountry);
+        for (let key in arrUA) {
+            for (let i = 0; i < arrUA[key].length; i++){
+                if (locationRegion === arrUA[key][i]) {
+                    titleLocation = arrUA[key][0];
                 }
             }
-            $('.active-location-text').text(titleLocation);
-            $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-        });
+
+        }
+        for (let j = 0; j < land.length; j++) {
+            let dataRegion = land[j].getAttribute("title");
+            console.log(dataRegion);
+            if (dataRegion === titleLocation) {
+                land.eq(j).addClass('active');
+                console.log('re')
+            }
+        }
+        $('.active-location-text').text(titleLocation);
+        // $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
     });
 
 
 
 
+
     $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-  // function positionLocation(){
-  //   let positionPath = $(".land.active").position();
-  //   let positionBlock = $(".top-block").offset();
-  //   let widthPath = $(".land.active")[0].getBoundingClientRect().width / 2;
-  //   let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
-  //   let leftPosition = positionPath.left;
-  //   let topPosition = positionPath.top;
-  //   let positionBlockTop = positionBlock.top;
-  //   let locationWidth = $('.active-location').innerWidth() / 2;
-  //   let leftSum = leftPosition + widthPath - 10;
-  //   let topSum = topPosition - positionBlockTop + heightPath - 10;
-  //   $('.active-location').css({"left": leftSum, "top": topSum});
-  //
-  //   let widthLocationText = $('.active-location-text').width();
-  //   let blockWidth = $('.country-block').width();
-  //   let blockPositionLeft = $('.country-block').offset().left;;
-  //   console.log(blockWidth);
-  //   console.log(blockPositionLeft);
-  //   if (blockPositionLeft + blockWidth / 4 > leftPosition) {
-  //     console.log('1 зона')
-  //     console.log(blockWidth / 4)
-  //   }
-  //   else if(blockPositionLeft + blockWidth / 4 * 3 > leftPosition) {
-  //     $('.active-location-text').css({"left": - widthLocationText / 2 + locationWidth, "top": "22px"});
-  //     console.log('2 зона');
-  //     console.log(blockWidth / 4 * 3)
-  //   }
-  //   else {
-  //     console.log('3 зона')
-  //     $('.active-location-text').css({"left": - widthLocationText - 5});
-  //   }
-  // }
-  // positionLocation();
-  //
-  //
-  // $(window).resize(function() {
-  //   positionLocation();
-  // });
+  function positionLocation(){
+    let positionPath = $(".land.active").position();
+    let positionBlock = $(".top-block").offset();
+    let widthPath = $(".land.active")[0].getBoundingClientRect().width / 2;
+    let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
+    let leftPosition = positionPath.left;
+    let topPosition = positionPath.top;
+    let positionBlockTop = positionBlock.top;
+    let locationWidth = $('.active-location').innerWidth() / 2;
+    let leftSum = leftPosition + widthPath - 10;
+    let topSum = topPosition - positionBlockTop + heightPath - 10;
+    $('.active-location').css({"left": leftSum, "top": topSum});
+
+    let widthLocationText = $('.active-location-text').width();
+    let blockWidth = $('.country-block').width();
+    let blockPositionLeft = $('.country-block').offset().left;;
+    console.log(blockWidth);
+    console.log(blockPositionLeft);
+    if (blockPositionLeft + blockWidth / 4 > leftPosition) {
+      console.log('1 зона')
+      console.log(blockWidth / 4)
+    }
+    else if(blockPositionLeft + blockWidth / 4 * 3 > leftPosition) {
+      $('.active-location-text').css({"left": - widthLocationText / 2 + locationWidth, "top": "22px"});
+      console.log('2 зона');
+      console.log(blockWidth / 4 * 3)
+    }
+    else {
+      console.log('3 зона')
+      $('.active-location-text').css({"left": - widthLocationText - 5});
+    }
+  }
+  positionLocation();
+
+
+  $(window).resize(function() {
+    positionLocation();
+  });
 
 });
