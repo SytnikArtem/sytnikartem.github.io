@@ -68,6 +68,7 @@ $(document).ready(function(){
                 console.log(dataRegion);
                 if (dataRegion === titleLocation) {
                     land.eq(j).addClass('active');
+                    console.log('re')
                 }
             }
             $('.active-location-text').text(titleLocation);
