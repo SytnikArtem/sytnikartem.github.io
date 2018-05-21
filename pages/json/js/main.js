@@ -45,6 +45,38 @@ $(document).ready(function(){
 //         lugansk: ["Луганская область", "Луганск", "Александровск", "Алмазная", "Алчевск", "Антрацит", "Боково-Хрустальное", "Вахрушево", "Брянка", "Червонопартизанск", "Вознесеновка", "Кировск", "Голубовка", "Горское", "Свердловск", "Зимогорье", "Золотое", "Зоринск", "Ирмино", "Стаханов", "Кадиевка", "Артёмовск", "Кременная", "Лисичанск", "Лутугино", "Миусинск", "Молодогвардейск", "Новодружеск", "Первомайск", "Перевальск", "Петровское", "Петрово-Красноселье", "Попасная", "Приволье", "Ровеньки", "Рубежное", "Сватово", "Краснодон", "Сорокино", "Северодонецк", "Старобельск", "Суходольск", "Счастье", "Красный Луч", "Хрустальный"]
 // };
 
+    function positionLocation(){
+        let positionPath = $(".land.active").position();
+        let positionBlock = $(".top-block").offset();
+        let widthPath = $(".land.active")[0].getBoundingClientRect().width / 2;
+        let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
+        let leftPosition = positionPath.left;
+        let topPosition = positionPath.top;
+        let positionBlockTop = positionBlock.top;
+        let locationWidth = $('.active-location').innerWidth() / 2;
+        let leftSum = leftPosition + widthPath - 10;
+        let topSum = topPosition - positionBlockTop + heightPath - 10;
+        $('.active-location').css({"left": leftSum, "top": topSum});
+
+        let widthLocationText = $('.active-location-text').width();
+        let blockWidth = $('.country-block').width();
+        let blockPositionLeft = $('.country-block').offset().left;;
+        console.log(blockWidth);
+        console.log(blockPositionLeft);
+        if (blockPositionLeft + blockWidth / 4 > leftPosition) {
+            console.log('1 зона')
+            console.log(blockWidth / 4)
+        }
+        else if(blockPositionLeft + blockWidth / 4 * 3 > leftPosition) {
+            $('.active-location-text').css({"left": - widthLocationText / 2 + locationWidth, "top": "22px"});
+            console.log('2 зона');
+            console.log(blockWidth / 4 * 3)
+        }
+        else {
+            console.log('3 зона')
+            $('.active-location-text').css({"left": - widthLocationText - 5});
+        }
+    }
 
     let titleLocation;
 
@@ -72,51 +104,14 @@ $(document).ready(function(){
             }
         }
         $('.active-location-text').text(titleLocation);
-        // $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+        positionLocation();
+
+
+        $(window).resize(function() {
+            positionLocation();
+        });
     });
 
-
-
-
-
-    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-  function positionLocation(){
-    let positionPath = $(".land.active").position();
-    let positionBlock = $(".top-block").offset();
-    let widthPath = $(".land.active")[0].getBoundingClientRect().width / 2;
-    let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
-    let leftPosition = positionPath.left;
-    let topPosition = positionPath.top;
-    let positionBlockTop = positionBlock.top;
-    let locationWidth = $('.active-location').innerWidth() / 2;
-    let leftSum = leftPosition + widthPath - 10;
-    let topSum = topPosition - positionBlockTop + heightPath - 10;
-    $('.active-location').css({"left": leftSum, "top": topSum});
-
-    let widthLocationText = $('.active-location-text').width();
-    let blockWidth = $('.country-block').width();
-    let blockPositionLeft = $('.country-block').offset().left;;
-    console.log(blockWidth);
-    console.log(blockPositionLeft);
-    if (blockPositionLeft + blockWidth / 4 > leftPosition) {
-      console.log('1 зона')
-      console.log(blockWidth / 4)
-    }
-    else if(blockPositionLeft + blockWidth / 4 * 3 > leftPosition) {
-      $('.active-location-text').css({"left": - widthLocationText / 2 + locationWidth, "top": "22px"});
-      console.log('2 зона');
-      console.log(blockWidth / 4 * 3)
-    }
-    else {
-      console.log('3 зона')
-      $('.active-location-text').css({"left": - widthLocationText - 5});
-    }
-  }
-  positionLocation();
-
-
-  $(window).resize(function() {
-    positionLocation();
-  });
 
 });
