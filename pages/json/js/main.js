@@ -80,36 +80,43 @@ $(document).ready(function(){
 
     let titleLocation;
     let arrUA;
-    $.getJSON('ua.json', function(arr) {
-        let titleLocation;
-        arrUA = arr;
-        let currentCountry = arrUA.country[0];
-        console.log(currentCountry);
-        console.log(arrUA);
-        $('.current-country').text(currentCountry);
-        for (let key in arrUA) {
-            for (let i = 0; i < arrUA[key].length; i++){
-                if (locationRegion === arrUA[key][i]) {
-                    titleLocation = arrUA[key][0];
+
+    function detect(code){
+        $.getJSON(code, function(arr) {
+            let titleLocation;
+            arrUA = arr;
+            let currentCountry = arrUA.country[0];
+            console.log(currentCountry);
+            console.log(arrUA);
+            $('.current-country').text(currentCountry);
+            for (let key in arrUA) {
+                for (let i = 0; i < arrUA[key].length; i++){
+                    if (locationRegion === arrUA[key][i]) {
+                        titleLocation = arrUA[key][0];
+                    }
+                }
+
+            }
+            for (let j = 0; j < land.length; j++) {
+                let dataRegion = land[j].getAttribute("title");
+                console.log(dataRegion);
+                if (dataRegion === titleLocation) {
+                    land.eq(j).addClass('active');
+                    console.log('re')
                 }
             }
-
-        }
-        for (let j = 0; j < land.length; j++) {
-            let dataRegion = land[j].getAttribute("title");
-            console.log(dataRegion);
-            if (dataRegion === titleLocation) {
-                land.eq(j).addClass('active');
-                console.log('re')
-            }
-        }
-        $('.active-location-text').text(titleLocation);
-        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-        positionLocation();
-
-        $(window).resize(function() {
+            $('.active-location-text').text(titleLocation);
+            $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
             positionLocation();
+
+            $(window).resize(function() {
+                positionLocation();
+            });
+            return arrUA;
         });
-    });
+    }
     console.log(arrUA);
+    countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
+    console.log(countryCodeValue);
+    detect()
 });
