@@ -52,6 +52,7 @@ $(document).ready(function(){
             let currentCountry = arrUA.country[0];
             console.log(currentCountry);
             console.log(arrUA);
+            console.log(arrUA.length);
             $('.current-country').text(currentCountry);
             for (let key in arrUA) {
                 for (let i = 0; i < arrUA[key].length; i++){
