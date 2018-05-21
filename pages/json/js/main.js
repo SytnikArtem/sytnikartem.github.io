@@ -118,5 +118,5 @@ $(document).ready(function(){
     console.log(arrUA);
     countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     console.log(countryCodeValue);
-    detect()
+    detect(countryCodeValue)
 });
