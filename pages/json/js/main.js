@@ -55,7 +55,9 @@ function detect(code){
         if (dataRegion === titleLocation) {
             land.eq(j).addClass('active');
             $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-            // positionLocation();
+            $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
+            $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
+            positionLocation();
         }
     }
     $('.active-location-text').text(titleLocation);
@@ -105,7 +107,6 @@ function detect(code){
     $(window).resize(function() {
         positionLocation();
     });
-    $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
-    $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
+
 
 });
