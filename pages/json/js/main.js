@@ -94,8 +94,8 @@ $(document).ready(function(){
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     detect(countryCodeValue);
 
-    // positionLocation();
-    //
+    positionLocation();
+
     $(window).resize(function() {
         positionLocation();
     });
