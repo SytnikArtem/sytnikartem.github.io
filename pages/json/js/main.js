@@ -48,6 +48,7 @@ $(document).ready(function(){
 
         }
         for (let j = 0; j < land.length; j++) {
+            console.log('re');
             let dataRegion = land[j].getAttribute("title");
             console.log(dataRegion);
             if (dataRegion === titleLocation) {
