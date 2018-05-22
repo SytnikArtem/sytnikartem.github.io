@@ -95,10 +95,10 @@ $(document).ready(function(){
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     detect(countryCodeValue);
 
-    positionLocation();
-
-    $(window).resize(function() {
-        positionLocation();
-    });
+    // positionLocation();
+    //
+    // $(window).resize(function() {
+    //     positionLocation();
+    // });
 
 });
