@@ -58,7 +58,12 @@ $(document).ready(function(){
         $('.active-location-text').css({"left": - widthLocationText - 5});
     }
     }
-
+    function maps(){
+        $.getJSON('countries.json', function (country) {
+            console.log(country[countryCode]);
+        })
+    };
+    maps();
     function detect(code){
     $.getJSON(code, function(arr) {
         let titleLocation;
