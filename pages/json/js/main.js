@@ -38,6 +38,7 @@ $(document).ready(function(){
         console.log('re');
         let titleLocation;
         let land = $(".land");
+        console.log(land);
         let currentCountry = arr.country[0];
         $('.current-country').text(currentCountry);
         for (let key in arr) {
