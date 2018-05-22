@@ -31,11 +31,12 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="91" column="4" selection-start-line="91" selection-start-column="7" selection-end-line="95" selection-end-column="10" />
+            <state relative-caret-position="432">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#64107#65497#0" />
+                <marker date="1526990870022" expanded="true" signature="61597:61650" ph="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="799" column="18" lean-forward="true" selection-start-line="487" selection-start-column="12" selection-end-line="799" selection-end-column="18" />
+            <state relative-caret-position="2613">
+              <caret line="801" column="57" lean-forward="true" selection-start-line="801" selection-start-column="57" selection-end-line="801" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -152,12 +153,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526914120332</updated>
       <workItem from="1526914121671" duration="6190000" />
-      <workItem from="1526976313272" duration="10802000" />
+      <workItem from="1526976313272" duration="11550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16992000" />
+    <option name="totallyTimeSpent" value="17740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -203,6 +204,7 @@
           <folding>
             <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#64107#65497#0" />
+            <marker date="1526990870022" expanded="true" signature="61597:61650" ph="..." />
           </folding>
         </state>
       </provider>
@@ -233,18 +235,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="799" column="18" lean-forward="true" selection-start-line="487" selection-start-column="12" selection-end-line="799" selection-end-column="18" />
+        <state relative-caret-position="2613">
+          <caret line="801" column="57" lean-forward="true" selection-start-line="801" selection-start-column="57" selection-end-line="801" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="91" column="4" selection-start-line="91" selection-start-column="7" selection-end-line="95" selection-end-column="10" />
+        <state relative-caret-position="432">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#64107#65497#0" />
+            <marker date="1526990870022" expanded="true" signature="61597:61650" ph="..." />
           </folding>
         </state>
       </provider>

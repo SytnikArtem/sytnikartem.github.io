@@ -12,11 +12,11 @@ $(document).ready(function(){
     // let countryCode = window.country_code;
 
     let colorLocation = prompt('Цвет города', 'yellow');
-    let region = prompt('Город', '');
-    let locationRegion = $('.block-location').text();
-    if(region.length > 0) {
-      locationRegion = region;
-    }
+    let locationRegion = prompt('Город', 'Киев');
+    // let locationRegion = $('.block-location').text();
+    // if(region.length > 0) {
+    //   locationRegion = region;
+    // }
     let land = $(".land");
     // let countryBlock = (".block_" + countryCode).toLowerCase();
     $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
@@ -31,7 +31,6 @@ $(document).ready(function(){
             $('.country-block').append('<h3 class="title">Доставка осуществляется по всей <span class="current-country"></span></h3>').append(locationBlock).append(blockCurrent);
         })
     }
-    maps();
 
     function detect(code){
     $.getJSON(code, function(arr) {
@@ -94,6 +93,7 @@ $(document).ready(function(){
     // $(window).resize(function() {
     //     positionLocation();
     // });
+    maps();
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     detect(countryCodeValue)
 
