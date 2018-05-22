@@ -93,10 +93,10 @@ $(document).ready(function(){
         }
     }
 
-    // createMap();
-    //
-    //
-    //
+    createMap();
+
+
+
     // positionLocation();
 
     $(window).resize(function() {
