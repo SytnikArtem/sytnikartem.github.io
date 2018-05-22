@@ -53,8 +53,9 @@ $(document).ready(function(){
                 land.eq(j).addClass('active');
             }
         }
-    });
         $('.active-location-text').text(titleLocation);
+    });
+
         $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
         positionLocation();
 

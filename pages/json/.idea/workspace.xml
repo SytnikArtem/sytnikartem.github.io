@@ -31,11 +31,10 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="629">
+              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#125352#126296#0" />
                 <element signature="e#64107#65497#0" />
               </folding>
             </state>
@@ -45,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="1125">
               <caret line="799" column="18" lean-forward="true" selection-start-line="487" selection-start-column="12" selection-end-line="799" selection-end-column="18" />
             </state>
           </provider>
@@ -65,6 +64,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.country-block</find>
+      <find>titleL</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -152,12 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526914120332</updated>
       <workItem from="1526914121671" duration="6190000" />
-      <workItem from="1526976313272" duration="10402000" />
+      <workItem from="1526976313272" duration="10653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16592000" />
+    <option name="totallyTimeSpent" value="16843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -202,7 +202,6 @@
           <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
           <folding>
             <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#125352#126296#0" />
             <element signature="e#64107#65497#0" />
           </folding>
         </state>
@@ -234,18 +233,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="1125">
           <caret line="799" column="18" lean-forward="true" selection-start-line="487" selection-start-column="12" selection-end-line="799" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="629">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#path#0;n#svg#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#125352#126296#0" />
             <element signature="e#64107#65497#0" />
           </folding>
         </state>
