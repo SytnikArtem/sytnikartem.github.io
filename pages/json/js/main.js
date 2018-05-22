@@ -18,10 +18,10 @@ $(document).ready(function(){
       locationRegion = region;
     }
     let land = $(".land");
-    let countryBlock = (".block_" + countryCode).toLowerCase();
+    // let countryBlock = (".block_" + countryCode).toLowerCase();
     $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
     $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
-    $(countryBlock).css("display", "block");
+    // $(countryBlock).css("display", "block");
 
     function positionLocation(){
     let positionPath = $(".land.active").position();
@@ -91,7 +91,6 @@ $(document).ready(function(){
         $(window).resize(function() {
             positionLocation();
         });
-        // return arrUA;
     });
     }
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
