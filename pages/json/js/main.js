@@ -59,7 +59,7 @@ $(document).ready(function(){
     }
     }
     function maps(){
-        $.getJSON('countries.json', function (country) {
+        $.getJSON('countries.json', function(country) {
             console.log(country[countryCode]);
         })
     }
