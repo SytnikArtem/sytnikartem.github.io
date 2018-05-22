@@ -77,7 +77,7 @@ $(document).ready(function(){
         $(window).resize(function() {
             positionLocation();
         });
-        return arrUA;
+        // return arrUA;
     });
     }
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
