@@ -17,7 +17,7 @@ $(document).ready(function(){
     // if(region.length > 0) {
     //   locationRegion = region;
     // }
-    let land = $(".land");
+
     // let countryBlock = (".block_" + countryCode).toLowerCase();
     $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
     $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
@@ -37,6 +37,7 @@ $(document).ready(function(){
     $.getJSON(code, function(arr) {
         console.log('re');
         let titleLocation;
+        let land = $(".land");
         let currentCountry = arr.country[0];
         $('.current-country').text(currentCountry);
         for (let key in arr) {
