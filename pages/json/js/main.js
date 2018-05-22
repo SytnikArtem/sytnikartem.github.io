@@ -30,7 +30,7 @@ $(document).ready(function(){
             $('.country-block').append('<h3 class="title">Доставка осуществляется по всей <span class="current-country"></span></h3>').append(locationBlock).append(blockCurrent);
             let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
             detect(countryCodeValue);
-            positionLocation();
+            // positionLocation();
         })
     };
 
