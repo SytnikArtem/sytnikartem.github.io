@@ -53,6 +53,8 @@ function detect(code){
         console.log(dataRegion);
         if (dataRegion === titleLocation) {
             land.eq(j).addClass('active');
+            $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+            positionLocation();
         }
     }
     $('.active-location-text').text(titleLocation);
