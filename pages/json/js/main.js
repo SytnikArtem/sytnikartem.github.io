@@ -54,14 +54,8 @@ $(document).ready(function(){
             }
         }
         $('.active-location-text').text(titleLocation);
-    });
-
         $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-        positionLocation();
-
-        $(window).resize(function() {
-            positionLocation();
-        });
+    });
     }
     function positionLocation(){
         let positionPath = $(".land.active").position();
@@ -95,6 +89,11 @@ $(document).ready(function(){
             $('.active-location-text').css({"left": - widthLocationText - 5});
         }
     }
+    // positionLocation();
+    //
+    // $(window).resize(function() {
+    //     positionLocation();
+    // });
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     detect(countryCodeValue)
 
