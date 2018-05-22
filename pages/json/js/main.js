@@ -90,11 +90,11 @@ $(document).ready(function(){
         }
     }
 
-
-    let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
-    // detect(countryCodeValue);
-
     createMap();
+    let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
+    detect(countryCodeValue);
+
+
     // positionLocation();
 
     $(window).resize(function() {
