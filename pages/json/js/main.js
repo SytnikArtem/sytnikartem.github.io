@@ -30,6 +30,7 @@ $(document).ready(function(){
             $('.country-block').append('<h3 class="title">Доставка осуществляется по всей <span class="current-country"></span></h3>').append(locationBlock).append(blockCurrent);
             let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
             detect(countryCodeValue);
+            positionLocation();
         })
     };
 
@@ -54,7 +55,7 @@ function detect(code){
         if (dataRegion === titleLocation) {
             land.eq(j).addClass('active');
             $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-            positionLocation();
+            // positionLocation();
         }
     }
     $('.active-location-text').text(titleLocation);
