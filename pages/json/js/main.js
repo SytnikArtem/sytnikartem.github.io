@@ -34,37 +34,36 @@ $(document).ready(function(){
         })
     };
 
-function detect(code){
-    $.getJSON(code, function(arr) {
-    let titleLocation;
-    let land = $(".land");
-    console.log(land);
-    let currentCountry = arr.country[0];
-    $('.current-country').text(currentCountry);
-    for (let key in arr) {
-        for (let i = 0; i < arr[key].length; i++){
-            if (locationRegion === arr[key][i]) {
-                titleLocation = arr[key][0];
+    function detect(code){
+        $.getJSON(code, function(arr) {
+        let titleLocation;
+        let land = $(".land");
+        console.log(land);
+        let currentCountry = arr.country[0];
+        $('.current-country').text(currentCountry);
+        for (let key in arr) {
+            for (let i = 0; i < arr[key].length; i++){
+                if (locationRegion === arr[key][i]) {
+                    titleLocation = arr[key][0];
+                }
+            }
+
+        }
+        for (let j = 0; j < land.length; j++) {
+            let dataRegion = land[j].getAttribute("title");
+            console.log(dataRegion);
+            if (dataRegion === titleLocation) {
+                land.eq(j).addClass('active');
+                $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+                $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
+                $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
+                positionLocation();
             }
         }
-
+        $('.active-location-text').text(titleLocation);
+        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+        });
     }
-    for (let j = 0; j < land.length; j++) {
-        let dataRegion = land[j].getAttribute("title");
-        console.log(dataRegion);
-        if (dataRegion === titleLocation) {
-            land.eq(j).addClass('active');
-            $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-            $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
-            $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
-            positionLocation();
-        }
-    }
-    $('.active-location-text').text(titleLocation);
-    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-});
-    // positionLocation();
-}
     function positionLocation(){
         let positionPath = $(".land.active").position();
         let positionBlock = $(".top-block").offset();
@@ -100,13 +99,8 @@ function detect(code){
 
     createMap();
 
-
-
-    // positionLocation();
-
     $(window).resize(function() {
         positionLocation();
     });
-
 
 });
