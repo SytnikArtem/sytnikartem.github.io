@@ -33,33 +33,33 @@ $(document).ready(function(){
         })
     };
 
-    function detect(code){
+function detect(code){
     $.getJSON(code, function(arr) {
-        let titleLocation;
-        let land = $(".land");
-        console.log(land);
-        let currentCountry = arr.country[0];
-        $('.current-country').text(currentCountry);
-        for (let key in arr) {
-            for (let i = 0; i < arr[key].length; i++){
-                if (locationRegion === arr[key][i]) {
-                    titleLocation = arr[key][0];
-                }
+    let titleLocation;
+    let land = $(".land");
+    console.log(land);
+    let currentCountry = arr.country[0];
+    $('.current-country').text(currentCountry);
+    for (let key in arr) {
+        for (let i = 0; i < arr[key].length; i++){
+            if (locationRegion === arr[key][i]) {
+                titleLocation = arr[key][0];
             }
+        }
 
-        }
-        for (let j = 0; j < land.length; j++) {
-            let dataRegion = land[j].getAttribute("title");
-            console.log(dataRegion);
-            if (dataRegion === titleLocation) {
-                land.eq(j).addClass('active');
-            }
-        }
-        $('.active-location-text').text(titleLocation);
-        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
-    });
-        positionLocation();
     }
+    for (let j = 0; j < land.length; j++) {
+        let dataRegion = land[j].getAttribute("title");
+        console.log(dataRegion);
+        if (dataRegion === titleLocation) {
+            land.eq(j).addClass('active');
+        }
+    }
+    $('.active-location-text').text(titleLocation);
+    $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
+});
+    // positionLocation();
+}
     function positionLocation(){
         let positionPath = $(".land.active").position();
         let positionBlock = $(".top-block").offset();
