@@ -33,9 +33,7 @@ $(document).ready(function(){
     }
 
     function detect(code){
-        console.log('re');
     $.getJSON(code, function(arr) {
-        console.log('re');
         let titleLocation;
         let land = $(".land");
         console.log(land);
@@ -50,7 +48,6 @@ $(document).ready(function(){
 
         }
         for (let j = 0; j < land.length; j++) {
-            console.log('re');
             let dataRegion = land[j].getAttribute("title");
             console.log(dataRegion);
             if (dataRegion === titleLocation) {
@@ -93,14 +90,15 @@ $(document).ready(function(){
             $('.active-location-text').css({"left": - widthLocationText - 5});
         }
     }
-    // positionLocation();
-    //
-    // $(window).resize(function() {
-    //     positionLocation();
-    // });
+
     maps();
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
-    detect(countryCodeValue)
+    detect(countryCodeValue);
 
+    positionLocation();
+
+    $(window).resize(function() {
+        positionLocation();
+    });
 
 });
