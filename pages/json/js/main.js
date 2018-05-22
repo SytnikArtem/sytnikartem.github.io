@@ -90,9 +90,13 @@ $(document).ready(function(){
         }
     }
 
-    createMap();
+
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
-    detect(countryCodeValue);
+    // detect(countryCodeValue);
+
+    createMap(){
+        setTimeout(detect(countryCodeValue), 0);
+    };
     //
     // positionLocation();
 
