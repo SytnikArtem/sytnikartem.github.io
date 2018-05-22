@@ -94,10 +94,7 @@ $(document).ready(function(){
     let countryCodeValue = countryCode.toLocaleLowerCase()+'.json';
     // detect(countryCodeValue);
 
-    createMap(){
-        setTimeout(detect(countryCodeValue), 0);
-    };
-    //
+    createMap();
     // positionLocation();
 
     $(window).resize(function() {
