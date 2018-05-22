@@ -19,8 +19,7 @@ $(document).ready(function(){
     // }
 
     // let countryBlock = (".block_" + countryCode).toLowerCase();
-    $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
-    $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
+
     // $(countryBlock).css("display", "block");
 
 
@@ -97,8 +96,10 @@ $(document).ready(function(){
 
     // positionLocation();
     //
-    // $(window).resize(function() {
-    //     positionLocation();
-    // });
+    $(window).resize(function() {
+        positionLocation();
+    });
+    $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
+    $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
 
 });
