@@ -62,7 +62,7 @@ $(document).ready(function(){
         $.getJSON('countries.json', function (country) {
             console.log(country[countryCode]);
         })
-    };
+    }
     maps();
     function detect(code){
     $.getJSON(code, function(arr) {
