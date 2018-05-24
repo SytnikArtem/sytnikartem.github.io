@@ -32,8 +32,10 @@ $(document).ready(function(){
     }
 
     function detect(code){
+        console.log('re');
         $.getJSON(code, function(arr) {
         let titleLocation;
+        console.log('re');
         let land = $(".land");
         let currentCountry = arr.country[0];
         $('.current-country').text(currentCountry);
