@@ -7,7 +7,7 @@ $(document).ready(function(){
     let colorMaps = prompt('Цвет карты', 'black');
     let colorBorder = prompt('Цвет границ', 'white');
     // let countryCode = window.country_code;
-
+    $('.active-location').css({"display": "none"});
     let colorLocation = prompt('Цвет города', 'yellow');
     let locationRegion = prompt('Город', 'Киев');
     // let locationRegion = $('.block-location').text();s
@@ -58,10 +58,6 @@ $(document).ready(function(){
                 $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
                 $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
                 positionLocation();
-            }
-            else if (dataRegion !== titleLocation){
-                $('.active-location').css({"display": "none"});
-                console.log('ew');
             }
         }
         $('.active-location-text').text(titleLocation);
