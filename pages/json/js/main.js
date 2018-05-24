@@ -52,6 +52,7 @@ $(document).ready(function(){
         for (let j = 0; j < land.length; j++) {
             let dataRegion = land[j].getAttribute("title");
             if (dataRegion === titleLocation) {
+                console.log('no');
                 $('.active-location').css({"display": "block"});
                 land.eq(j).addClass('active');
                 $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
