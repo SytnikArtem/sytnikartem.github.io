@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    let countryCode = "RU";
+    let countryCode = "UA";
 
 
     // console.log(block_ua);
@@ -34,7 +34,7 @@ $(document).ready(function(){
     function detect(code){
         console.log('re');
         console.log(code);
-        $.getJSON('ru.json', function(arr) {
+        $.getJSON(code, function(arr) {
         let titleLocation;
         console.log('re');
         let land = $(".land");
