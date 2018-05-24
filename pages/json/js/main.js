@@ -34,7 +34,7 @@ $(document).ready(function(){
     function detect(code){
         console.log('re');
         console.log(code);
-        $.getJSON(code, function(arr) {
+        $.getJSON('ru.json', function(arr) {
         let titleLocation;
         console.log('re');
         let land = $(".land");
@@ -47,7 +47,6 @@ $(document).ready(function(){
                     console.log(arr[key][i]);
                 }
             }
-
         }
         for (let j = 0; j < land.length; j++) {
             let dataRegion = land[j].getAttribute("title");
