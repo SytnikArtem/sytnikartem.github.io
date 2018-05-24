@@ -46,6 +46,7 @@ $(document).ready(function(){
                 if (locationRegion === arr[key][i]) {
                     titleLocation = arr[key][0];
                     console.log(arr[key][i]);
+                    $('.active-location').css({"display": "block"});
                 }
                 else {
                     $('.active-location').css({"display": "none"});
