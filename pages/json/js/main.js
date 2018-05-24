@@ -37,7 +37,7 @@ $(document).ready(function(){
         $.getJSON(code, function(arr) {
         let titleLocation;
         console.log('re');
-        console.log(code);
+        console.log(arr);
         let land = $(".land");
         let currentCountry = arr.country[0];
         $('.current-country').text(currentCountry);
