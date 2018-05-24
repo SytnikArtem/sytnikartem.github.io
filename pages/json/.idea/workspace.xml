@@ -35,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="2809">
               <caret line="486" column="41" lean-forward="true" selection-start-line="486" selection-start-column="41" selection-end-line="486" selection-end-column="41" />
             </state>
           </provider>
@@ -153,12 +153,12 @@
       <workItem from="1526914121671" duration="6190000" />
       <workItem from="1526976313272" duration="23714000" />
       <workItem from="1527059005923" duration="22163000" />
-      <workItem from="1527158471477" duration="6395000" />
+      <workItem from="1527158471477" duration="6505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58462000" />
+    <option name="totallyTimeSpent" value="58572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
@@ -304,17 +304,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2809">
+          <caret line="486" column="41" lean-forward="true" selection-start-line="486" selection-start-column="41" selection-end-line="486" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ru.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="80" column="157" lean-forward="true" selection-start-line="80" selection-start-column="157" selection-end-line="80" selection-end-column="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="486" column="41" lean-forward="true" selection-start-line="486" selection-start-column="41" selection-end-line="486" selection-end-column="41" />
         </state>
       </provider>
     </entry>
