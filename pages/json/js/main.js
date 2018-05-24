@@ -47,6 +47,9 @@ $(document).ready(function(){
                     titleLocation = arr[key][0];
                     console.log(arr[key][i]);
                 }
+                else {
+                    $('.active-location').css({"display": "none"});
+                }
             }
         }
         for (let j = 0; j < land.length; j++) {
