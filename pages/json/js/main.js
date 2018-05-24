@@ -59,8 +59,9 @@ $(document).ready(function(){
                 $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
                 positionLocation();
             }
-            else {
+            else if (dataRegion !== titleLocation){
                 $('.active-location').css({"display": "none"});
+                console.log('ew');
             }
         }
         $('.active-location-text').text(titleLocation);
