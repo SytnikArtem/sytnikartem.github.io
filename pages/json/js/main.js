@@ -14,7 +14,7 @@ $(document).ready(function(){
     // if(region.length > 0) {
     //   locationRegion = region;
     // }
-    $('.active-location').css({"display": "none"});
+
     // let countryBlock = (".block_" + countryCode).toLowerCase();
 
     // $(countryBlock).css("display", "block");
@@ -46,18 +46,21 @@ $(document).ready(function(){
                 if (locationRegion === arr[key][i]) {
                     titleLocation = arr[key][0];
                     console.log(arr[key][i]);
-                    $('.active-location').css({"display": "block"});
                 }
             }
         }
         for (let j = 0; j < land.length; j++) {
             let dataRegion = land[j].getAttribute("title");
             if (dataRegion === titleLocation) {
+                $('.active-location').css({"display": "block"});
                 land.eq(j).addClass('active');
                 $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
                 $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
                 $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
                 positionLocation();
+            }
+            else {
+                $('.active-location').css({"display": "none"});
             }
         }
         $('.active-location-text').text(titleLocation);
