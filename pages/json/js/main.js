@@ -33,6 +33,7 @@ $(document).ready(function(){
 
     function detect(code){
         console.log('re');
+        console.log(code);
         $.getJSON(code, function(arr) {
         let titleLocation;
         console.log('re');
