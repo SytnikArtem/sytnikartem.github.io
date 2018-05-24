@@ -14,7 +14,7 @@ $(document).ready(function(){
     // if(region.length > 0) {
     //   locationRegion = region;
     // }
-
+    $('.active-location').css({"display": "none"});
     // let countryBlock = (".block_" + countryCode).toLowerCase();
 
     // $(countryBlock).css("display", "block");
@@ -47,9 +47,6 @@ $(document).ready(function(){
                     titleLocation = arr[key][0];
                     console.log(arr[key][i]);
                     $('.active-location').css({"display": "block"});
-                }
-                else {
-                    $('.active-location').css({"display": "none"});
                 }
             }
         }
