@@ -34,7 +34,7 @@ $(document).ready(function(){
     function detect(code){
         console.log('re');
         console.log(code);
-        $.getJSON('ru.json', function(arr) {
+        $.getJSON('th.json', function(arr) {
         let titleLocation;
         console.log('re');
         let land = $(".land");
