@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    // let countryCode = "RU";
+    let countryCode = "RU";
 
 
     // console.log(block_ua);
