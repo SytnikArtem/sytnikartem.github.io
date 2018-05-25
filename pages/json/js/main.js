@@ -58,11 +58,11 @@ $(document).ready(function(){
                 $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
                 $('.country-block').find('.land').css({"fill": colorMaps, "stroke": colorBorder});
                 $('.country-block').find('.water').css({"fill": "transparent", "stroke": "transparent"});
+                $('.active-location-text').text(titleLocation);
+                $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
                 positionLocation();
             }
         }
-        $('.active-location-text').text(titleLocation);
-        $('.land.active').css({"fill": colorLocation, "stroke": "transparent"});
         });
     }
     function positionLocation(){
