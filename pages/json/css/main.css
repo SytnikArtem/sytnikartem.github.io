@@ -1465,6 +1465,13 @@ body {
     background: #d0d0d0;
     padding: 0 2px
   }
+  .current-country {
+    font-size: 44px;
+    line-height: 46px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+  }
   /* .active-location::before {
     width: 10px;
     height: 10px;
