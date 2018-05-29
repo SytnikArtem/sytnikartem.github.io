@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    let countryCode = "RU";
-
+    let countryCode = prompt('Страна', 'BY');
+    let locationRegion = prompt('Город', 'Орша');
 
     // console.log(block_ua);
     // console.log(blockCurrent);
@@ -8,7 +8,7 @@ $(document).ready(function(){
     let colorBorder = prompt('Цвет границ', 'white');
     // let countryCode = window.country_code;
     let colorLocation = prompt('Цвет города', 'yellow');
-    let locationRegion = prompt('Город', 'Киев');
+
     // let locationRegion = $('.block-location').text();s
     // if(region.length > 0) {
     //   locationRegion = region;
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     // $(countryBlock).css("display", "block");
 
-
+    let a = []
     function createMap(){
         $.getJSON('countries.json', function(country) {
             let locationBlock = '<div class="active-location"><span class="active-location-svg"><svg viewbox="0 0 80 80" height="20" width="20"><path d="M 61.615,10.966 C 58.705,8.053 55.306,5.795 51.506,4.25 40.071,-0.382 27.046,2.271 18.328,10.978 12.545,16.77 9.353,24.144 9.353,31.769 c 0,7.613 3.19,14.995 8.975,20.781 l 3.182,3.153 c 6.386,6.31 11.893,11.758 16.618,19.331 L 39.966,78 41.816,75.034 C 46.541,67.461 52.048,62.013 58.423,55.71 l 3.191,-3.17 C 73.658,40.496 73.658,23.011 61.615,10.966 z M 49.477,42.641 c -5.25,5.258 -13.76,5.258 -19.011,0 -5.249,-5.24 -5.249,-13.75 0,-19 5.251,-5.24 13.761,-5.24 19.011,0 5.238,5.25 5.238,13.758 0,19 z" style="fill:#929497" /></svg></span><span class="active-location-text"></span></div>';
