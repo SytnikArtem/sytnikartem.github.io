@@ -1,0 +1,23 @@
+{
+  "country":["Доставка осуществляется по всей Италии"],
+  "Valle d'Aosta":["Valle d'Aosta","Valle d'Aosta"],
+  "Piemonte":["Piemonte","Provincia di Alessandria","Provincia di Asti","Provincia di Biella","Provincia di Cuneo","Provincia di Novara","Provincia di Novara","Città metropolitana di Torino","Provincia del Verbano-Cusio-Ossola","Provincia di Vercelli"],
+  "Lombardia":["Lombardia","Provincia di Bergamo","Provincia di Brescia","Provincia di Como","Provincia di Cremona","Provincia di Lecco","Provincia di Lodi","Provincia di Mantova","Provincia di Milano","Provincia di Monza e della Brianza","Provincia di Pavia","Provincia di Sondrio","Provincia di Varese"],
+  "Trentino-Alto Adige":["Provincia autonoma di Bolzano","Provincia di Bergamo","Provincia autonoma di Trento"],
+  "Veneto":["Veneto","Provincia di Belluno","Provincia di Padova","Provincia di Rovigo","Provincia di Treviso","Provincia di Venezia","Provincia di Verona","Provincia di Vicenza"],
+  "Friuli-Venezia Giulia":["Friuli-Venezia Giulia","Provincia di Gorizia","Provincia di Pordenone","Provincia di Trieste","Provincia di Udine"],
+  "Liguria":["Liguria","Provincia di Genova","Provincia di Imperia","Provincia di Spezia","Provincia di Savona"],
+  "Emilia-Romagna":["Emilia-Romagna","Provincia di Bologna","Provincia di Ferrara","Provincia di Forlì-Cesena","Provincia di Modena","Provincia di Parma","Provincia di Piacenza","Provincia di Ravenna","Provincia di Reggio Emilia","Provincia di Rimini"],
+  "Toscana":["Toscana","Provincia di Arezzo","Provincia di Grosseto","Provincia di Firenze","Provincia di Livorno","Provincia di Lucca","Provincia di Massa-Carrara","Provincia di Pisa","Provincia di Pistoia","Provincia di Prato","Provincia di Siena"],
+  "Umbria":["Umbria","Provincia di Perugia","Provincia di Terni"],
+  "Marche":["Marche","Provincia di Ancona","Provincia di Ascoli Piceno","Provincia di Fermo","Provincia di Macerata","Provincia di Pesaro e Urbino"],
+  "Lazio":["Lazio","Provincia di Frosinone","Provincia di Latina","Provincia di Rieti","Provincia di Roma","Provincia di Viterbo"],
+  "Abruzzi":["Abruzzi","Provincia di dell'Aquila","Provincia di Chieti","Provincia di Pescara","Provincia di Teramo", "Pescara", "Roseto degli Abruzzi", "L'Aquila", "Montesilvano", "Sulmona", "Vasto", "Alba Adriatica", "Ortona", "Pineto", "Atri", "Avezzano", "Giulianova", "Scanno", "Silvi", "Castel di Sangro", "Pescocostanzo", "Tortoreto", "Lanciano", "Penne", "Villalago", "Chieti", "Guardiagrele", "Pescina", "Bisenti", "Corfinio", "Carsoli", "Calascio", "Campotosto", "Abruzzi e Molise", "Atessa", "Gissi", "Teramo", "Castel del Monte", "Pescasseroli", "Morro d'Oro", "Notaresco", "Navelli", "Celano", "Anversa degli Abruzzi", "Mosciano Sant'Angelo", "Santo Stefano di Sessanio", "Martinsicuro", "Civitella del Tronto", "Capestrano", "Molina Aterno", "Roccaraso", "Cellino Attanasio", "Cocullo", ""],
+  "Molise":["Molise","Provincia di Campobasso","Provincia di Isernia"],
+  "Campania":["Campania","Provincia di Avellino","Provincia di Benevento","Provincia di Caserta","Provincia di Napoli","Provincia di Salerno"],
+  "Puglia":["Puglia","Provincia di Bari","Barletta-Andria-Trani","Provincia di Brindisi","Provincia di Foggia","Provincia di Lecce","Provincia di Tarde"],
+  "Basilicata":["Basilicata","Provincia di Matera","Provincia di Potenza"],
+  "Calabria":["Calabria","Provincia di Catanzaro","Provincia di Cosenza","Provincia di Crotone","Provincia di Reggio Calabria","Provincia di Vibo Valentia"],
+  "Sicilia":["Sicilia","Provincia di Agrigento","Provincia di Caltanissetta","Provincia di Catania","Provincia di Messina","Provincia di Palermo","Provincia di Ragusa","Provincia di Siracusa"],
+  "Sardegna":["Sardegna","Provincia di Cagliari","Provincia di Nuoro","Provincia di Aristanis","Provincia di Sassari"]
+}
