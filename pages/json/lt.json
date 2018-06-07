@@ -1,0 +1,13 @@
+{
+  "country": ["Доставка осуществляется по всей Литве"],
+  "Alytaus": ["Alytaus apskritis", "Alytus", "Varėna", "Veisiejai", "Daugai", "Druskininkai", "Lazdijai", "Simnas"],
+  "Kauno": ["Kauno apskritis", "Ariogala", "Birštonas", "Vilkija", "Garliava", "Jieznas", "Žiežmariai", "Jonava", "Kaišiadorys", "Kaunas", "Kėdainiai", "Prienai", "Raseiniai", "Ežerėlis"],
+  "Klaipėdos": ["Klaipėdos apskritis", "Gargždai", "Klaipėda", "Kretinga", "Neringa", "Palangà", "Priekulė", "Salantai", "Skuodas", "Šilutė"],
+  "Marijampolės": ["Marijampolės apskritis", "Vilkaviškis", "Virbalis", "Gelgaudiškis", "Kazlų Rūda", "Kalvarija", "Kudirkos Naumiestis", "Marijampolė", "Šakiai"],
+  "Panevėžio": ["Panevėžio apskritis", "Biržai", "Vabalninkas", "Joniškėlis", "Kupiškis", "Obeliai", "Pandėlys", "Panevėžys", "Pasvalys", "Ramygala", "Rokiškis", "Subačius"],
+  "Šiaulių": ["Šiaulių apskritis", "Akmenė", "Venta", "Žagarė", "Joniškis", "Kelmė", "Kuršėnai", "Linkuva", "Naujoji Akmenė", "Pakruojis", "Radviliškis", "Tytuvėnai", "Užventis", "Šeduva", "Šiauliai"],
+  "Tauragės": ["Tauragės apskritis", "Pagėgiai", "Panemunė", "Skaudvilė", "Smalininkai", "Tauragė", "Šilalė", "Jurbarkas"],
+  "Telšių": ["Telšių apskritis", "Varniai", "Viekšniai", "Mažeikiai", "Plungė", "Rietavas", "Seda", "Telšiai"],
+  "Utenos": ["Utenos apskritis", "Anykščiai", "Visaginas", "Dūkštas", "Dusetos", "Zarasai", "Ignalina", "Kavarskas", "Molėtai", "Troškūnai", "Utena"],
+  "Vilniaus": ["Vilniaus apskritis", "Baltoji Vokė", "Vievis", "Vilnius", "Grigiškės", "Lentvaris", "Nemenčinė", "Pabradė", "Rūdiškės", "Trakai", "Ukmergė", "Šalčininkai", "Švenčionys", "Švenčionėliai", "Širvintos", "Eišiškės", "Elektrėnai"]
+}
