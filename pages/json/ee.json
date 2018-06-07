@@ -1,0 +1,18 @@
+{
+  "country":["Доставка осуществляется по всей Эстонии"],
+  "Valhamaa":["Valga maakond","Valga","Tõrva","Karula vald","Otepää vald","Palupera vald","Puka vald","Põdrala vald", "Sangaste vald","Taheva","Tõlliste","Helme","Hummuli","Õru"],
+  "Vilyandima":["Viljandi maakond","Mõisaküla","Viljandi","Võhma","Abja","Karksi","Kolga-Jaani","Kõo","Kõpu","Suure-Jaani", "Tarvastu","Halliste"],
+  "Virumaa":["Võru maakond","Võru","Antsla","Haanja","Lasva","Meremäe","Misso","Mõniste","Rõuge","Sõmerpalu","Urvaste", "Varstu","Vastseliina","Võru"],
+  "Ira-Vyruma":["Ida-Viru maakond","Kiviõli","Kohtla-Järve","Narva","Narva-Jõesuu","Sillamäe","Avinurme vald","Aseri vald", "Alajõe vald","Vaivara vald","Iisaku vald","Illuka","Jõhvi vald","Kohtla vald","Kohtla-Nõmme","Lohusuu vald","Lüganuse", "Mäetaguse vald","Sonda vald","Toila vald","Tudulinna vald"],
+  "Yigevama":["Jõgeva maakond","Jõgeva","Mustvee","Põltsamaa","Jõgeva","Kasepää","Pajusi","Pala","Palamuse","Puurmani", "Põltsamaa","Saare","Tabivere","Torma"],
+  "Lyazne-Vyruma":["Lääne-Viru maakond","Kunda","Rakvere","Kadrina","Laekvere","Rakvere","Rakke","Rägavere","Sõmeru","Tamsalu", "Vihula","Vinni","Viru-Nigula","Haljala","Tapa","Väike-Maarja"],
+  "Lyaenemaa":["Lääne maakond","Haapsalu","Vormsi","Kullamaa","Lihula","Martna","Noarootsi","Nõva","Ridala","Hanila"],
+  "Pylvama":["Põlva maakond","Ahja","Kanepi","Kõlleste","Laheda","Mikitamäe","Mooste","Orava","Põlva","Räpina","Valgjärve", "Vastse-Kuuste","Veriora","Värska"],
+  "Parnumaa":["Pärnu maakond","Pärnu","Sindi","Are","Audru","Varbla","Vändra","Kihnu","Koonga","Paikuse","Saarde","Sauga", "Surju","Tahkuranna","Tootsi","Tori","Tõstamaa","Halinga","Häädemeeste"],
+  "Raplamaa":["Rapla maakond","Vigala","Kaiu","Kehtna","Kohila","Käru","Märjamaa","Raikküla","Rapla","Juuru","Järvakandi"],
+  "Saaremaa":["Saare maakond","Kihelkonna","Kuressaare","Laimjala","Leisi","Muhu","Mustjala","Orissaare","Pihtla","Pöide", "Ruhnu","Salme","Torgu","Valjala"],
+  "Tartumaa":["Tartu maakond","Elva","Kallaste","Tartu","Alatskivi","Haaslava","Kambja","Konguta","Laeva","Luunja","Meeksi", "Mäksa","Nõo","Peipsiääre","Piirissaare","Puhja","Rannu","Rõngu","Tartu","Tähtvere","Vara","Võnnu","Ülenurme"],
+  "Haryumaa":["Harju maakond","Tallinn","Loksa","Maardu","Paldiski","Saue","Keila","Anija","Aegviidu","Vasalemma","Viimsi", "Jõelähtme","Keila","Kernu","Kiili","Kose","Kuusalu","Nissi","Padise","Raasiku","Rae","Saku","Saue","Harku"],
+  "Hiyumaa":["Hiiu maakond","Emmaste","Hiiu","Käina","Pühalepa"],
+  "Yarvamaa":["Järva maakond","Paide","Albu","Ambla","Imavere","Järva-Jaani","Kareda","Koigi","Koeru","Paide","Roosna-Alliku", "Türi","Väätsa"]
+}
