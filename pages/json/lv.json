@@ -1,460 +1,116 @@
 {
-  "country": [
-    "Доставка осуществляется по всей Латвии"
-  ],
-  "Rucavas novads": [
-    "Rucavas novads",
-    "Rucava"
-  ],
-  "Nīcas novads": [
-    "Nīcas novads",
-    "Nīca"
-  ],
-  "Priekules novads": [
-    "Priekules novads",
-    "Priekule"
-  ],
-  "Grobiņas novads": [
-    "Grobiņas novads",
-    "Grobiņa"
-  ],
-  "Liepāja": [
-    "Liepāja",
-    "Liepāja"
-  ],
-  "Durbes novads": [
-    "Durbes novads",
-    "Lieģi"
-  ],
-  "Pāvilostas novads": [
-    "Pāvilostas novads",
-    "Pāvilosta"
-  ],
-  "Aizputes novads": [
-    "Aizputes novads",
-    "Aizpute"
-  ],
-  "Vaiņodes novads": [
-    "Vaiņodes novads",
-    "Vaiņode"
-  ],
-  "Skrundas novads": [
-    "Skrundas novads",
-    "Skrunda"
-  ],
-  "Saldus novads": [
-    "Saldus novads",
-    "Saldus"
-  ],
-  "Kuldīgas novads": [
-    "Kuldīgas novads",
-    "Kuldīga"
-  ],
-  "Alsungas novads": [
-    "Alsungas novads",
-    "Alsunga"
-  ],
-  "Ventspils novads": [
-    "Ventspils novads",
-    "Ventspils"
-  ],
-  "Jūrmala": [
-    "Jūrmala",
-    "Jūrmala"
-  ],
-  "Rīga": [
-    "Rīga",
-    "Rīga"
-  ],
-  "Valmiera": [
-    "Valmiera",
-    "Valmiera"
-  ],
-  "Aglonas novads": [
-    "Aglonas novads",
-    "Aglona"
-  ],
-  "Aizkraukles novads": [
-    "Aizkraukles novads",
-    "Aizkraukle"
-  ],
-  "Aknīstes novads": [
-    "Aknīstes novads",
-    "Aknīste"
-  ],
-  "Alojas novads": [
-    "Alojas novads",
-    "Aloja"
-  ],
-  "Alūksnes novads": [
-    "Alūksnes novads",
-    "Alūksne"
-  ],
-  "Amatas novads": [
-    "Amatas novads",
-    "Amatas"
-  ],
-  "Apes novads": [
-    "Apes novads",
-    "Ape"
-  ],
-  "Auces novads": [
-    "Auces novads",
-    "Auce"
-  ],
-  "Ādažu novads": [
-    "Ādažu novads",
-    "Ādaži"
-  ],
-  "Babītes novads": [
-    "Babītes novads",
-    "Piņķi"
-  ],
-  "Baldones novads": [
-    "Baldones novads",
-    "Baldone"
-  ],
-  "Baltinavas novads": [
-    "Baltinavas novads",
-    "Baltinava"
-  ],
-  "Balvu novads": [
-    "Balvu novads",
-    "Balvi"
-  ],
-  "Bauskas novads": [
-    "Bauskas novads",
-    "Balvi"
-  ],
-  "Beverīnas novads": [
-    "Beverīnas novads",
-    "Mūrmuiža"
-  ],
-  "Brocēnu novads": [
-    "Brocēnu novads",
-    "Brocēni"
-  ],
-  "Burtnieku novads": [
-    "Burtnieku novads",
-    "Burtnieki"
-  ],
-  "Carnikavas novads": [
-    "Carnikavas novads",
-    "Carnikava"
-  ],
-  "Cesvaines novads": [
-    "Cesvaines novads",
-    "Cesvaine"
-  ],
-  "Cēsu novads": [
-    "Cēsu novads",
-    "Cēsis"
-  ],
-  "Ciblas novads": [
-    "Ciblas novads",
-    "Blonti"
-  ],
-  "Dagdas novads": [
-    "Dagdas novads",
-    "Dagda"
-  ],
-  "Daugavpils novads": [
-    "Daugavpils novads",
-    "Daugavpils"
-  ],
-  "Dobeles novads": [
-    "Dobeles novads",
-    "Dobele"
-  ],
-  "Dundagas novads": [
-    "Dundagas novads",
-    "Dundaga"
-  ],
-  "Engures novads": [
-    "Engures novads",
-    "Smārde"
-  ],
-  "Ērgļu novads": [
-    "Ērgļu novads",
-    "Ērgļi"
-  ],
-  "Garkalnes novads": [
-    "Garkalnes novads",
-    "Berģi"
-  ],
-  "Gulbenes novads": [
-    "Gulbenes novads",
-    "Gulbene"
-  ],
-  "Iecavas novads": [
-    "Iecavas novads",
-    "Iecava"
-  ],
-  "Ikšķiles novads": [
-    "Ikšķiles novads",
-    "Ikšķile"
-  ],
-  "Ilūkstes novads": [
-    "Ilūkstes novads",
-    "Ilūkste"
-  ],
-  "Inčukalna novads": [
-    "Inčukalna novads",
-    "Inčukalns"
-  ],
-  "Jaunjelgavas novads": [
-    "Jaunjelgavas novads",
-    "Jaunjelgava"
-  ],
-  "Jaunpiebalgas novads": [
-    "Jaunpiebalgas novads",
-    "Jaunpiebalga"
-  ],
-  "Jaunpils novads": [
-    "Jaunpils novads",
-    "Jaunpils"
-  ],
-  "Jelgavas novads": [
-    "Jelgavas novads",
-    "Jelgava"
-  ],
-  "Jēkabpils novads": [
-    "Jēkabpils novads",
-    "Jēkabpils"
-  ],
-  "Kandavas novads": [
-    "Kandavas novads",
-    "Kandava"
-  ],
-  "Kārsavas novads": [
-    "Kārsavas novads",
-    "Kārsava"
-  ],
-  "Kocēnu novads": [
-    "Kocēnu novads",
-    "Kocēni"
-  ],
-  "Kokneses novads": [
-    "Kokneses novads",
-    "Koknese"
-  ],
-  "Krāslavas novads": [
-    "Krāslavas novads",
-    "Krāslava"
-  ],
-  "Krimuldas novads": [
-    "Krimuldas novads",
-    "Ragana"
-  ],
-  "Krustpils novads": [
-    "Krustpils novads",
-  ],
-  "Ķeguma novads": [
-    "Ķeguma novads",
-    "Ķegums"
-  ],
-  "Ķekavas novads": [
-    "Ķekavas novads",
-    "Ķekava"
-  ],
-  "Lielvārdes novads": [
-    "Lielvārdes novads",
-    "Lielvārde"
-  ],
-  "Limbažu novads": [
-    "Limbažu novads",
-    "Limbaži"
-  ],
-  "Līgatnes novads": [
-    "Līgatnes novads",
-    "Līgatne"
-  ],
-  "Līvānu novads": [
-    "Līvānu novads",
-    "Līvāni"
-  ],
-  "Lubānas novads": [
-    "Lubānas novads",
-    "Lubāna"
-  ],
-  "Ludzas novads": [
-    "Ludzas novads",
-    "Ludza"
-  ],
-  "Madonas novads": [
-    "Madonas novads",
-    "Madona"
-  ],
-  "Mazsalacas novads": [
-    "Mazsalacas novads",
-    "Mazsalaca"
-  ],
-  "Mālpils novads": [
-    "Mālpils novads",
-    "Mālpils"
-  ],
-  "Mārupes novads": [
-    "Mārupes novads",
-    "Mārupe"
-  ],
-  "Mērsraga novads": [
-    "Mērsraga novads",
-    "Mērsrags"
-  ],
-  "Naukšēnu novads": [
-    "Naukšēnu novads",
-    "Naukšēni"
-  ],
-  "Neretas novads": [
-    "Neretas novads",
-    "Nereta"
-  ],
-  "Ogres novads": [
-    "Ogres novads",
-    "Ogre"
-  ],
-  "Olaines novads": [
-    "Olaines novads",
-    "Olaine"
-  ],
-  "Ozolnieku novads": [
-    "Ozolnieku novads",
-    "Ozolnieki"
-  ],
-  "Pārgaujas novads": [
-    "Pārgaujas novads",
-    "Stalbe"
-  ],
-  "Pļaviņu novads": [
-    "Pļaviņu novads",
-    "Pļaviņas"
-  ],
-  "Preiļu novads": [
-    "Preiļu novads",
-    "Preiļi"
-  ],
-  "Priekuļu novads": [
-    "Priekuļu novads",
-    "Priekuļi"
-  ],
-  "Raunas novads": [
-    "Raunas novads",
-    "Rauna"
-  ],
-  "Rēzeknes novads": [
-    "Rēzeknes novads",
-    "Rēzekne"
-  ],
-  "Riebiņu novads": [
-    "Riebiņu novads",
-    "Riebiņi"
-  ],
-  "Rojas novads": [
-    "Rojas novads",
-    "Roja"
-  ],
-  "Ropažu novads": [
-    "Ropažu novads",
-    "Ropaži"
-  ],
-  "Rugāju novads": [
-    "Rugāju novads",
-    "Rugāji"
-  ],
-  "Rundāles novads": [
-    "Rundāles novads",
-    "Pilsrundāle"
-  ],
-  "Rūjienas novads": [
-    "Rūjienas novads",
-    "Rūjiena"
-  ],
-  "Salas novads": [
-    "Salas novads",
-    "Sala"
-  ],
-  "Salacgrīvas novads": [
-    "Salacgrīvas novads",
-    "Salacgrīva"
-  ],
-  "Salaspils novads": [
-    "Salaspils novads",
-    "Salaspils"
-  ],
-  "Saulkrastu novads": [
-    "Saulkrastu novads",
-    "Saulkrasti"
-  ],
-  "Sējas novads": [
-    "Sējas novads",
-    "Loja"
-  ],
-  "Siguldas novads": [
-    "Siguldas novads",
-    "Sigulda"
-  ],
-  "Skrīveru novads": [
-    "Skrīveru novads",
-    "Skrīveri"
-  ],
-  "Smiltenes novads": [
-    "Smiltenes novads",
-    "Smiltene"
-  ],
-  "Stopiņu novads": [
-    "Stopiņu novads",
-    "Ulbroka"
-  ],
-  "Strenču novads": [
-    "Strenču novads",
-    "Strenči"
-  ],
-  "Talsu novads": [
-    "Talsu novads",
-    "Talsi"
-  ],
-  "Tērvetes novads": [
-    "Tērvetes novads",
-    "Zelmeņi"
-  ],
-  "Tukuma novads": [
-    "Tukuma novads",
-    "Tukums"
-  ],
-  "Valkas novads": [
-    "Valkas novads",
-    "Valka"
-  ],
-  "Varakļānu novads": [
-    "Varakļānu novads",
-    "Varakļāni"
-  ],
-  "Vārkavas novads": [
-    "Vārkavas novads",
-    "Vecvārkava"
-  ],
-  "Vecpiebalgas novads": [
-    "Vecpiebalgas novads",
-    "Vecpiebalga"
-  ],
-  "Vecumnieku novads": [
-    "Vecumnieku novads",
-    "Vecumnieki"
-  ],
-  "Viesītes novads": [
-    "Viesītes novads",
-    "Viesīte"
-  ],
-  "Viļakas novads": [
-    "Viļakas novads",
-    "Viļaka"
-  ],
-  "Viļānu novads": [
-    "Viļānu novads",
-    "Viļāni"
-  ],
-  "Zilupes novads": [
-    "Zilupes novads",
-    "Zilupe"
-  ]
+  "country":["Доставка осуществляется по всей Латвии"],
+  "Rucavas novads":["Rucavas novads","Rucava"],
+  "Nīcas novads":["Nīcas novads","Nīca"],
+  "Priekules novads":["Priekules novads","Priekule"],
+  "Grobiņas novads":["Grobiņas novads","Grobiņa"],
+  "Liepāja":["Liepāja","Liepāja"],
+  "Durbes novads":["Durbes novads","Lieģi"],
+  "Pāvilostas novads":["Pāvilostas novads","Pāvilosta"],
+  "Aizputes novads":["Aizputes novads","Aizpute"],
+  "Vaiņodes novads":["Vaiņodes novads","Vaiņode"],
+  "Skrundas novads":["Skrundas novads","Skrunda"],
+  "Saldus novads":["Saldus novads","Saldus"],
+  "Kuldīgas novads":["Kuldīgas novads","Kuldīga"],
+  "Alsungas novads":["Alsungas novads","Alsunga"],
+  "Ventspils novads":["Ventspils novads","Ventspils"],
+  "Jūrmala":["Jūrmala","Jūrmala"],"Rīga":["Rīga","Rīga"],
+  "Valmiera":["Valmiera","Valmiera"],
+  "Aglonas novads":["Aglonas novads","Aglona"],
+  "Aizkraukles novads":["Aizkraukles novads","Aizkraukle"],
+  "Aknīstes novads":["Aknīstes novads","Aknīste"],
+  "Alojas novads":["Alojas novads","Aloja"],
+  "Alūksnes novads":["Alūksnes novads","Alūksne"],
+  "Amatas novads":["Amatas novads","Amatas"],
+  "Apes novads":["Apes novads","Ape"],
+  "Auces novads":["Auces novads","Auce"],
+  "Ādažu novads":["Ādažu novads","Ādaži"],
+  "Babītes novads":["Babītes novads","Piņķi"],
+  "Baldones novads":["Baldones novads","Baldone"],
+  "Baltinavas novads":["Baltinavas novads","Baltinava"],
+  "Balvu novads":["Balvu novads","Balvi"],
+  "Bauskas novads":["Bauskas novads","Balvi"],
+  "Beverīnas novads":["Beverīnas novads","Mūrmuiža"],
+  "Brocēnu novads":["Brocēnu novads","Brocēni"],
+  "Burtnieku novads":["Burtnieku novads","Burtnieki"],
+  "Carnikavas novads":["Carnikavas novads","Carnikava"],
+  "Cesvaines novads":["Cesvaines novads","Cesvaine"],
+  "Cēsu novads":["Cēsu novads","Cēsis"],
+  "Ciblas novads":["Ciblas novads","Blonti"],
+  "Dagdas novads":["Dagdas novads","Dagda"],
+  "Daugavpils novads":["Daugavpils novads","Daugavpils"],
+  "Dobeles novads":["Dobeles novads","Dobele"],
+  "Dundagas novads":["Dundagas novads","Dundaga"],
+  "Engures novads":["Engures novads","Smārde"],
+  "Ērgļu novads":["Ērgļu novads","Ērgļi"],
+  "Garkalnes novads":["Garkalnes novads","Berģi"],
+  "Gulbenes novads":["Gulbenes novads","Gulbene"],
+  "Iecavas novads":["Iecavas novads","Iecava"],
+  "Ikšķiles novads":["Ikšķiles novads","Ikšķile"],
+  "Ilūkstes novads":["Ilūkstes novads","Ilūkste"],
+  "Inčukalna novads":["Inčukalna novads","Inčukalns"],
+  "Jaunjelgavas novads":["Jaunjelgavas novads","Jaunjelgava"],
+  "Jaunpiebalgas novads":["Jaunpiebalgas novads","Jaunpiebalga"],
+  "Jaunpils novads":["Jaunpils novads","Jaunpils"],
+  "Jelgavas novads":["Jelgavas novads","Jelgava"],
+  "Jēkabpils novads":["Jēkabpils novads","Jēkabpils"],
+  "Kandavas novads":["Kandavas novads","Kandava"],
+  "Kārsavas novads":["Kārsavas novads","Kārsava"],
+  "Kocēnu novads":["Kocēnu novads","Kocēni"],
+  "Kokneses novads":["Kokneses novads","Koknese"],
+  "Krāslavas novads":["Krāslavas novads","Krāslava"],
+  "Krimuldas novads":["Krimuldas novads","Ragana"],
+  "Krustpils novads":["Krustpils novads"],
+  "Ķeguma novads":["Ķeguma novads","Ķegums"],
+  "Ķekavas novads":["Ķekavas novads","Ķekava"],
+  "Lielvārdes novads":["Lielvārdes novads","Lielvārde"],
+  "Limbažu novads":["Limbažu novads","Limbaži"],
+  "Līgatnes novads":["Līgatnes novads","Līgatne"],
+  "Līvānu novads":["Līvānu novads","Līvāni"],
+  "Lubānas novads":["Lubānas novads","Lubāna"],
+  "Ludzas novads":["Ludzas novads","Ludza"],
+  "Madonas novads":["Madonas novads","Madona"],
+  "Mazsalacas novads":["Mazsalacas novads","Mazsalaca"],
+  "Mālpils novads":["Mālpils novads","Mālpils"],
+  "Mārupes novads":["Mārupes novads","Mārupe"],
+  "Mērsraga novads":["Mērsraga novads","Mērsrags"],
+  "Naukšēnu novads":["Naukšēnu novads","Naukšēni"],
+  "Neretas novads":["Neretas novads","Nereta"],
+  "Ogres novads":["Ogres novads","Ogre"],
+  "Olaines novads":["Olaines novads","Olaine"],
+  "Ozolnieku novads":["Ozolnieku novads","Ozolnieki"],
+  "Pārgaujas novads":["Pārgaujas novads","Stalbe"],
+  "Pļaviņu novads":["Pļaviņu novads","Pļaviņas"],
+  "Preiļu novads":["Preiļu novads","Preiļi"],
+  "Priekuļu novads":["Priekuļu novads","Priekuļi"],
+  "Raunas novads":["Raunas novads","Rauna"],
+  "Rēzeknes novads":["Rēzeknes novads","Rēzekne"],
+  "Riebiņu novads":["Riebiņu novads","Riebiņi"],
+  "Rojas novads":["Rojas novads","Roja"],
+  "Ropažu novads":["Ropažu novads","Ropaži"],
+  "Rugāju novads":["Rugāju novads","Rugāji"],
+  "Rundāles novads":["Rundāles novads","Pilsrundāle"],
+  "Rūjienas novads":["Rūjienas novads","Rūjiena"],
+  "Salas novads":["Salas novads","Sala"],
+  "Salacgrīvas novads":["Salacgrīvas novads","Salacgrīva"],
+  "Salaspils novads":["Salaspils novads","Salaspils"],
+  "Saulkrastu novads":["Saulkrastu novads","Saulkrasti"],
+  "Sējas novads":["Sējas novads","Loja"],
+  "Siguldas novads":["Siguldas novads","Sigulda"],
+  "Skrīveru novads":["Skrīveru novads","Skrīveri"],
+  "Smiltenes novads":["Smiltenes novads","Smiltene"],
+  "Stopiņu novads":["Stopiņu novads","Ulbroka"],
+  "Strenču novads":["Strenču novads","Strenči"],
+  "Talsu novads":["Talsu novads","Talsi"],
+  "Tērvetes novads":["Tērvetes novads","Zelmeņi"],
+  "Tukuma novads":["Tukuma novads","Tukums"],
+  "Valkas novads":["Valkas novads","Valka"],
+  "Varakļānu novads":["Varakļānu novads","Varakļāni"],
+  "Vārkavas novads":["Vārkavas novads","Vecvārkava"],
+  "Vecpiebalgas novads":["Vecpiebalgas novads","Vecpiebalga"],
+  "Vecumnieku novads":["Vecumnieku novads","Vecumnieki"],
+  "Viesītes novads":["Viesītes novads","Viesīte"],
+  "Viļakas novads":["Viļakas novads","Viļaka"],
+  "Viļānu novads":["Viļānu novads","Viļāni"],
+  "Zilupes novads":["Zilupes novads","Zilupe"]
 }
