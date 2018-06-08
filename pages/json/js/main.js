@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // let countryCode = prompt('Страна', 'BY');
-    let countryCode = 'UA';
+    let countryCode = 'RU';
     let locationRegion = prompt('Город', 'Орша');
 
     // console.log(block_ua);
