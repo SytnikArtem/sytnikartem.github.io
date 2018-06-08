@@ -1505,4 +1505,8 @@ body {
   .country-block svg {
     max-height: 300px
   }
+  .current-country {
+    font-size: 34px;
+    line-height: normal;
+  }
 }
