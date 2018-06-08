@@ -1,0 +1,23 @@
+{
+  "country":["Доставка осуществляется по всей Венгрии"],
+  "Bach-Kishkun":["Bács-Kiskun", "Bácsalmás", "Baja", "Mélykút", "Jánoshalma", "Kalocsa", "Hajós", "Solt", "Kecskemét", "Kerekegyháza", "Lajosmizse","Kiskőrös","Izsák","Kecel","Soltvadkert","Kiskunfélegyháza","Kiskunhalas","Tompa","Kiskunmajsa","Kunszentmiklós","Dunavecse","Szabadszállás","Tiszakécske"],
+  "Baranya":["Baranya", "Bóly", "Sásd", "Mágocs", "Komló", "Mohács", "Pécs", "Kozármisleny", "Pécsvárad", "Sellye","Siklós","Harkány","Villány","Szentlőrinc","Szigetvár"],
+  "Bekesh":["Békés", "Békéscsaba", "Csorvás", "Újkígyós", "Békés", "Mezőberény", "Gyomaendrőd", "Dévaványa", "Gyula", "Elek","Mezőkovácsháza","Battonya","Medgyesegyháza","Mezőhegyes","Orosháza","Tótkomlós","Sarkad","Szarvas","Szeghalom","Füzesgyarmat","Körösladány","Vésztő"],
+  "Borshod-Abaduy-Zemplen":["Borsod-Abaúj-Zemplén", "Cigánd", "Edelény", "Szendrő", "Encs", "Gönc", "Abaújszántó", "Kazincbarcika", "Rudabánya", "Sajószentpéter","Mezőcsát","Mezőkövesd","Mezőkeresztes","Miskolc","Alsózsolca","Emőd","Felsőzsolca","Nyékládháza","Onga","Sajóbábony","Ózd","Borsodnádasd","Putnok","Sárospatak","Sátoraljaújhely","Pálháza","Szerencs","Szikszó","Tiszaújváros","Tokaj"],
+  "Chongrad":["Csongrád", "Csongrád", "Hódmezővásárhely", "Mindszent", "Kistelek", "Makó", "Csanádpalota", "járásszékhely város", "Szeged", "Sándorfalva","Szentes"],
+  "Feyer":["Fejér", "Bicske", "Csákvár", "Dunaújváros", "Adony", "Pusztaszabolcs", "Rácalmás", "Enying", "Gárdony", "Velence","Martonvásár","Ercsi","Mór","Bodajk","Polgárdi","Sárbogárd","Székesfehérvár"],
+  "Dyer-Moshon-Shopron":["Győr-Moson-Sopron", "Csorna", "Győr", "Kapuvár", "Beled", "Mosonmagyaróvár", "Jánossomorja", "Lébény", "Pannonhalma", "Sopron","Fertőd","Fertőszentmiklós","Tét"],
+  "Haydu-Bihar":["Hajdú-Bihar", "Balmazújváros", "Tiszacsege", "Berettyóújfalu", "Biharkeresztes", "Komádi", "Debrecen", "Hajdúsámson", "Derecske", "Létavértes","Hajdúböszörmény","Hajdúdorog","Hajdúhadház","Téglás","Hajdúnánás","Polgár","Hajdúszoboszló","Nádudvar","Nyíradony","Vámospércs","Püspökladány","Kaba"],
+  "Hevesh":["Heves", "Bélapátfalva", "Eger", "Füzesabony", "Gyöngyös", "Gyöngyöspata", "Hatvan", "Lőrinci", "Heves", "Kisköre","Pétervására"],
+  "Yas-Nadkun-Solonok":["Jász-Nagykun-Szolnok", "Jászapáti", "Jászkisér", "Jászberény", "Jászárokszállás", "Jászfényszaru", "Karcag", "Kenderes", "Kisújszállás", "Kunhegyes","Abádszalók","Kunszentmárton","Tiszaföldvár","Mezőtúr","Túrkeve","Szolnok","Besenyszög","Martfű","Rákóczifalva","Újszász","Tiszafüred","Törökszentmiklós"],
+  "Komarom-Estergom":["Komárom-Esztergom", "Esztergom", "Dorog", "Lábatlan", "Nyergesújfalu", "Tát", "Kisbér", "Komárom", "Ács", "Bábolna","Oroszlány","Tatabánya","Tata"],
+  "Nograd":["Nógrád", "Balassagyarmat", "Bátonyterenye", "Pásztó", "Rétság", "Salgótarján", "Szécsény"],
+  "Pest":["Pest", "Aszód", "Tura", "Budakeszi", "Biatorbágy", "Budaörs", "Zsámbék", "Cegléd", "Abony", "Albertirsa","Dabas","Örkény","Újhartyán","Dunakeszi","Fót","Göd","Érd","Diósd","Százhalombatta","Törökbálint","Gödöllő","Isaszeg","Kerepes","Kistarcsa","Pécel","Veresegyház","Gyál","Ócsa","Monor","Gyömrő","Pilis","Nagykáta","Sülysáp","Tápiószele","Nagykőrös","Pilisvörösvár","Piliscsaba","Ráckeve","Szentendre","Budakalász","Pomáz","Visegrád","Szigetszentmiklós","Dunaharaszti","Dunavarsány","Halásztelek","Szigethalom","Tököl","Szob","Nagymaros","Vác","Őrbottyán","Vecsés","Maglód","Üllő"],
+  "Shomod":["Somogy", "Barcs", "Csurgó", "Fonyód", "Balatonboglár", "Balatonlelle", "Lengyeltóti", "Kaposvár", "Igal", "Kadarkút","Nagybajom","Marcali","Nagyatád","Siófok","Balatonföldvár","Zamárdi","Tab"],
+  "Sabolch-Satmar-Bereg":["Szabolcs-Szatmár-Bereg", "Baktalórántháza", "Csenger", "Fehérgyarmat", "Ibrány", "Nagyhalász", "Kemecse", "Demecser", "Kisvárda", "Ajak","Dombrád","Mátészalka","Nagyecsed","Vaja","Nagykálló","Balkány","Nyírbátor","Máriapócs","Nyírlugos","Nyíregyháza","Nyírtelek","Rakamaz","Újfehértó","Tiszavasvári","Tiszalök","Vásárosnamény","Nyírmada","Záhony","Mándok"],
+  "Tolna":["Tolna", "Bonyhád", "Nagymányok", "Dombóvár", "Paks", "Dunaföldvár", "Bátaszék", "Szekszárd", "Tamási", "Gyönk","Simontornya","Tolna"],
+  "Vash":["Vas", "Celldömölk", "Jánosháza", "Körmend", "Őriszentpéter", "Kőszeg", "Bük", "Csepreg", "Sárvár", "Répcelak","Szombathely","Vép","Vasvár"],
+  "Vesprem":["Veszprém", "Ajka", "Balatonalmádi", "Balatonfűzfő", "Balatonkenese", "Balatonfüred", "Devecser", "Pápa", "Sümeg", "Tapolca","Badacsonytomaj","Várpalota","Berhida","Veszprém","Herend","Zirc"],
+  "Zala":["Zala", "Keszthely", "Hévíz", "Lenti", "Letenye", "Nagykanizsa", "Zalakaros", "Zalaegerszeg", "Pacsa", "Zalalövő","Zalaszentgrót"],
+  "Budapest":["Budapest"]
+}

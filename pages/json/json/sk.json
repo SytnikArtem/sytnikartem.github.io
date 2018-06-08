@@ -1,0 +1,11 @@
+{
+  "country":["Доставка осуществляется по всей Словакии"],
+  "Bratislavský kraj":["Bratislavský kraj","Senec","Malacky","Stupava","Pezinok","Svätý","Modra","Bratislava-Čunovo","Tomášov"],
+  "Trnavský kraj":["Trnavský kraj","Dunajská Streda","Galanta","Hlohovec","Piešťany","Senica","Skalica","Trnava"],
+  "Nitriansky kraj":["Nitriansky kraj","Komárno","Levice","Nitra","Nové Zámky","Šaľa","Topoľčany","Zlaté Moravce"],
+  "Trenčiansky kraj":["Trenčiansky kraj","Bánovce nad Bebravou","Ilava","Myjava","Nové Mesto nad Váhom","Partizánske","Bystrica","Prievidza","Púchov","Trenčín"],
+  "Banskobystrický kraj":["Banskobystrický kraj","Banská Bystrica","Banská Štiavnica","Brezno","Detva","Krupina","Lučenec","Poltár","Revúca","Rimavská Sobota","Veľký Krtíš","Zvolen","Žarnovica","Žiar nad Hronom"],
+  "Žilinský kraj":["Žilinský kraj","Bytča","Čadca","Dolný Kubín","Kysucké Nové Mesto","Liptovský Mikuláš","Martin","Námestovo","Ružomberok","Turčianske Teplice","Tvrdošín","Žilina"],
+  "Prešovský kraj":["Prešovský kraj","Bardejov","Humenné","Kežmarok","Levoča","Medzilaborce","Poprad","Prešov","Sabinov","Snina","Stará Ľubovňa","Stropkov","Stropkov","Svidník","Vranov nad Topľou"],
+  "Košický kraj":["Košický kraj", "Gelnica","Košice","Moldava nad Bodvou","Bidovce","Medzev","Michalovce","Rožňava","Sobrance","Spišská Nová Ves","Trebišov"]
+}
