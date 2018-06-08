@@ -2,7 +2,8 @@ $(document).ready(function(){
     // let countryCode = prompt('Страна', 'BY');
     let countryCode = 'UA';
     let locationRegion = prompt('Город', 'Орша');
-
+    let a = "<path class=\"cls-1 re\" d=\"M701.2,900.6c0-33.3,0-66.1,0-99.2c33.2,0,66.2,0,99.5,0c0,33,0,66,0,99.2\n" +
+        "\t\t\t\t\t\t\t\t\t\t\tC767.6,900.6,734.6,900.6,701.2,900.6z\"></path>"
     // console.log(block_ua);
     // console.log(blockCurrent);
     let colorMaps = prompt('Цвет карты', 'black');
