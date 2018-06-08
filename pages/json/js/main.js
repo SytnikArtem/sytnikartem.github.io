@@ -68,7 +68,7 @@ $(document).ready(function(){
         let positionBlock = $(".top-block").offset();
         let widthPath = $(".land.active")[0].getBoundingClientRect().width / 2;
         if ($(".land.active").hasClass('right')) {
-             widthPath = $(".land.active")[0].getBoundingClientRect().width / 2 * 3;
+             widthPath = $(".land.active")[0].getBoundingClientRect().width / 3 * 2;
         }
         let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
         let leftPosition = positionPath.left;
