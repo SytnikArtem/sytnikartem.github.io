@@ -40,6 +40,7 @@ $(document).ready(function(){
         $('.current-country').text(arr.country[0]);
         for (let key in arr) {
             for (let i = 0; i < arr[key].length; i++){
+                console.log(arr[key][i]);
                 if (locationRegion === arr[key][i]) {
                     titleLocation = arr[key][0];
                     console.log(arr[key][i]);
