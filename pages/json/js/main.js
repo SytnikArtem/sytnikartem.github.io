@@ -71,7 +71,7 @@ $(document).ready(function(){
              widthPath = $(".land.active")[0].getBoundingClientRect().width / 4 * 3;
         }
         else if ($(".land.active").hasClass('left')) {
-            widthPath = $(".land.active")[0].getBoundingClientRect().width / 3 * 4;
+            widthPath = $(".land.active")[0].getBoundingClientRect().width / 4;
         }
         let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
         let leftPosition = positionPath.left;
