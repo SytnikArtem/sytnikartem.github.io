@@ -1490,6 +1490,9 @@ body {
   .block-location {
     display: none!important;
   }
+  .active-location-text {
+    font-size: 16px;
+  }
 @media only screen and (max-width: 1000px) {
   .country-block svg {
     max-height: 400px
@@ -1508,5 +1511,8 @@ body {
   .current-country {
     font-size: 34px;
     line-height: normal;
+  }
+  .active-location-text {
+    font-size: 12px;
   }
 }
