@@ -70,6 +70,9 @@ $(document).ready(function(){
         if ($(".land.active").hasClass('right')) {
              widthPath = $(".land.active")[0].getBoundingClientRect().width / 4 * 3;
         }
+        else if ($(".land.active").hasClass('left')) {
+            widthPath = $(".land.active")[0].getBoundingClientRect().width / 3 * 4;
+        }
         let heightPath = $(".land.active")[0].getBoundingClientRect().height / 2;
         let leftPosition = positionPath.left;
         let topPosition = positionPath.top;
