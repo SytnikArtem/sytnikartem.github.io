@@ -1,5 +1,5 @@
-
-    // let countryCode = prompt('Страна', 'BY');
+$(document).ready(function(){
+     // let countryCode = prompt('Страна', 'BY');
     let countryCode = 'UA';
     // let locationRegion = prompt('Город', 'Орша');
 
@@ -103,6 +103,8 @@
             $('.active-location-text').css({"left": - widthLocationText - 5});
         }
     }
+})
+   
 
 
 
