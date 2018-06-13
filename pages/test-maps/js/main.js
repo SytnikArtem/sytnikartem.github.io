@@ -12,7 +12,7 @@
     // let colorLocation = prompt('Цвет города', 'yellow');
     let colorLocation = '#45b9bd';
 
-    let locationRegion = $('.block-location').text();
+    let locationRegion = "Киев";
     // if(region.length > 0) {
     //   locationRegion = region;
     // }
