@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="690" height="130" viewBox="0 0 726 2" fill="url(#linear-gradient2)">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #ec9276;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1112" y1="3755.69" x2="2090" y2="3755.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5c9a98"/>
+      <stop offset="1" stop-color="#88be5a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="0" x2="0" y1="0" y2="100%">
+      <stop offset="0%" stop-color="#599a8f" stop-opacity=".1"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-1110.5 -3668.88)">
+    <path id="path" class="cls-1" d="M1112,3736s95.04-.77,203.01-17.5c64.75-10.03,134.15-51.81,190.5-47.84,50.89,3.59,102.26,50.11,152.33,58.41,54.14,8.96,167.11-.65,215.92,8.46C2032.73,3767.22,2090,3841,2090,3841l-962.91-20Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-1110.5 -3668.88)" xlink:href="#path" style="stroke: url(#linear-gradient);"/>
+</svg>

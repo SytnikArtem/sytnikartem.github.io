@@ -1,0 +1,19 @@
+{
+  "country":["Доставка осуществляется по всей Германии"],
+  "Bavaria":["Bayern", "München","Nürnberg", "Augsburg", "Regensburg"," Ingolstadt","Würzburg","Fürth","Erlangen"],
+  "Baden-Vyurtemberg":["Baden-Württemberg", "Stuttgart", "Karlsruhe", "Mannheim", "Freiburg im Breisgau", "Heidelberg", "Ulm", "Heilbronn", "Pforzheim", "Reutlingen", "Ludwigsburg", "Esslingen am Neckar", "Tübingen", "Villingen-Schwenningen", "Konstanz"],
+  "Berlin":["Berlin"],
+  "Branderburg":["Brandenburg", "Potsdam", "Cottbus"],
+  "Bremen":["Freie Hansestadt Bremen", "Bremen", "Bremerhaven"],
+  "Hamburg":["Hamburg"],
+  "Hessen":["Hessen", "Frankfurt am Main", "Wiesbaden", "Kassel", "Darmstadt", "Offenbach am Main", "Hanau am Main", "Gießen"],
+  "Meklenburg":["Mecklenburg-Vorpommern", "Rostock", "Schwerin"],
+  "Bottom-saxonia":["Niedersachsen", "Hannover", "Braunschweig", "Oldenburg", "Osnabrück", "Wolfsburg", "Göttingen", "Hildesheim", "Salzgitter"],
+  "Reinald-phaltz":["Rheinland-Pfalz", "Mainz", "Ludwigshafen am Rhein", "Trier", "Koblenz", "Kaiserslautern"],
+  "Saar":["Saarland", "Saarbrücken"],
+  "Saxsonia-Anhalt":["Sachsen-Anhalt", "Halle", "Magdeburg", "Dessau"],
+  "Saxsonia":["Sachsen", "Leipzig", "Dresden", "Chemnitz", "Zwickau"],
+  "North-Reyn-Vestfalia":["Nordrhein-Westfalen", "Köln", "Düsseldorf", "Dortmund", "Essen", "Duisburg", "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster", "Gelsenkirchen", "Mönchengladbach", "Aachen", "Krefeld", "Oberhausen", "Hagen", "Hamm", "Mülheim an der Ruhr", "Leverkusen", "Solinge", "Herne", "Neuss", "Paderborn", "Bottrop", "Recklinghausen", "Bergisch Gladbach", "Remscheid", "Moers", "Siegen", "Gütersloh", "Witten", "Iserlohn", "Düren", "Ratingen", "Lünen", "Marl", "Minden", "Velbert"],
+  "Turingia":["Freistaat Thüringen", "Erfurt", "Jena", "Gera"],
+  "Shlezvig-Golstain":["Schleswig-Holstein", "Kiel", "Lübeck", "Flensburg"]
+}
