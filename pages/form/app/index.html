@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+
+	<title>Анкета, тестовое задание</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<!-- Custom HTML -->
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<menu class="header-menu menu">
+							<li class="menu-item"><a href="#first" class="header-link">Личная информация</a></li>
+							<li class="menu-item"><a href="#second" class="header-link">Опыт</a></li>
+							<li class="menu-item"><a href="#third" class="header-link">О себе</a></li>
+						</menu>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="first">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1 class="first-title">Анкета</h1>
+						<img src="img/icon1.svg" alt="info-icon" class="icon" id="first">
+						<h3 class="first-subtitle subtitle">Личная информация</h3>
+						<div class="first-group group">
+	              <input type="text" name="name" required class="first-input" value="Сытник А.С.">
+	              <label class="first-label">ФИО</label>
+	          </div>
+
+						<div class="first-group group">
+
+
+								<div class="first-input select active">
+									<div class="select-label">Год рождения</div>
+									<div class="select-selected">1992</div>
+									<div class="select-container">
+										<ul class="select-bottom">
+											<li class="select-option">2005</li>
+											<li class="select-option">2004</li>
+											<li class="select-option">2003</li>
+											<li class="select-option">2002</li>
+											<li class="select-option">2001</li>
+											<li class="select-option">2000</li>
+											<li class="select-option">1999</li>
+											<li class="select-option">1998</li>
+											<li class="select-option">1997</li>
+											<li class="select-option">1996</li>
+											<li class="select-option">1995</li>
+											<li class="select-option">1994</li>
+											<li class="select-option">1993</li>
+											<li class="select-option">1992</li>
+											<li class="select-option">1991</li>
+											<li class="select-option">1990</li>
+										</ul>
+									</div>
+
+								</div>
+								<!-- <select name="" id="" class="select first-input">
+									<option value="">Год рождения</option>
+									<option value="">1990</option>
+								</select> -->
+							</div>
+							<div class="first-group group">
+									<input type="text" name="city" required class="first-input" value="Киев">
+									<label class="first-label">Место проживания</label>
+							</div>
+								<div class="first-group group">
+			              <input type="text" name="skype" required class="first-input" value="live:89017176e37c4d44">
+			              <label class="first-label">Skype</label>
+			          </div>
+								<div class="first-group group">
+			              <input type="text" name="email" required class="first-input" value="artemasitnik@gmail.com">
+			              <label class="first-label">E-mail</label>
+			          </div>
+	          </div>
+					</div>
+				</div>
+		</section>
+		<section class="second">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="img/icon2.svg" alt="info-icon" class="icon" id="second">
+						<h3 class="first-subtitle subtitle">Расскажите о своем опыте</h3>
+					</div>
+				</div>
+				<div class="row second-main">
+					<div class="col-md-4 col-12">
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">БЭМ/OOCSS</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">Stylus/LESS/SASS</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">Работаю с SVG</span>
+							</label>
+						</div>
+					</div>
+					<div class="col-md-4 col-12">
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">Верстаю семантично</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">ES2015/ES2016</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">Gulp/GRUNT</span>
+							</label>
+						</div>
+					</div>
+					<div class="col-md-4 col-12">
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input">
+								<span class="second-input_custom"></span>
+								<span class="second-label">Webpack</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">jQuery</span>
+							</label>
+						</div>
+						<div class="second-check">
+							<label>
+								<input type="checkbox" class="second-input" checked>
+								<span class="second-input_custom"></span>
+								<span class="second-label">Ипользую Git</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="third">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="img/icon3.svg" alt="info-icon" class="icon" id="third">
+						<h3 class="third-subtitle subtitle">Расскажите о себе</h3>
+						<p class="third-text">Напишите несколько предложений, чем привлекла наша вакансия <br />и что вы ожидаете от работы у нас.</p>
+						<textarea class="third-textarea" placeholder="Понравилась тем, что...">Вакансия привлекла хорошим уровнем заработной платы, хорошим расположением офиса. Хочу чтобы я смог делать свой вклад в развитие компании и развиваться самому как специалист.</textarea>
+						<input type="button" value="Готово" class="third-btn">
+					</div>
+				</div>
+			</div>
+		</section>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
