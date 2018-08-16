@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 54">
+    <linearGradient id="grad" x1="0" y1="0">
+        <stop offset="0%" stop-color="#50b962"/>
+        <stop offset="100%" stop-color="#57c8e6"/>
+    </linearGradient>
+    <style type="text/css">
+        .st{fill:none;stroke:url(#grad);stroke-width:4;stroke-linecap:round;}
+    </style>
+    <g transform="translate(-1223 -28)">
+        <path class="st" d="M1225,54c0-13.3,10.7-24,24-24h174c13.3,0,24,10.7,24,24v2c0,13.3-10.7,24-24,24h-174 c-13.3,0-24-10.7-24-24V54z"/>
+    </g>
+</svg>
