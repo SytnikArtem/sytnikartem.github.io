@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    console.log( "ready!" );
+    $('.btn-click').click(function() {
+      $('.enter').hide();
+      $('.main-first').hide();
+      $('.main-second').show()
+    })
 });
