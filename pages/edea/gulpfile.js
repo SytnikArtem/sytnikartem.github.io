@@ -44,7 +44,8 @@ gulp.task('libs-css', ['sass'], function(){
 });
 gulp.task('libs-js', function(){
   return gulp.src([
-    'app/libs/slick-carousel/slick/slick.min.js'
+    'app/libs/scroll/jquery.mCustomScrollbar.concat.min.js',
+    'app/libs/select/ddslick.js'
   ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
