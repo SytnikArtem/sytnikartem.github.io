@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ca62db6-2797-4201-9d86-4b8438f52dcf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/main-fitness/img/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main-fitness/img/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-fitness/img/main2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-fitness/img/main3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-fitness/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main-fitness/index3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/contact1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/contact1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/contact2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/contact2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/contact3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/contact3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/pop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/pop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/service.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/service.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/seventh-popup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/seventh-popup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slide-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slide-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slide-video.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slide-video.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/slider55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/slider55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/orange/img/video.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/orange/img/video.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5ca62db6-2797-4201-9d86-4b8438f52dcf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -140,12 +114,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542110527407</updated>
-      <workItem from="1542110528629" duration="1585000" />
+      <workItem from="1542110528629" duration="2187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1585000" />
+    <option name="totallyTimeSpent" value="2187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
