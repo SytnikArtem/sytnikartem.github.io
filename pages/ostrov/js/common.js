@@ -164,4 +164,10 @@ $(document).ready(function() {
             $('.menu-btn').removeClass('active');
         }
     });
+    $('.second-slider').slick({
+        infinite: true,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
 });
