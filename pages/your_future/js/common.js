@@ -11,9 +11,9 @@ $(document).ready(function() {
   $('#fullpage').fullpage({
 		//options here
 		autoScrolling:true,
-    responsiveWidth: 1201,
+        responsiveWidth: 1201,
 		scrollHorizontally: true,
-    afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 
                         if ( slideIndex != 0 ) {
                             wow = new WOW(
