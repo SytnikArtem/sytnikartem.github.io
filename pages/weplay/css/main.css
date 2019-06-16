@@ -92,8 +92,8 @@ body {
   text-align: center;
   color: #3BBBE9;
   border: 2px solid #3BBBE9;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease; }
+  -webkit-transition: color .5s ease, border-color .5s ease, background-color .5s ease;
+  transition: color .5s ease, border-color .5s ease, background-color .5s ease; }
 
 .container {
   width: 100%;
@@ -298,8 +298,8 @@ body {
       display: inline-block;
       padding: 0 15px;
       margin: 0px 5px 0 0;
-      -webkit-transition: all .5s ease;
-      transition: all .5s ease; }
+      -webkit-transition: color .5s ease, border-color .5s ease, background-color .5s ease;
+      transition: color .5s ease, border-color .5s ease, background-color .5s ease; }
       .main-news-btn:hover {
         background: #FF1967;
         color: #ffffff; }
@@ -528,8 +528,8 @@ body {
           -ms-flex-align: center;
               align-items: center;
       border-left: 2px solid transparent;
-      -webkit-transition: all .5s ease;
-      transition: all .5s ease; }
+      -webkit-transition: border-color .5s ease, color .5s ease;
+      transition: border-color .5s ease, color .5s ease; }
       .left-list-link path {
         fill: #ffffff;
         -webkit-transition: fill .5s ease;
@@ -747,8 +747,8 @@ body {
   z-index: 5;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: opacity .5s ease;
+  transition: opacity .5s ease;
   pointer-events: none; }
   .popup.active {
     opacity: 1;
@@ -1054,3 +1054,4 @@ body {
     padding: 0 8px; }
   .main-popular-list .main-news-item:nth-child(3n + 3) {
     margin-right: 0; } }
+
